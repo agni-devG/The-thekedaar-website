@@ -507,7 +507,7 @@ color: var(--black);
             a premium class of Residential interior designing services demanded but will also get a lifetime experience
             desired.</p>
         </div>
-                           <a href="residentialServices.php" class="learn-more-link">Learn More</a>
+                           <a href="residential-interior-desigining.php" class="learn-more-link">Learn More</a>
       </div>
 
       <div class="section-container" id="section2">
@@ -532,7 +532,7 @@ color: var(--black);
             people move through the space. The result? A workplace that feels on-brand, works better, and leaves a
             lasting impression.</p>
         </div>
-                    <a href="renovation.php" class="learn-more-link">Learn More</a>
+                    <a href="renovation-2.php" class="learn-more-link">Learn More</a>
       </div>
 
       <div class="section-container" id="section3">
@@ -563,7 +563,7 @@ color: var(--black);
             state or by honoring it by its original intention. With our company the soul of the old space will never be
             compromised. Its not work for us,</p>
         </div>
-                    <a href="commercialServices.php" class="learn-more-link">Learn More</a>
+                    <a href="commercialservice-2.php" class="learn-more-link">Learn More</a>
 
       </div>
 
@@ -588,7 +588,7 @@ color: var(--black);
             creation.</p>
         </div>
 
-                           <a href="modularFurniture.php" class="learn-more-link">Learn More</a>
+                           <a href="modular-furniture-2.php" class="learn-more-link">Learn More</a>
 
       </div>
     </div>

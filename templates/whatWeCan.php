@@ -28,7 +28,7 @@
                     <h3>Office Interior Design</h3>
                     <div class="why-us-details">
                         <p>Your office should speak of ambition and innovation. From sleek layouts to ergonomic details, every element is crafted to enhance productivity while reflecting your brand’s identity with elegance and style. Designed to impress clients and inspire teams, your workspace becomes a statement of success.</p>
-                        <a href="contactUs.php" class="inline-contact-link">Book An Appointment</a>
+                        <a href="contact-us-2.php" class="inline-contact-link">Book An Appointment</a>
                     </div>
                 </div>
                 <div class="why-us-image">
@@ -42,7 +42,7 @@
                     <h3>Gym Interior Design</h3>
                     <div class="why-us-details">
                         <p>Energy and motivation begin with the right space. Bold designs, functional layouts, and dynamic finishes come together to create an environment that inspires movement and keeps your clients coming back. Every corner is designed to radiate strength, energy, and a sense of achievement.</p>
-                        <a href="contactUs.php" class="inline-contact-link">Book An Appointment</a>
+                        <a href="contact-us-2.php" class="inline-contact-link">Book An Appointment</a>
                     </div>
                 </div>
                 <div class="why-us-image">
@@ -56,7 +56,7 @@
                     <h3>Spa & Salon Interior Design</h3>
                     <div class="why-us-details">
                         <p>Luxury meets serenity in every detail. Soft tones, calming textures, and thoughtful layouts create an atmosphere of relaxation, making every visit a refreshing escape for your clients. It’s more than a service; it’s a sanctuary where beauty and comfort coexist effortlessly.</p>
-                        <a href="contactUs.php" class="inline-contact-link">Book An Appointment</a>
+                        <a href="contact-us-2.php" class="inline-contact-link">Book An Appointment</a>
                     </div>
                 </div>
                 <div class="why-us-image">
@@ -71,7 +71,7 @@
                     >Hotel Interior Design</h3>
                     <div class="why-us-details">
                         <p>Every corner of your hotel should tell a story of comfort and elegance. From grand lobbies to intimate suites, the design blends luxury, warmth, and sophistication for an unforgettable guest experience. Every space is crafted to leave a lasting impression and redefine hospitality.</p>
-                        <a href="contactUs.php" class="inline-contact-link">Book An Appointment</a>
+                        <a href="contact-us-2.php" class="inline-contact-link">Book An Appointment</a>
                     </div>
                 </div>
                 <div class="why-us-image">
@@ -86,7 +86,7 @@
                     >Shop Interior Design</h3>
                     <div class="why-us-details">
                         <p>First impressions matter. A well-designed shop creates visual appeal, easy navigation, and an inviting ambiance that attracts customers and keeps them engaged with your brand. Every detail, from lighting to layout, is designed to encourage browsing and drive sales.</p>
-                        <a href="contactUs.php" class="inline-contact-link">Book An Appointment</a>
+                        <a href="contact-us-2.php" class="inline-contact-link">Book An Appointment</a>
                     </div>
                 </div>
                 <div class="why-us-image">
@@ -101,7 +101,7 @@
                     >Malls Interior Design</h3>
                     <div class="why-us-details">
                         <p>Designing malls is about crafting experiences. Spacious layouts, striking aesthetics, and efficient zoning come together to create a destination that feels vibrant and welcoming at every step. From entry to exit, every area is designed to enhance comfort and encourage exploration.</p>
-                        <a href="contactUs.php" class="inline-contact-link">Book An Appointment</a>
+                        <a href="contact-us-2.php" class="inline-contact-link">Book An Appointment</a>
                     </div>
                 </div>
                 <div class="why-us-image">
@@ -114,7 +114,7 @@
                     >Restaurant Interior Design</h3>
                     <div class="why-us-details">
                         <p>Dining is more than food—it’s an experience. Thoughtful lighting, cozy seating, and elegant themes create an atmosphere where taste meets style, making every meal memorable. Each design element works in harmony to enhance ambiance, elevate mood, and spark conversation.</p>
-                        <a href="contactUs.php" class="inline-contact-link">Book An Appointment</a>
+                        <a href="contact-us-2.php" class="inline-contact-link">Book An Appointment</a>
                     </div>
                 </div>
                 <div class="why-us-image">

@@ -1701,7 +1701,7 @@ function _redirect_to_about_wordpress( $new_version ) {
 			/* translators: 1: WordPress version, 2: URL to About screen. */
 			__( 'Welcome to WordPress %1$s. You will be redirected to the About WordPress screen. If not, click <a href="%2$s">here</a>.' ),
 			$new_version,
-			'about.php?updated'
+			'aboutus.php?updated'
 		) . '</span>'
 	);
 	show_message(
@@ -1709,13 +1709,13 @@ function _redirect_to_about_wordpress( $new_version ) {
 			/* translators: 1: WordPress version, 2: URL to About screen. */
 			__( 'Welcome to WordPress %1$s. <a href="%2$s">Learn more</a>.' ),
 			$new_version,
-			'about.php?updated'
+			'aboutus.php?updated'
 		) . '</span>'
 	);
 	echo '</div>';
 	?>
 <script type="text/javascript">
-window.location = 'about.php?updated';
+window.location = 'aboutus.php?updated';
 </script>
 	<?php
 

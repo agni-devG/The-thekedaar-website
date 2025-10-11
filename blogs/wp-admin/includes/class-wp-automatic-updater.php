@@ -334,7 +334,7 @@ class WP_Automatic_Updater {
 		 * was already notified of the same new version, WordPress won't repeatedly
 		 * email the administrator.
 		 *
-		 * This filter is also used on about.php to check if a plugin has disabled
+		 * This filter is also used on aboutus.php to check if a plugin has disabled
 		 * these notifications.
 		 *
 		 * @since 3.7.0
@@ -988,7 +988,7 @@ class WP_Automatic_Updater {
 				list( $about_version ) = explode( '-', $core_update->current, 2 );
 				/* translators: %s: WordPress version. */
 				$body .= sprintf( __( 'For more on version %s, see the About WordPress screen:' ), $about_version );
-				$body .= "\n" . admin_url( 'about.php' );
+				$body .= "\n" . admin_url( 'aboutus.php' );
 
 				if ( $newer_version_available ) {
 					/* translators: %s: WordPress latest version. */

@@ -99,7 +99,7 @@
                 to delivering classic and contemporary interiors.
               </p>
             </div>
-            <a href="contactUs.php" class="cta-button hero-cta">Book An Appointment</a>
+            <a href="contact-us-2.php" class="cta-button hero-cta">Book An Appointment</a>
           </div>
         </section>
             
@@ -141,7 +141,7 @@
                 
 
                 </div>
-                <!-- <a href="contactUs.php" class="inline-contact-link">Contact Us</a> -->
+                <!-- <a href="contact-us-2.php" class="inline-contact-link">Contact Us</a> -->
             </div>
         </section>
 

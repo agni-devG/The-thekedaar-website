@@ -290,7 +290,7 @@ function core_upgrade_preamble() {
 		echo '<p>' . sprintf(
 			/* translators: 1: URL to About screen, 2: WordPress version. */
 			__( '<a href="%1$s">Learn more about WordPress %2$s</a>.' ),
-			esc_url( self_admin_url( 'about.php' ) ),
+			esc_url( self_admin_url( 'aboutus.php' ) ),
 			$normalized_version
 		) . '</p>';
 	}
@@ -922,7 +922,7 @@ function do_core_upgrade( $reinstall = false ) {
 			/* translators: 1: WordPress version, 2: URL to About screen. */
 			__( 'Welcome to WordPress %1$s. You will be redirected to the About WordPress screen. If not, click <a href="%2$s">here</a>.' ),
 			$result,
-			esc_url( self_admin_url( 'about.php?updated' ) )
+			esc_url( self_admin_url( 'aboutus.php?updated' ) )
 		) . '</span>'
 	);
 	show_message(
@@ -930,13 +930,13 @@ function do_core_upgrade( $reinstall = false ) {
 			/* translators: 1: WordPress version, 2: URL to About screen. */
 			__( 'Welcome to WordPress %1$s. <a href="%2$s">Learn more</a>.' ),
 			$result,
-			esc_url( self_admin_url( 'about.php?updated' ) )
+			esc_url( self_admin_url( 'aboutus.php?updated' ) )
 		) . '</span>'
 	);
 	?>
 	</div>
 	<script type="text/javascript">
-	window.location = '<?php echo esc_url( self_admin_url( 'about.php?updated' ) ); ?>';
+	window.location = '<?php echo esc_url( self_admin_url( 'aboutus.php?updated' ) ); ?>';
 	</script>
 	<?php
 }

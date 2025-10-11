@@ -124,10 +124,10 @@ function wp_admin_bar_render() {
  */
 function wp_admin_bar_wp_menu( $wp_admin_bar ) {
 	if ( current_user_can( 'read' ) ) {
-		$about_url      = self_admin_url( 'about.php' );
+		$about_url      = self_admin_url( 'aboutus.php' );
 		$contribute_url = self_admin_url( 'contribute.php' );
 	} elseif ( is_multisite() ) {
-		$about_url      = get_dashboard_url( get_current_user_id(), 'about.php' );
+		$about_url      = get_dashboard_url( get_current_user_id(), 'aboutus.php' );
 		$contribute_url = get_dashboard_url( get_current_user_id(), 'contribute.php' );
 	} else {
 		$about_url      = false;

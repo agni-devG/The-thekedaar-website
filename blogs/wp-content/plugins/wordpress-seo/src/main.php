@@ -47,7 +47,7 @@ class Main extends Abstract_Main {
 			Container_Compiler::compile(
 				$this->is_development(),
 				__DIR__ . '/generated/container.php',
-				__DIR__ . '/../config/dependency-injection/services.php',
+				__DIR__ . '/../config/dependency-injection/service-2.php',
 				__DIR__ . '/../vendor/composer/autoload_classmap.php',
 				'Yoast\WP\SEO\Generated'
 			);

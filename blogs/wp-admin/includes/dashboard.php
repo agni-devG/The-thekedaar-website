@@ -2067,7 +2067,7 @@ function wp_welcome_panel() {
 		</div>
 		<h2><?php _e( 'Welcome to WordPress!' ); ?></h2>
 		<p>
-			<a href="<?php echo esc_url( admin_url( 'about.php' ) ); ?>">
+			<a href="<?php echo esc_url( admin_url( 'aboutus.php' ) ); ?>">
 			<?php
 				/* translators: %s: Current WordPress version. */
 				printf( __( 'Learn more about the %s version.' ), esc_html( $display_version ) );

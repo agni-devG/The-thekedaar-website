@@ -72,20 +72,20 @@ ul{
         <!-- Desktop Navigation -->
         <nav class="nav-desktop">
             <ul>
-                <li><a href="about.php">About us</a></li>
+                <li><a href="aboutus.php">About us</a></li>
                 <!-- Services link with Dropdown -->
                 <li class="has-dropdown">
-                    <a href="services.php">Services</a>
+                    <a href="service-2.php">Services</a>
                     <ul class="dropdown-menu">
-                        <li><a href="residentialServices.php">Residential Designing</a></li>
-                        <li><a href="commercialServices.php">Commercial Interior Design</a></li>
-                        <li><a href="renovation.php">Renovation</a></li>
-                        <li><a href="modularFurniture.php">Modular Furniture</a></li>
+                        <li><a href="residentialservice-2.php">Residential Designing</a></li>
+                        <li><a href="commercialservice-2.php">Commercial Interior Design</a></li>
+                        <li><a href="renovation-2.php">Renovation</a></li>
+                        <li><a href="modular-furniture-2.php">Modular Furniture</a></li>
                     </ul>
                 </li>
                 <li><a href="portfolio.php">Portfolio</a></li>
                 <li><a href="blogs/">Blogs</a></li>
-                <li><a href="contactUs.php">Contact</a></li>
+                <li><a href="contact-us-2.php">Contact</a></li>
             </ul>
         </nav>
 
@@ -105,28 +105,28 @@ ul{
         <button class="close-btn" id="close-btn">&times;</button>
     </div>
     <ul>
-        <li><a href="about.php">About us</a></li>
-        <li><a href="about.php#how-we-work">How we work</a></li>
+        <li><a href="aboutus.php">About us</a></li>
+        <li><a href="aboutus.php#how-we-work">How we work</a></li>
         <!-- Services link with expandable Submenu for Mobile -->
         <li class="has-dropdown">
             <div class="mobile-link-wrapper">
-                <a href="services.php">Services</a>
+                <a href="service-2.php">Services</a>
                 <button class="dropdown-toggle" aria-label="Toggle Services Submenu">+</button>
             </div>
             <!-- <ul class="dropdown-menu">
-                <li><a href="residentialServices.php">Residential Designing</a></li>
-                <li><a href="commercialServices.php">Commercial Interior Design</a></li>
-                <li><a href="renovationServices.php">Renovation</a></li>
-                <li><a href="modularServices.php">Modular Furniture</a></li>
+                <li><a href="residentialservice-2.php">Residential Designing</a></li>
+                <li><a href="commercialservice-2.php">Commercial Interior Design</a></li>
+                <li><a href="renovationservice-2.php">Renovation</a></li>
+                <li><a href="modularservice-2.php">Modular Furniture</a></li>
             </ul> -->
         </li>
-         <li><a href="residentialServices.php">Residential Designing</a></li>
-                <li><a href="commercialServices.php">Commercial Interior Design</a></li>
-                <li><a href="renovation.php">Renovation</a></li>
-                <li><a href="modularFurniture.php">Modular Furniture</a></li>
+         <li><a href="residentialservice-2.php">Residential Designing</a></li>
+                <li><a href="commercialservice-2.php">Commercial Interior Design</a></li>
+                <li><a href="renovation-2.php">Renovation</a></li>
+                <li><a href="modular-furniture-2.php">Modular Furniture</a></li>
         <li><a href="portfolio.php">Portfolio</a></li>
                         <li><a href="blogs/">Blogs</a></li>
 
-        <li><a href="contactUs.php">Contact</a></li>
+        <li><a href="contact-us-2.php">Contact</a></li>
     </ul>
 </div>

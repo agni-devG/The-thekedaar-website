@@ -51,7 +51,7 @@
         We create homes that feel luxurious and personal, with every detail designed to reflect your unique style and comfort.
       </p>
     </div>
-    <a href="contactUs.php" class="cta-button hero-cta">Book An Appointment</a>
+    <a href="contact-us-2.php" class="cta-button hero-cta">Book An Appointment</a>
   </div>
 </section>
 <!-- ======================= Our Designing Process Section ======================= -->

@@ -339,7 +339,7 @@
                   <div class="section-heading text-center m-0">
                      <p class="text-white" style="font-size:18px;"><center><span style="color:white">When a team of interior designers works together, every space becomes beautiful. We have professional luxurious interior designers in Delhi NCR who know what to do in the right manner.</span></center></p>
                      <p class="text-white d-none d-sm-block mt-4"><center><span style="color:white">New Design is one Click Away.</span></center></p><br>
-                     <button class="green-button"><a href="contactUs.php" class="manual-optin-trigger">Contact Us</a></button>
+                     <button class="green-button"><a href="contact-us-2.php" class="manual-optin-trigger">Contact Us</a></button>
                   </div>
                </div>
             </div>
