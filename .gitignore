@@ -1,0 +1,20 @@
+.config/
+
+# node / build
+node_modules/
+dist/
+
+# PHP / server
+vendor/
+.env
+.htpasswd
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+
+# logs / uploads / db dumps
+*.log
+uploads/
+*.sql
