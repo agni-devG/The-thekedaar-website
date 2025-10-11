@@ -67,7 +67,7 @@ width: 95px;
         <!-- Desktop Navigation -->
         <nav class="nav-desktop">
             <ul>
-                <li><a href="aboutus.php.php">About us</a></li>
+                <li><a href="aboutus.php">About us</a></li>
                 <!-- Services link with Dropdown -->
                 <li class="has-dropdown">
                     <a href="service-2.php">Services</a>

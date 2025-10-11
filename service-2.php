@@ -281,7 +281,7 @@
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollSmoother.min.js"></script>
-<script>
+<!-- <script>
   gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
   ScrollSmoother.create({
@@ -290,7 +290,7 @@
     smooth: 1.2,                // speed (lower = faster response)
     effects: true               // allow data-speed / parallax effects
   });
-</script>
+</script> -->
 
 </body>
 </html>
