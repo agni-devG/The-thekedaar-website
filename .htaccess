@@ -1,17 +1,16 @@
-# # Enable rewrite engine
-# RewriteEngine On
+# Enable rewrite engine
+RewriteEngine On
 
-# # Make sure mod_rewrite is enabled
-# RewriteBase /
+# Set the base path
+RewriteBase /
 
-# # If the requested file doesn't exist as a directory or file
-# RewriteCond %{REQUEST_FILENAME} !-d
-# RewriteCond %{REQUEST_FILENAME} !-f
+# Don't rewrite existing files or directories
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
 
-# # Rewrite /page to /page.php
-# RewriteRule ^([a-zA-Z0-9_-]+)$ $1.php [L,QSA]
+# Rewrite extensionless URLs to .php (handles subfolders too)
+RewriteRule ^(.+?)/?$ $1.php [L,QSA]
 
-
-# # Redirect .php URLs to extensionless
-# RewriteCond %{THE_REQUEST} \s/+([^.]+)\.php[\s?]
-# RewriteRule ^ %1 [R=301,L]
+# Redirect .php URLs to extensionless (optional, canonical URLs)
+RewriteCond %{THE_REQUEST} \s/([^.]+)\.php[\s?]
+RewriteRule ^ %1 [R=301,L]
