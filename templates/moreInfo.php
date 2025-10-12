@@ -14,7 +14,7 @@
             <p>
               When it comes to designing every space of your house it proves to be exhausting. Besides this, it takes a lot of time, and in return you get nothing. Therefore, the best way to resolve this is to hire an interior designer who will change the appearance of your home.
             </p>
-            <a href="contact-us-2.php" class="inline-contact-link">Contact Us</a>
+            <a href="contact-us-2" class="inline-contact-link">Contact Us</a>
           </div>
         </div>
         <div class="more-info-img">
@@ -30,7 +30,7 @@
             <h3>Design your Home in Your Style</h3>
             <p>
                 Interior decorators have better knowledge related to design. As a result of this, they will design your home according to your preferences as it matters the most.            </p>
-            <a href="contact-us-2.php" class="inline-contact-link">Contact Us</a>
+            <a href="contact-us-2" class="inline-contact-link">Contact Us</a>
           </div>
         </div>
         <div class="more-info-img">
@@ -49,7 +49,7 @@
             <p>
                 The entire process of designing works on in-depth planning and assessment. Due to this reason, interior designers formulate a plan before designing so that they work according to it.
             </p>
-            <a href="contact-us-2.php" class="inline-contact-link">Contact Us</a>
+            <a href="contact-us-2" class="inline-contact-link">Contact Us</a>
           </div>
         </div>
         <div class="more-info-img">
@@ -68,7 +68,7 @@
             <p>
                 When you hire affordable interior designers then they work according to your budget. Further, they will purchase all the material that goes well with your budget. Most importantly, you can get a stylish home with exceptional designs, attractive colors, and modern furniture with a limited investment.       
                    </p>
-            <a href="contact-us-2.php" class="inline-contact-link">Contact Us</a>
+            <a href="contact-us-2" class="inline-contact-link">Contact Us</a>
           </div>
         </div>
         <div class="more-info-img">
@@ -89,7 +89,7 @@
             <p>
               Nowadays, interior designers use fine-quality tools for designing your home. Thereafter, they take support of modern software and tools concerning with planning of home and office renovation. While taking the support of these tools they will make the renovation work easier.    
             </p>
-        <a href="contact-us-2.php" class="inline-contact-link">Contact Us</a>
+        <a href="contact-us-2" class="inline-contact-link">Contact Us</a>
           </div>
         </div>
         <div class="more-info-img">
@@ -109,7 +109,7 @@
               creative ideas and designs. Moreover, when you hire an interior designer then they will provide you with 
               innovative ideas and designs for every space.
             </p>
-                        <a href="contact-us-2.php" class="inline-contact-link">Contact Us</a>
+                        <a href="contact-us-2" class="inline-contact-link">Contact Us</a>
 
                       </div>
         </div>

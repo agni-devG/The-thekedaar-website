@@ -3,6 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="robots" content="index" />
+    <meta content="FOLLOW, INDEX, ALL" name="robots" />
+
+
     <title>Luxury Interior Designers in Delhi 2025 - Thethekedaar | Call Now</title>
       <meta name="description" content="Luxury Interior Designer in Delhi, Thethekedaar has Years of experience- Call Now at 9777705555. Get Affordable Home Interiors from us.">
       <meta name="keywords" content="Interior Designers in Delhi, Luxury Interior Designers in Delhi, Luxury Interior Designers,Thethekedaar">
@@ -31,7 +36,7 @@
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollToPlugin.min.js"></script>
   
-</head>
+</head> 
 
 <body>
  <div id="smooth-wrapper">
@@ -43,7 +48,7 @@
    <main>
     
   <section class="hero-section">
-  <img src="assets/images/hero.webp" alt="The Thekedaar Hero Image" class="hero-image">
+  <img src="assets/images/hero.webp" alt="The Thekedaar Hero Image" class="hero-image"> 
 
   <div class="hero-content-container">
     <div class="hero-left">
@@ -53,7 +58,7 @@
         to delivering classic and contemporary interiors.
       </p>
     </div>
-    <a href="contact-us-2.php" class="cta-button hero-cta">Book An Appointment</a>
+    <a href="contact-us-2" class="cta-button hero-cta">Book An Appointment</a>
   </div>
 </section>
 

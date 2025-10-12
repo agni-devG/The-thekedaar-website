@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="robots" content="index" />
+    <meta content="FOLLOW, INDEX, ALL" name="robots" />
+
+
     <title>Renovation Services available in Delhi NCR</title>
     <meta name="description" content=" RENOVATION Technology has significantly impacted the renovation process, enhancing its importance and strength. Please let us know what you need so we can help.">
     <meta name="keywords" content="renovation in delhi, thethekedaar renovation">
@@ -59,7 +64,7 @@
 
       </p>
     </div>
-    <a href="contact-us-2.php" class="cta-button hero-cta">Book An Appointment</a>
+    <a href="contact-us-2" class="cta-button hero-cta">Book An Appointment</a>
   </div>
 </section>
 <!-- ======================= Our Designing Process Section ======================= -->

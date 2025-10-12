@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="robots" content="index" />
+    <meta content="FOLLOW, INDEX, ALL" name="robots" />
+
+
     <title>Portfolio - thethekedaar</title>
   <meta name="description" content="We believe that your home should tell you the story of who you are and be a collection of what you love. We believe that it should be able to connect the client&nbsp;...">
   <meta name="keywords" content="Portfolio Interior Design, Luxury Interior Designers Portfolio, Portfolio Interior Designers">
@@ -97,7 +102,7 @@
                       <p class="p1-desktop">Spaces reimagined with elegance and precision. Each project reflects timeless design, personalized details, and uncompromised quality.</p>
 
     </div>
-    <a href="contact-us-2.php" class="cta-button hero-cta">Book An Appointment</a>
+    <a href="contact-us-2" class="cta-button hero-cta">Book An Appointment</a>
   </div>
 </section>
 
@@ -121,7 +126,7 @@
     <div class="stats-image">
       <img src="assets/images/portfolio/sofa-and-chairs-in-modern-penthouse-2025-04-04-03-23-57-utc.webp"
         alt="Modern luxurious interior with large windows overlooking a sunset.">
-      <a href="contact-us-2.php" class="inline-contact-link stats-contact-link">Contact Us</a>
+      <a href="contact-us-2" class="inline-contact-link stats-contact-link">Contact Us</a>
     </div>
   </div>
 </section>

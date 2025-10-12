@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="robots" content="index" />
+    <meta content="FOLLOW, INDEX, ALL" name="robots" />
+
+
     <title>Delhi's Best Customized Furniture Based on International Standards</title>
     <meta name="description" content="Looking For Customized Furniture in Delhi & NCR? Our designers have years of experience and can customize any furniture to meet your requirements." />
     <meta name="keywords" content="modular furniture in delhi, Customized Furniture in delhi">
@@ -62,7 +67,7 @@
 
       </p>
     </div>
-    <a href="contact-us-2.php" class="cta-button hero-cta">Book An Appointment</a>
+    <a href="contact-us-2" class="cta-button hero-cta">Book An Appointment</a>
   </div>
 </section>
 

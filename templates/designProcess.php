@@ -1,4 +1,4 @@
-<a href="contact-us-2.php" class="contact-link">Contact Us</a>
+<a href="contact-us-2" class="contact-link">Contact Us</a>
 
 
 <section class="process-section">
@@ -10,7 +10,7 @@
             <div class="process-text slide-in-left">
                 <h2 class="h3-desktop">Meet and Deal</h2>
                 <p>The first step in the process of meeting the customer and understanding his requirements for the design so that we can meet his expectations as the final design should be reflect his/her personality.</p>
-                        <a href="contact-us-2.php" class="contact-link">Contact Us</a>
+                        <a href="contact-us-2" class="contact-link">Contact Us</a>
 
             </div>
             <div class="process-image slide-in-right">
@@ -24,7 +24,7 @@
                 <h2 class="h3-desktop">Planning and design of space</h2>
               
                 <p>We will start to plan and design on agreed concepts/ideation based on an initial discussion.</p>
-                        <a href="contact-us-2.php" class="contact-link">Contact Us</a>
+                        <a href="contact-us-2" class="contact-link">Contact Us</a>
 
             </div>
             <div class="process-image slide-in-right">
@@ -37,7 +37,7 @@
             <div class="process-text slide-in-left">
                 <h2 class="h3-desktop">Development and Design</h2>
                 <p>After the concept has been developed, we will refine our designs, adding in details and specifying materials for the final design.</p>
-                       <a href="contact-us-2.php" class="contact-link">Contact Us</a>
+                       <a href="contact-us-2" class="contact-link">Contact Us</a>
 
             </div>
             <div class="process-image slide-in-right">
@@ -51,7 +51,7 @@
                 <h2 class="h3-desktop">Construction and Installation</h2>
                
                 <p>After the concept has been developed, we will offer you complete drawings and conceptual representation for a better understanding.</p>
-                       <a href="contact-us-2.php" class="contact-link">Contact Us</a>
+                       <a href="contact-us-2" class="contact-link">Contact Us</a>
 
             </div>
             <div class="process-image slide-in-right">

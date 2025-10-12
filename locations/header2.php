@@ -78,7 +78,7 @@ ul{
                     <a href="service-2.php">Services</a>
                     <ul class="dropdown-menu">
                         <li><a href="residentialservice-2.php">Residential Designing</a></li>
-                        <li><a href="commercialservice-2.php">Commercial Interior Design</a></li>
+                        <li><a href="commercial-interior-design.php">Commercial Interior Design</a></li>
                         <li><a href="renovation-2.php">Renovation</a></li>
                         <li><a href="modular-furniture-2.php">Modular Furniture</a></li>
                     </ul>
@@ -115,13 +115,13 @@ ul{
             </div>
             <!-- <ul class="dropdown-menu">
                 <li><a href="residentialservice-2.php">Residential Designing</a></li>
-                <li><a href="commercialservice-2.php">Commercial Interior Design</a></li>
+                <li><a href="commercial-interior-design.php">Commercial Interior Design</a></li>
                 <li><a href="renovationservice-2.php">Renovation</a></li>
                 <li><a href="modularservice-2.php">Modular Furniture</a></li>
             </ul> -->
         </li>
          <li><a href="residentialservice-2.php">Residential Designing</a></li>
-                <li><a href="commercialservice-2.php">Commercial Interior Design</a></li>
+                <li><a href="commercial-interior-design.php">Commercial Interior Design</a></li>
                 <li><a href="renovation-2.php">Renovation</a></li>
                 <li><a href="modular-furniture-2.php">Modular Furniture</a></li>
         <li><a href="portfolio.php">Portfolio</a></li>

@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="robots" content="index" />
+    <meta content="FOLLOW, INDEX, ALL" name="robots" />
+
+
     <title>Providing complete residential interior design services in Delhi NCR</title>
     <meta name="description" content="We have interior designers with experience in both residential and commercial interior design. We design quality false ceilings, homes, and offices. ">
     <meta name="keywords" content="residential design in delhi, thethekedaar residential design">
@@ -51,7 +56,7 @@
         We create homes that feel luxurious and personal, with every detail designed to reflect your unique style and comfort.
       </p>
     </div>
-    <a href="contact-us-2.php" class="cta-button hero-cta">Book An Appointment</a>
+    <a href="contact-us-2" class="cta-button hero-cta">Book An Appointment</a>
   </div>
 </section>
 <!-- ======================= Our Designing Process Section ======================= -->

@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="robots" content="index" />
+    <meta content="FOLLOW, INDEX, ALL" name="robots" />
+
+
     <title>Providing Commercial interior design services in Delhi NCR</title>
     <meta name="description" content="Get the best interior design services from the top leading and well-known commercial interior designers in Delhi. For more details, Kindly contact us today.">
     <meta name="keywords" content="COMMERCIAL INTERIOR DESIGN, COMMERCIAL INTERIOR DESIGN in delhi">
@@ -11,7 +16,9 @@
     <meta property="og:url" content="https://thethekedaar.in/commercial-interior-design" />
     <link rel="stylesheet" href="https://use.typekit.net/cmr7pve.css">
 
+    <link rel="canonical" href="https://thethekedaar.in/" />
 
+    
       <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/fav.png">
     <link rel="icon" type="image/x-icon" href="/assets/images/fav.png">
@@ -99,7 +106,7 @@
                 to delivering classic and contemporary interiors.
               </p>
             </div>
-            <a href="contact-us-2.php" class="cta-button hero-cta">Book An Appointment</a>
+            <a href="contact-us-2" class="cta-button hero-cta">Book An Appointment</a>
           </div>
         </section>
             
@@ -141,7 +148,7 @@
                 
 
                 </div>
-                <!-- <a href="contact-us-2.php" class="inline-contact-link">Contact Us</a> -->
+                <!-- <a href="contact-us-2" class="inline-contact-link">Contact Us</a> -->
             </div>
         </section>
 

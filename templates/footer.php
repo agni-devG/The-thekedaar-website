@@ -73,7 +73,7 @@
                     <!-- Newsletter -->
                     <div class="footer-block">
                         <h3 class="footer-heading">Join Our Newsletter</h3>
-                        <form class="newsletter-form" action="newsletter_signup.php" method="post">
+                        <form class="newsletter-form" action="newsletter_signup" method="post">
                             <input type="email" name="email" placeholder="">
                             <button type="submit">Submit</button>
                         </form>

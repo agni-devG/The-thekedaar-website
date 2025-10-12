@@ -1,6 +1,6 @@
 <div class="portfolio-header">
   <h1 class="portfolio-title">We let our work speak for us</h1>
-  <a href="portfolio.php" class="portfolio-btn">View Our Portfolio</a>
+  <a href="portfolio" class="portfolio-btn">View Our Portfolio</a>
 </div>
 
 <section class="portfolio-slider-section">

@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>About us - thethekedaar</title>
+    <title>About us - thethekedaar</title>  
+    
+    <meta name="robots" content="index" />
+    <meta content="FOLLOW, INDEX, ALL" name="robots" />
+    
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +14,8 @@
     <meta property="og:title" content="Aboutus - Thethekedaar" />
     <meta property="og:description" content="The Thethekedaar.in Home is where emotion resides, memories are made, and laughter never ends. We make one for you because, in their home, people are typically happiest, and that&#8217;s what our ultimate motto is, making our customers happy. There is far more [&hellip;]" />
     <meta property="og:url" content="https://thethekedaar.in/aboutus" />
+
+    <link rel="canonical" href="https://thethekedaar.in/" />
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/fav.png">
@@ -111,11 +117,11 @@
         to delivering classic and contemporary interiors.
       </p>
     </div>
-    <a href="contact-us-2.php" class="cta-button hero-cta">Book An Appointment</a>
+    <a href="contact-us-2" class="cta-button hero-cta">Book An Appointment</a>
   </div>
 </section>
 
-            <!-- <a href="contact-us-2.php" class="cta-button hero-cta fade-in" style="transition-delay: 0.3s;">Book An Appointment</a> -->
+            <!-- <a href="contact-us-2" class="cta-button hero-cta fade-in" style="transition-delay: 0.3s;">Book An Appointment</a> -->
     
     <!-- We Define Homes Section -->
    

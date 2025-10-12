@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="robots" content="index" />
+    <meta content="FOLLOW, INDEX, ALL" name="robots" />
+
     <title>Service - Thethekedaar</title>
     <meta name="description" content="Resdential INTERIOR DESIGNING ARCHITECTURAL DESIGNING MODULAR FURNITURE RENOVATION Commercial Interior Design Office, Shop, Hotel, Gym Etc 2D-3D DESIGN Sorry, no posts matched your criteria. THE COMPANY HISTORY Our vision in starting the company was to offer products and services to [&hellip;]">
     <meta name="keywords" content="Interior Designers Services, Services Interior Designers in Delhi, Service Interior Designers">
@@ -195,7 +199,7 @@
 
       </p>
     </div>
-    <a href="contact-us-2.php" class="cta-button hero-cta">Book An Appointment</a>
+    <a href="contact-us-2" class="cta-button hero-cta">Book An Appointment</a>
   </div>
 </section>
 

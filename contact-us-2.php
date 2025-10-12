@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="robots" content="index" />
+    <meta content="FOLLOW, INDEX, ALL" name="robots" />
+
     
     <<title>CONTACT US - Thethekedaar</title>
     <meta name="description" content="Send LET&#8217;S TALK Email us any questions and inquiries or call &#8230;&#8230; We would be happy to answer your questions and set up a meeting with you. Thekedaars at your service. BR OFFICE Black Street 12 Berlin, Germany +312345 654 [&hellip;]">
@@ -10,6 +14,9 @@
     <meta property="og:description" content="Send LET&#8217;S TALK Email us any questions and inquiries or call &#8230;&#8230; We would be happy to answer your questions and set up a meeting with you. Thekedaars at your service. BR OFFICE Black Street 12 Berlin, Germany +312345 654 [&hellip;]" />
     <meta name="keywords" content="Interior Designers contact, Luxury Interior Designers contact , contact Interior Designers in delhi">
     <meta property="og:url" content="https://thethekedaar.in/contact-us-2" />
+
+    <link rel="canonical" href="https://thethekedaar.in/" />
+    
    <link rel="stylesheet" href="https://use.typekit.net/cmr7pve.css">
 
 
@@ -102,7 +109,7 @@
         Get in touch with us to bring your dream space to life. Our team is ready to answer your queries and start your design journey today.
       </p>
     </div>
-    <a href="contact-us-2.php" class="cta-button hero-cta">Book An Appointment</a>
+    <a href="contact-us-2" class="cta-button hero-cta">Book An Appointment</a>
   </div>
 </section>
 
