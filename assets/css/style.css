@@ -669,6 +669,7 @@ body {
     font-size: 40px;   /* special note */
     line-height: 1;
     white-space: nowrap;
+    font-family: var(--font-secondary);
 }
 
 .hero-left .p1-desktop {
@@ -1516,13 +1517,15 @@ body {
 
 
 .enhance-text {
-    color: var(--light-grey);
+    color: var(--white);
     line-height: 110%;
     margin:7px;
-    max-width: 1050px;}
+    max-width: 1050px;
+}
 
 .enhance-text p {
     margin-bottom: 20px;
+    color: var(--white);
 }
 
 .enhance-text ul {
@@ -1974,4 +1977,28 @@ textarea::placeholder {
     display: block;
     margin: auto;
     /* padding-top: 20vh; */
+}
+
+
+
+.intrnl {
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--accent);
+
+}
+
+.min_link{
+    color: inherit;
+    font-size: inherit;
+    margin: 0;
+    padding: 0;
+    line-height: inherit;
+    transition: all 0.1s ease;
+}
+
+.min_link:hover{
+    color:var(--black); 
+    transition: all 0.1s ease;
+
 }

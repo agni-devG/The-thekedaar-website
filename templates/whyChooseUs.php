@@ -15,7 +15,7 @@
                     </div>
                 </div>
                 <div class="why-us-image">
-                    <img src="assets/images/whyUs/Living area view 3.webp" alt="Luxurious modern living room interior.">
+                    <img src="assets/images/whyUs/Living area view 3.webp" alt="Residential interior designers in Delhi" title="Residential interior designers in Delhi">
                 </div>
             </article>
 
@@ -29,7 +29,7 @@
                     </div>
                 </div>
                 <div class="why-us-image">
-                    <img src="assets/images/whyUs/Master Bedroom View01_.webp" alt="Elegant bedroom with a walk-in closet.">
+                    <img src="assets/images/whyUs/Master Bedroom View01_.webp" alt="Commercial interior designers" title="Commercial interior designers">
                 </div>
             </article>
 
@@ -43,7 +43,7 @@
                     </div>
                 </div>
                 <div class="why-us-image">
-                    <img src="assets/images/whyUs/Ala Restraunt_Corona Camera004.webp" alt="Stylish and modern restaurant interior.">
+                    <img src="assets/images/whyUs/Ala Restraunt_Corona Camera004.webp" alt="Luxury interior designers in Delhi" title="Luxury interior designers in Delhi">
                 </div>
             </article>
 
@@ -58,7 +58,7 @@
                     </div>
                 </div>
                 <div class="why-us-image">
-                    <img src="assets/images/whyUs/Living area view 3.webp" alt="Luxurious dining area with ornate details.">
+                    <img src="assets/images/whyUs/Living area view 3.webp" alt="Luxury interior designers" title="Luxury interior designers">
                 </div>
             </article>
         </div>

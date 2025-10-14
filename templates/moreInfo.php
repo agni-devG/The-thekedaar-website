@@ -18,7 +18,7 @@
           </div>
         </div>
         <div class="more-info-img">
-          <img src="assets/images/image-2.webp" alt="Interior Design 1" loading="lazy">
+          <img src="assets/images/image-2.webp" alt="Modern Interior Designers" title="Modern Interior Designers" loading="lazy">
         </div>
       </div>
     </div>
@@ -34,7 +34,7 @@
           </div>
         </div>
         <div class="more-info-img">
-          <img src="assets/images/moreInfo/6.webp" alt="Interior Design 1" loading="lazy">
+          <img src="assets/images/moreInfo/6.webp" alt="Interior design services in Delhi" title="Interior design services in Delhi" loading="lazy">
         </div>
       </div>
     </div>
@@ -53,7 +53,7 @@
           </div>
         </div>
         <div class="more-info-img">
-          <img src="assets/images/moreInfo/1.webp" alt="Interior Design 2" loading="lazy">
+          <img src="assets/images/moreInfo/1.webp" alt="Residential interior designers"  title="Residential interior designers" loading="lazy">
         </div>
       </div>
     </div>
@@ -66,13 +66,13 @@
           <div>
             <h3>Works as Per Your Budget</h3>
             <p>
-                When you hire affordable interior designers then they work according to your budget. Further, they will purchase all the material that goes well with your budget. Most importantly, you can get a stylish home with exceptional designs, attractive colors, and modern furniture with a limited investment.       
+                When you hire affordable interior designers then they work according to your budget. Further, they will purchase all the material that goes well with your budget. Most importantly, you can get a stylish home with exceptional designs, attractive colors, and<a href="https://thethekedaar.in/modular-furniture-2" class="intrnl"> modern furniture</a> with a limited investment.       
                    </p>
             <a href="contact-us-2" class="inline-contact-link">Contact Us</a>
           </div>
         </div>
         <div class="more-info-img">
-          <img src="assets/images/moreInfo/2.webp" alt="Interior Design 2" loading="lazy">
+          <img src="assets/images/moreInfo/2.webp" alt="Commercial interior designers in Delhi" title="Commercial interior designers in Delhi" loading="lazy">
         </div>
       </div>
     </div>
@@ -87,13 +87,13 @@
           <div>
             <h3>Modern Tools</h3>
             <p>
-              Nowadays, interior designers use fine-quality tools for designing your home. Thereafter, they take support of modern software and tools concerning with planning of home and office renovation. While taking the support of these tools they will make the renovation work easier.    
+              Nowadays, interior designers use fine-quality tools for designing your home. Thereafter, they take support of modern software and tools concerning with planning of <a href="https://thethekedaar.in/renovation-2" class="intrnl"> home and office renovation.</a> While taking the support of these tools they will make the renovation work easier.    
             </p>
         <a href="contact-us-2" class="inline-contact-link">Contact Us</a>
           </div>
         </div>
         <div class="more-info-img">
-          <img src="assets/images/moreInfo/3.webp" alt="Interior Design 2" loading="lazy">
+          <img src="assets/images/moreInfo/3.webp" alt="Residential interior designers in Delhi" title="Residential interior designers in Delhi" loading="lazy">
         </div>
       </div>
     </div>
@@ -114,7 +114,7 @@
                       </div>
         </div>
         <div class="more-info-img">
-          <img src="assets/images/moreInfo/4.webp" alt="Interior Design 2" loading="lazy">
+          <img src="assets/images/moreInfo/4.webp" alt="Commercial interior designers" title="Commercial interior designers" loading="lazy">
         </div>
       </div>
     </div>

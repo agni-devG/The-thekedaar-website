@@ -15,7 +15,7 @@
   <meta property="og:description" content="We believe that your home should tell you the story of who you are and be a collection of what you love. We believe that it should be able to connect the client&nbsp;..." />
   <meta property="og:url" content="https://thethekedaar.in/portfolio" />
   <meta property="og:image" content="./images/portfolio/work3.jpg" />
-  <link rel="canonical" href="https://thethekedaar.in/portfolio">
+  <?php include 'SEOhead.php'; ?>
     
 
     <!-- Favicon -->
@@ -94,7 +94,7 @@
 
 
  <section class="hero-section">
-  <img src="assets/images/portfolio/tropical-style-resort-suite-living-re-2025-01-08-23-48-28-utc.webp" alt="The Thekedaar Hero Image" class="hero-image">
+  <img src="assets/images/portfolio/tropical-style-resort-suite-living-re-2025-01-08-23-48-28-utc.webp" alt="Modern Interior Designers" title="Modern Interior Designers" class="hero-image">
 
   <div class="hero-content-container">
     <div class="hero-left">
@@ -125,7 +125,7 @@
 
     <div class="stats-image">
       <img src="assets/images/portfolio/sofa-and-chairs-in-modern-penthouse-2025-04-04-03-23-57-utc.webp"
-        alt="Modern luxurious interior with large windows overlooking a sunset.">
+        alt="Residential Designers in Delhi" title="Residential Designers in Delhi">
       <a href="contact-us-2" class="inline-contact-link stats-contact-link">Contact Us</a>
     </div>
   </div>

@@ -14,7 +14,7 @@
     <meta property="og:title" content="Delhi's Best Customized Furniture Based on International Standards" />
     <meta property="og:description" content="Looking For Customized Furniture in Delhi & NCR? Our designers have years of experience and can customize any furniture to meet your requirements." />
     <meta property="og:url" content="https://thethekedaar.in/modular-furniture-2" />
-    <link rel="canonical" href="https://thethekedaar.in/modular-furniture-2">
+    <?php include 'SEOhead.php'; ?>
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/fav.png">
@@ -57,7 +57,7 @@
    <main>
     
  <section class="hero-section">
-  <img src="assets/images/modular/hero.webp" alt="The Thekedaar Hero Image" class="hero-image" >
+  <img src="assets/images/modular/hero.webp" alt="Luxury interior designers in Delhi" title="Luxury interior designers in Delhi" class="hero-image" >
 
   <div class="hero-content-container">
     <div class="hero-left">
@@ -79,7 +79,7 @@
                 <p class="p1-desktop">When it comes to your home you want everything to be perfect. Home Interior plus is an exceptional choice for designing the interiors of your home. Your preference is our first priority. This is the choice of one of the Best Interior Designers in Delhi NCR who will enhance the beauty of your home.</p>
             </div>
             <div class="define-homes-image">
-                <img src="assets/images/modular/mod.png" alt="Modern dining and living area with comfortable seating and natural light">
+                <img src="assets/images/modular/mod.png" alt="Luxury interior designers" title="Luxury interior designers">
             </div>
         </div>
     </section>
@@ -100,7 +100,7 @@
     <section class="enhance-section">
         <div class="container">
             <h2 class="section-title">Furniture Customization Services</h2>
-            <img src="assets/images/modular/chair.webp" alt="High-angle view of a modern living room with green accent chairs.">
+            <img src="assets/images/modular/chair.webp" alt="Interior designers in Delhi" title="Interior designers in Delhi">
             <div class="enhance-text">
                 <p>Introduction-
 <br>
@@ -108,11 +108,11 @@
 <br>
 In today’s fast-moving capitalistic society everything is more about its visual appearance and aesthetics. This particular quality works as a ‘make it or break it factor. Appearance and the interior design of a place tell a lot about the vibe/ atmosphere of that particular space. Because of this, each place has its type of demands when it comes to its interior designing and Furniture selection.
 <br>
-Furniture plays a very significant & crucial role in beautifying the place and it also helps in delivering a subtle message to the visitor about the vibe and goal statement of the place in case it is a commercial or office place. For example- Offices that provide services in the artistic field keep their interior and Furniture color textures in light shades because light shades are symbolic of creation. Similarly, for a place owner, it is very important to choose a piece of proper Customized Furniture in Delhi that compliments his place’s interior designs.
+Furniture plays a very significant & crucial role in beautifying the place and it also helps in delivering a subtle message to the visitor about the vibe and goal statement of the place in case it is a commercial or office place. For example- Offices that provide services in the artistic field keep their interior and Furniture color textures in light shades because light shades are symbolic of creation. Similarly, for a place owner, it is very important to choose a piece of proper <a href="https://thethekedaar.in/modular-furniture-2" class="intrnl"> Customized Furniture in Delhi </a> that compliments his place’s interior designs.
 <br>
 But there comes a lot of uninvited problems when one thinks of including Customized Furniture by Professional that compliments the interior design of the place. To name a few-
 <br>
-Monetary Problem- We are well aware of the fact that how expensive it is to have a set of Customized Furniture in Delhi. It is an unwanted and sometimes unnecessary burden on the pocket. <br>
+Monetary Problem- We are well aware of the fact that how expensive it is to have a set of <a href="https://thethekedaar.in/modular-furniture-2" class="intrnl"> Customized Furniture in Delhi </a>. It is an unwanted and sometimes unnecessary burden on the pocket. <br>
 Not the desired result- It is very common to have a lack of satisfaction after the customization of the Furniture because it is very difficult for a third-party Furniture designer to give above the bar results & it is nearly impossible for them to Customize the Furniture according to the interior designs of the place.
 And finding someone who is cost-effective, who can understand the requirements of the client, and can match the quality metric of the interior designing of the place is a nearly impossible task in itself.</p>
                 
@@ -122,9 +122,9 @@ And finding someone who is cost-effective, who can understand the requirements o
     <section class="enhance-section">
         <div class="container">
             <h2 class="section-title">Why it is important to have Customized Furniture</h2>
-            <img src="assets/images/modular/living.webp" alt="High-angle view of a modern living room with green accent chairs.">
+            <img src="assets/images/modular/living.webp" alt="Best interior designers in Delhi" title="Best interior designers in Delhi">
             <div class="enhance-text">
-                <p>Considering all these factors, we at Thethekedaar also started providing the services of Customized Furniture that compliments the interior design of the client’s place. Choosing us over others our clients get many unfair & exclusive advantages in comparison to other interior designing services in Delhi providing companies in the marketplace. To name a few-
+                <p>Considering all these factors, we at Thethekedaar also started providing the services of Customized Furniture that compliments the interior design of the client’s place. Choosing us over others our clients get many unfair & exclusive advantages in comparison to other<a href="https://thethekedaar.in/" class="intrnl"> interior designing services in Delhi </a> companies in the marketplace. To name a few-
 <br>
 We understand designing and customization better than our competitors- This is the biggest advantage of choosing us over others. We at Thethekedaar have a team of highly specialized interior designers who are simply an expert in choosing the perfect designs and textures for the Furniture according to the designs and aesthetics of the place.
 Cost-Effective- With us, our clients get to access premium class services at the most reasonable prices.
@@ -146,7 +146,7 @@ Each piece of Furniture has its significance so has a traditional backdrop sto
     <section class="enhance-section">
         <div class="container">
             <h2 class="section-title">Furniture Customization Services Provided by Us</h2>
-            <img src="assets/images/modular/cloths.webp" alt="High-angle view of a modern living room with green accent chairs.">
+            <img src="assets/images/modular/cloths.webp" alt="Top interior designers in Delhi" title="Top interior designers in Delhi">
             <div class="enhance-text">
                 <p>We at the Thethekedaar provide various customization services for Furniture. This includes the texture and color selection; we take special measures while customizing the Furniture. Firstly, we go through the previous designs and the physical state of the Furniture. And after going through its physical conditions, we decide what to do next. In most cases, Furniture requires a major restoration. Considering all these things we carry out the customization process.
 <br>
@@ -159,7 +159,7 @@ We at Thethekedaar Customize almost every type of Furniture. This includes house
     <section class="enhance-section">
         <div class="container">
             <h2 class="section-title">Wide range of Furniture that we Customize</h2>
-            <img src="assets/images/modular/cloths1.webp" alt="High-angle view of a modern living room with green accent chairs.">
+            <img src="assets/images/modular/cloths1.webp" alt="Interior Designer in Delhi" title="Interior Designer in Delhi">
             <div class="enhance-text">
                 <p>Tables- We Customize dining tables, coffee tables, Centre Tables, study tables, and get to gather tables.
                     Kitchen Furniture- We Customize all the Furniture range of the kitchen. Like- Utensils stands, crockery display, etc.
@@ -172,7 +172,7 @@ We at Thethekedaar Customize almost every type of Furniture. This includes house
     <section class="enhance-section">
         <div class="container">
             <h2 class="section-title">Benefits of Customization of Furniture</h2>
-            <img src="assets/images/modular/greenchair.webp" alt="High-angle view of a modern living room with green accent chairs.">
+            <img src="assets/images/modular/greenchair.webp" alt="Home Interior Designers" title="Home Interior Designers">
             <div class="enhance-text">
                 <p>Customization of Furniture brings many advantages. To name a few-
                     <br>
@@ -187,9 +187,9 @@ We at Thethekedaar Customize almost every type of Furniture. This includes house
     <section class="enhance-section">
         <div class="container">
             <h2 class="section-title">Who are we</h2>
-            <img src="assets/images/modular/homeInteriror.webp" alt="High-angle view of a modern living room with green accent chairs.">
+            <img src="assets/images/modular/homeInteriror.webp" alt="Residential Designers in Delhi" title="Residential Designers in Delhi">
             <div class="enhance-text">
-                <p>We Thethekedaar are India’s biggest interior designing firm, that operates and provides its services in the interior designing of the residential, commercial & office spaces. With a team of highly efficient and expert designers, we commit to provide quality work at reasonable prices. We firmly believe relations should always have a personal touch because of this we provide personalized assistance to our clients in choosing the best Furniture customization in Delhi designs all of that without a single penny.
+                <p>We <a href="https://thethekedaar.in/" class="intrnl"> Thethekedaar </a> India’s biggest interior designing firm, that operates and provides its services in the interior designing of the residential, commercial & office spaces. With a team of highly efficient and expert designers, we commit to provide quality work at reasonable prices. We firmly believe relations should always have a personal touch because of this we provide personalized assistance to our clients in choosing the best Furniture customization in Delhi designs all of that without a single penny.
 <br>
                    So, what are you waiting for? Get in touch with us through our given telephone no and you can also reach us out through our social media handles to book know more in-depth about us.</p>
                 <!-- <p>But why should you look up to our services among the leading Interior Designers in Delhi? Here, we have marked down the fundamental reasons why you choose our services:</p> -->
@@ -204,25 +204,17 @@ We at Thethekedaar Customize almost every type of Furniture. This includes house
    
 </main>
 
-    <!-- ======================= Footer ======================= -->
-    <?php include 'templates/footer.php'; ?>
+               <!-- ======================== f&q ============================= -->
+
+          <?php include './templates/srvc_fq/furniture_fq.php'; ?>
+    
+          <!-- ======================= Footer ======================= -->
+           <?php include 'footer.php'; ?>
     
        </div>
   </div>
     <script src="assets/js/main.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollSmoother.min.js"></script>
-<script>
-  gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
-  ScrollSmoother.create({
-    wrapper: "#smooth-wrapper", // outer wrapper
-    content: "#smooth-content", // scrolling content
-    smooth: 1.2,                // speed (lower = faster response)
-    effects: true               // allow data-speed / parallax effects
-  });
-</script>
 
 </body>
 </html>

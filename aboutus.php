@@ -15,7 +15,7 @@
     <meta property="og:description" content="The Thethekedaar.in Home is where emotion resides, memories are made, and laughter never ends. We make one for you because, in their home, people are typically happiest, and that&#8217;s what our ultimate motto is, making our customers happy. There is far more [&hellip;]" />
     <meta property="og:url" content="https://thethekedaar.in/aboutus" />
 
-    <link rel="canonical" href="https://thethekedaar.in/" />
+    <?php include 'SEOhead.php'; ?>
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/fav.png">
@@ -107,7 +107,7 @@
    <main>
     <!-- Hero Section -->
      <section class="hero-section">
-  <img src="assets/images/about/hero.webp" alt="The Thekedaar Hero Image" class="hero-image">
+  <img src="assets/images/about/hero.webp" alt="Interior designers in Delhi" title="Interior designers in Delhi" class="hero-image">
 
   <div class="hero-content-container">
     <div class="hero-left">
@@ -131,7 +131,7 @@
         <h2 class="section-title founder-heading ">Company mission</h2>
         
         <div class="founder-image">
-            <img src="assets/images/about/11.webp" alt="Portrait of the company founder.">
+            <img src="assets/images/about/11.webp" alt="Best interior designers in Delhi" title="Best interior designers in Delhi">
         </div>
         
         <div class="founder-details">

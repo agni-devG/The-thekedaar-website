@@ -62,10 +62,10 @@
     <div class="footer-block">
         <h3 class="footer-heading">Socials</h3>
         <div class="social-icons">
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-pinterest-p"></i></a>
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/the._.thekedaar/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+            <a href="https://in.pinterest.com/thethekedaar_delhi/" target="_blank" rel="noopener noreferrer"><i class="fab fa-pinterest-p"></i></a>
+            <a href="https://www.facebook.com/TheThekedaar/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.linkedin.com/in/the-thekedaar-a95929208/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
         </div>
     </div>
 </div>
@@ -267,7 +267,7 @@
 
     <!-- ======================= Copyright ======================= -->
     <div class="copyright-container">
-        <p class="copyright-text">All rights reserved © Thethekedaar 2025</p>
+        <p class="copyright-text">All rights reserved @ Thethekedaar 2025.<span><a href="/privacy_policy" class="min_link">Privacy Policy</a> </span> <span>  <a href="/terms_and_conditions" class="min_link">T & C</a></span></p>
     </div>
 
     <!-- Scripts -->

@@ -11,7 +11,7 @@
     <title>Luxury Interior Designers in Delhi 2025 - Thethekedaar | Call Now</title>
       <meta name="description" content="Luxury Interior Designer in Delhi, Thethekedaar has Years of experience- Call Now at 9777705555. Get Affordable Home Interiors from us.">
       <meta name="keywords" content="Interior Designers in Delhi, Luxury Interior Designers in Delhi, Luxury Interior Designers,Thethekedaar">
-      <link rel="canonical" href="https://thethekedaar.in/" />
+      <?php include 'SEOhead.php'; ?>
 
       <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/fav.png">
@@ -48,11 +48,11 @@
    <main>
     
   <section class="hero-section">
-  <img src="assets/images/hero.webp" alt="The Thekedaar Hero Image" class="hero-image"> 
+  <img src="assets/images/hero.webp" alt="Residential interior designers" title="Residential interior designers" class="hero-image"> 
 
   <div class="hero-content-container">
     <div class="hero-left">
-      <h1 class="h1-desktop h1-sm">The Thekedaar</h1>
+      <div class="h1-desktop h1-sm">The Thekedaar</div>
       <p class="p1-desktop">
         A Delhi interior design studio with a timeless, sophisticated signature approach 
         to delivering classic and contemporary interiors.
@@ -67,13 +67,13 @@
  <section class="about-homes">
     <div class="container about-homes-grid">
         <div class="about-homes-text">
-            <h1 class="about-homes-title">We Define Homes</h1>
+            <h1 class="about-homes-title">We are Commercial & Residential Interior Designers in Delhis</h1>
             <p class="about-homes-desc">
                 When it comes to your home you want everything to be perfect. Home Interior plus is an exceptional choice for designing the interiors of your home. Your preference is our first priority. This is the choice of one of the Best Interior Designers in Delhi NCR who will enhance the beauty of your home.
             </p>
         </div>
         <div class="about-homes-image">
-            <img src="assets/images/moreInfo/5.webp" alt="Modern dining and living area with comfortable seating and natural light">
+            <img src="assets/images/moreInfo/5.webp" alt="Commercial interior designers in Delhi" title="Commercial interior designers in Delhi">
         </div>
     </div>
 </section>
@@ -195,7 +195,7 @@
         <h2 class="section-title founder-heading ">Our Founder</h2>
         
         <div class="founder-image">
-            <img src="assets/images/Dc2.webp" alt="Portrait of the company founder.">
+            <img src="assets/images/Dc2.webp" alt="Residential interior designers in Delhi" title="Residential interior designers in Delhi">
         </div>
         
         <div class="founder-details">
@@ -211,9 +211,9 @@
     <section class="enhance-section">
         <div class="container">
             <h2 class="section-title">Enhance the Beauty of Your Home With The Interior Designer Team of Thethekedaar</h2>
-            <img src="assets/images/FF_Seating area_Camera007.webp" alt="High-angle view of a modern living room with green accent chairs.">
+            <img src="assets/images/FF_Seating area_Camera007.webp" alt="Residential interior designers in Delhi"   title="Residential interior designers in Delhi">
             <div class="enhance-text">
-                <p>If you want to renovate your old house or give it a unique look, then you must prefer to consult a professional expert. We at Thethekedaar believe that everyone has the wish to live in their dream home. Therefore, hiring The Best Interior Designers in Delhi like us to design your home is necessary.</p>
+                <p>If you want to renovate your old house or give it a unique look, then you must prefer to consult a professional expert. We at Thethekedaar believe that everyone has the wish to live in their dream home. Therefore, hiring <a href="https://thethekedaar.in/" class="intrnl"> Best Interior Designers in Delhi</a> like us to design your home is necessary.</p>
                 <p>But why should you look up to our services among the leading Interior Designers in Delhi? Here, we have marked down the fundamental reasons why you choose our services:</p>
                 <ul>
                     <li>We help you to save Your Hard-Earned Money & Time: Mostly, all the clients approach us with a restricted budget and a short period. As industry experts, we know how to execute our plans and aim to design your home within a fixed time.</li>
@@ -227,7 +227,7 @@
     <section class="enhance-section">
         <div class="container">
             <h2 class="section-title">Reasons Why our Approach Becomes the Way to Achieve Customer Satisfaction</h2>
-            <img src="assets/images/Majles View-04.webp" alt="High-angle view of a modern living room with green accent chairs.">
+            <img src="assets/images/Majles View-04.webp" alt="Commercial interior designers"   title="Commercial interior designers">
             <div class="enhance-text">
                 <p>At The Thekedaar, we acknowledge that every project's requirement is different. As a result, we include your ideologies to create your dream home. If you are still in doubt about why you should select us from other Interior Designers in Delhi, then you should know our working method that impresses our clients.</p>
                 <!-- <p>But why should you look up to our services among the leading Interior Designers in Delhi? Here, we have marked down the fundamental reasons why you choose our services:</p> -->
@@ -288,5 +288,6 @@ gsap.utils.toArray(".fade-in").forEach((elem) => {
 
 </script>
 
+<?php include 'templates/call_whatsapp.php'; ?>
 </body>
 </html>

@@ -39,6 +39,7 @@
 .faq-question,
 .faq-answer p {
     font-family: "Aloevera Display", sans-serif;
+    color: var(--white);
 }
 
 /* FAQ Question */
@@ -133,6 +134,22 @@
 
   <!-- Font Awesome (icons) -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+   <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
+    
+    <!-- ----------------- gsap -------------------- -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+    <!-- ScrollSmoother requires ScrollTrigger -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollSmoother.min.js"></script>
+
+
+
+
 </head>
 <body>
 
@@ -257,28 +274,39 @@
 </section>
 
 
-    <script>
-    document.addEventListener('DOMContentLoaded', function () {
-        // ======================= FAQ Toggle =======================
-        const faqItems = document.querySelectorAll('.faq-item');
+<script>
+  // Select all FAQ questions
+  const faqQuestions = document.querySelectorAll('.faq-question');
 
-        faqItems.forEach(item => {
-            const questionBtn = item.querySelector('.faq-question');
+  faqQuestions.forEach(question => {
+    const faqItem = question.parentElement;
+    const answer = faqItem.querySelector('.faq-answer');
+    const icon = question.querySelector('.faq-icon');
 
-            questionBtn.addEventListener('click', () => {
-                // Accordion style (only one open at a time)
-                faqItems.forEach(i => {
-                    if (i !== item) {
-                        i.classList.remove('active');
-                    }
-                });
+    // Set initial state
+    gsap.set(answer, { height: 0, opacity: 0, display: 'none' });
 
-                // Toggle current item
-                item.classList.toggle('active');
-            });
-        });
+    question.addEventListener('click', () => {
+      const isOpen = faqItem.classList.contains('active');
+
+      if (isOpen) {
+        // Close this FAQ item
+        gsap.to(answer, { height: 0, opacity: 0, duration: 0.4, onComplete: () => {
+          answer.style.display = 'none';
+        }});
+        gsap.to(icon, { rotation: 0, duration: 0.4 });
+        faqItem.classList.remove('active');
+      } else {
+        // Open this FAQ item
+        answer.style.display = 'block';
+        const answerHeight = answer.scrollHeight; // dynamic height
+        gsap.to(answer, { height: answerHeight, opacity: 1, duration: 0.4 });
+        gsap.to(icon, { rotation: 45, duration: 0.4 });
+        faqItem.classList.add('active');
+      }
     });
-    </script>
+  });
+</script>
 
 </body>
 </html>

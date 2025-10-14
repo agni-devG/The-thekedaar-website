@@ -13,7 +13,7 @@
     <meta property="og:title" content="Service - Thethekedaar" />
     <meta property="og:description" content="Resdential INTERIOR DESIGNING ARCHITECTURAL DESIGNING MODULAR FURNITURE RENOVATION Commercial Interior Design Office, Shop, Hotel, Gym Etc 2D-3D DESIGN Sorry, no posts matched your criteria. THE COMPANY HISTORY Our vision in starting the company was to offer products and services to [&hellip;]" />
     <meta property="og:url" content="https://thethekedaar.in/service-2" />
-    <link rel="canonical" href="https://thethekedaar.in/service-2">
+    <?php include 'SEOhead.php'; ?>
 
     
 
@@ -189,11 +189,11 @@
     <main>
 
   <section class="hero-section">
-  <img src="assets/images/services/hero.jpg" alt="The Thekedaar Hero Image" class="hero-image">
+  <img src="assets/images/services/hero.jpg" alt="Luxury interior designers in Delhi" title="Luxury interior designers in Delhi" class="hero-image">
 
   <div class="hero-content-container">
     <div class="hero-left">
-                    <h1 class="h1-desktop h1-sm">Our Services</h1>
+                    <h1 class="h1-desktop h1-sm">What We Offer</h1>
       <p class="p1-desktop">
             Our services cover every aspect of luxury interiors—modular kitchens, bespoke furniture, elegant décor, and smart space planning—crafted to transform your space into a statement of style and comfort.
 

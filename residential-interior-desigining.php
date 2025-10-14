@@ -14,7 +14,7 @@
     <meta property="og:title" content="Providing complete residential interior design services in Delhi NCR" />
     <meta property="og:description" content="We have interior designers with experience in both residential and commercial interior design. We design quality false ceilings, homes, and offices." />
     <meta property="og:url" content="https://thethekedaar.in/residential-interior-desigining" />
-    <link rel="canonical" href="https://thethekedaar.in/residential-interior-desigining">
+    <?php include 'SEOhead.php'; ?>
     
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/fav.png">
@@ -47,11 +47,11 @@
     <!-- Hero Section -->
      <!-- <section class="hero-banner-section"></section> -->
      <section class="hero-section">
-  <img src="assets/images/residential/hero.jpg" alt="The Thekedaar Hero Image" class="hero-image">
+  <img src="assets/images/residential/hero.jpg" alt="Residential interior designers" title="Residential interior designers" class="hero-image">
 
   <div class="hero-content-container">
     <div class="hero-left">
-      <h1 class="h1-desktop h1-sm">Residential Designing</h1>
+      <h1 class="h1-desktop h1-sm">Residential Interior Designing</h1>
       <p class="p1-desktop">
         We create homes that feel luxurious and personal, with every detail designed to reflect your unique style and comfort.
       </p>
@@ -80,15 +80,15 @@
     <section class="enhance-section">
         <div class="container">
             <h2 class="section-title">Who Are We?</h2>
-            <img src="assets/images/residential/1.png" alt="High-angle view of a modern living room with green accent chairs.">
+            <img src="assets/images/residential/1.png" alt="Commercial interior designers in Delhi" title="Commercial interior designers in Delhi">
             <div class="enhance-text">
                 <p>If you want to renovate your old house or give it a unique look, then you must prefer to consult a professional expert. We at Thethekedaar believe that everyone has the wish to live in their dream home. Therefore, hiring The Best Interior Designers in Delhi like us to design your home is necessary.</p>
                 <ul>
                     <li>Thethekedaar is one of India’s renowned interiors designing firms. Having its primary setup based in Hari Nagar, Jail Road, New Delhi. The company is highly praised for providing top-notch interior designing services to its clients at a reasonably affordable price on committed time.</li>
                     <li>We are committed to our vision to fully optimize the space available to create something utterly alluring and beautiful without compromising the craft quality.   The company has also been numerous times ranked as one of the best interior designing firms in India.</li>
-                    <li>With us, our clients get access to a team of Delhi interior designers, which is highly efficient and is a master of its craft. The team is solely devoted to serving our clients to fulfill all of their expectations regarding their loved residential outlet. Our team is well aware of the fact, what it means for our clients to have a beautiful residential space.</li>
+                    <li>With us, our clients get access to a team of <a href="https://thethekedaar.in/" class="intrnl">Delhi interior designers </a>, which is highly efficient and is a master of its craft. The team is solely devoted to serving our clients to fulfill all of their expectations regarding their loved residential outlet. Our team is well aware of the fact, what it means for our clients to have a beautiful residential space.</li>
                     <li>We are best known for our exclusive quality of blending professionalism with a personal touch. We firmly believe it is only possible to deliver extraordinary work when relations are more personal in nature blended with professional commitment.</li>
-                    <li>Designing the interior of a residential complex is one of the hardest tasks to accomplish because residential complexes demand a unique and personalized touch in each project. But with us, one can get rest assured of having fully customized residential interior designing. Residential projects are more about aesthetics in comparison to other projects because living place aesthetics tells volumes about the personality type and persona of the owner. And because of this, we at Thekedaar also have a one-on-one discussion with the client to have a better understanding of their preferences and their choices.</li>
+                    <li>Designing the interior of a residential complex is one of the hardest tasks to accomplish because residential complexes demand a unique and personalized touch in each project. But with us, one can get rest assured of having fully <a href="https://thethekedaar.in/residential-interior-desigining" class="intrnl"> residential interior designing</a>. Residential projects are more about aesthetics in comparison to other projects because living place aesthetics tells volumes about the personality type and persona of the owner. And because of this, we at Thekedaar also have a one-on-one discussion with the client to have a better understanding of their preferences and their choices.</li>
                 </ul>           
                      <p>Thethekedaar is not just an interior designing firm but is also a one of kind of noble initiative to provide the Indian population a budget-friendly house re-makeover. We know, how expensive it is for a common man of India to own a residential property, and to have it interiorly designed is a far-fetched dream for most of the Indian population. Understanding this market demand, We at Thethekedaar provide our premium class services at the most reasonable prices.</p>
 
@@ -98,7 +98,7 @@
     <section class="enhance-section">
         <div class="container">
             <h2 class="section-title">Why it is important to have residential interior designing?</h2>
-            <img src="assets/images/residential/2.png" alt="High-angle view of a modern living room with green accent chairs.">
+            <img src="assets/images/residential/2.png" alt="Residential interior designers in Delhi" title="Residential interior designers in Delhi">
             <div class="enhance-text">
                 <p>We know most of you might be wondering why it is so important to have interior designing of residential space.
 So, the answer has many layers to it. Let’s start peeling it one by one-</p>
@@ -116,7 +116,7 @@ So, the answer has many layers to it. Let’s start peeling it one by one-</p>
     <section class="enhance-section">
         <div class="container">
             <h2 class="section-title">Why us over others?</h2>
-            <img src="assets/images/residential/3.png" alt="High-angle view of a modern living room with green accent chairs.">
+            <img src="assets/images/residential/3.png" alt="Commercial interior designers" title="Commercial interior designers">
             <div class="enhance-text">
                 <p>Choosing us over others can give you an advantage over others. Because we are at Thethekedaar, not only limit ourselves to decorating the interior of the residential outlet but also make sure that there is no compromise with the building quality of the residential outlet in its final stage.</p>
                 <p>We are also one of the rarest firms, which precisely blend the artistic touch of interior designing with modern scientific procedures.</p>
@@ -127,7 +127,7 @@ So, the answer has many layers to it. Let’s start peeling it one by one-</p>
                     <li>Functional design to optimize the resources</li>
                 </ul>
                 <p>We firmly believe Interior designing is scientific at its core because it requires the designer to understand the behavior of people to create functional space and our designers are best in this.</p>
-                <p>If you want to renovate your existing gym and enhance your members’ workout so meet a Luxury interior designer in Delhi today.</p>
+                <p>If you want to renovate your existing gym and enhance your members’ workout so meet a<a href="https://thethekedaar.in/luxury-gym-interior-designers" class="intrnl"> Luxury interior designer in Delhi today </a>.</p>
             </div>
         </div>
     </section>
@@ -135,25 +135,17 @@ So, the answer has many layers to it. Let’s start peeling it one by one-</p>
     
 </main>
 
-    <!-- ======================= Footer ======================= -->
-    <?php include 'templates/footer.php'; ?>
+           <!-- ======================== f&q ============================= -->
+
+          <?php include './templates/srvc_fq/residential_fq.php'; ?>
+    
+          <!-- ======================= Footer ======================= -->
+           <?php include 'footer.php'; ?>
     
        </div>
   </div>
     <script src="assets/js/main.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollSmoother.min.js"></script>
-<script>
-  gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
-  ScrollSmoother.create({
-    wrapper: "#smooth-wrapper", // outer wrapper
-    content: "#smooth-content", // scrolling content
-    smooth: 1.2,                // speed (lower = faster response)
-    effects: true               // allow data-speed / parallax effects
-  });
-</script>
 
 </body>
 </html>

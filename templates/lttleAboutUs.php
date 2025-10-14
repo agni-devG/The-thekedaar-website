@@ -11,7 +11,7 @@
                 <p class="p1-desktop">The Thethekedaar.in Home is where emotion resides, memories are made, and laughter never ends. We make one for you because, in their home, people are typically happiest, and that's what our ultimate motto is, making our customers happy. There is far more to interior design than making the furniture perfect. It's about making individuals happy, whether functionally, aesthetically, or emotionally. And we aim to provide a range of exquisite, friendly yet practical solutions for our customers to best use the room in question. We aim to maximize our clients' experience by better utilizing the space available in the environment involved. We listen to your needs and, based on your requirements, focus on solutions that maximize their use.</p>
             </div>
             <div class="define-homes-image scale-in">
-                <img src="assets/images/about/1.webp" alt="Modern dining and living area with comfortable seating and natural light">
+                <img src="assets/images/about/1.webp" alt="Best interior designers in Delhi" title="Best interior designers in Delhi">
             </div>
         </div>
     </section>
@@ -20,10 +20,10 @@
     <section class="define-homes-section">
         <div class="container define-homes-grid1">
             <div class="define-homes-text fade-in">
-                <p class="p1-desktop">We have a team of successful communicators with the capacity to convince a concept proposal to be conveyed. We believe your home should tell you the story of what you are and that it should be a compilation of what you love. We assume that the client should interact correctly with our development with the overall vision of their innermost emotion. Luxury Interior Designing Consultancy is a professionally run business interested in the convergence of interior design, architecture, and operation.</p>
+                <p class="p1-desktop">We have a team of successful communicators with the capacity to convince a concept proposal to be conveyed. We believe your home should tell you the story of what you are and that it should be a compilation of what you love. We assume that the client should interact correctly with our development with the overall vision of their innermost emotion. <a href="https://thethekedaar.in/" class="intrnl"> <strong>Luxury Interior Designing </strong></a> is a professionally run business interested in the convergence of interior design, architecture, and operation.</p>
             </div>
             <div class="define-homes-image scale-in">
-                <img src="assets/images/about/2.webp" alt="Modern dining and living area with comfortable seating and natural light">
+                <img src="assets/images/about/2.webp" alt="Top interior designers in Delhi" title="Top interior designers in Delhi">
             </div>
         </div>
     </section>
@@ -37,7 +37,7 @@
                      there for you once employed!</p>
             </div>
             <div class="define-homes-image scale-in">
-                <img src="assets/images/about/3.webp" alt="Modern dining and living area with comfortable seating and natural light">
+                <img src="assets/images/about/3.webp" alt="Interior Designer in Delhi" title="Interior Designer in Delhi">
             </div>
         </div>
     </section>
@@ -46,22 +46,22 @@
     <section class="define-homes-section">
         <div class="container define-homes-grid1">
             <div class="define-homes-text fade-in">
-                <p class="p1-desktop">The Luxury Interior Designing Consultancy provides excellent residential interior designers in Delhi. The Luxury Interior Designing Consultancy in Delhi has interior designs that complement the diverse forms in which the world adapts. With a proper analysis of Delhi’s resident culture and lifestyle, we build every design in the framework. Owning a home is an ambition every human being desired in his or her lifetime. The Luxury Interior Designing Consultancy provides residential interior design as delegated by 
+                <p class="p1-desktop">The Luxury Interior Designing Consultancy provides excellent residential interior designers in Delhi. The<a href="https://thethekedaar.in/" class="intrnl"><strong> Luxury Interior Designing Consultancy in Delhi</strong></a> has interior designs that complement the diverse forms in which the world adapts. With a proper analysis of Delhi’s resident culture and lifestyle, we build every design in the framework. Owning a home is an ambition every human being desired in his or her lifetime. The Luxury Interior Designing Consultancy provides residential interior design as delegated by 
                     developers and individual customers, including a specialist in transforming spaces into luxury homes with our unique home interior designer.</p>
             </div>
             <div class="define-homes-image scale-in">
-                <img src="assets/images/about/4.webp" alt="Modern dining and living area with comfortable seating and natural light">
+                <img src="assets/images/about/4.webp" alt="Home Interior Designers" title="Home Interior Designers">
             </div>
         </div>
     </section>
     <section class="define-homes-section">
         <div class="container define-homes-grid1">
             <div class="define-homes-text fade-in">
-                <p class="p1-desktop">We have the bestinterior designer.We provide commercial interior designers also. To exceed customer expectations, Luxury Interior Designing Service is presented as the Interior Designing Business and offers appealing interior design solutions. Our Luxury Interior Designing Consultancy designers are well received in innovative interior design, which we believe certainly 
+                <p class="p1-desktop">We have the bestinterior designer.We provide commercial interior designers also. To exceed customer expectations,<a href="https://thethekedaar.in/" class="intrnl"><strong> Luxury Interior Designing Service </strong></a> is presented as the Interior Designing Business and offers appealing interior design solutions. Our Luxury Interior Designing Consultancy designers are well received in innovative interior design, which we believe certainly 
                     improves the visual experience of your interior views.</p>
             </div>
             <div class="define-homes-image scale-in">
-                <img src="assets/images/about/6.webp" alt="Modern dining and living area with comfortable seating and natural light">
+                <img src="assets/images/about/6.webp" alt="Residential Designers in Delhi" title="Residential Designers in Delhi">
             </div>
         </div>
     </section>
@@ -77,7 +77,7 @@
                     with the ability to persuade in communicating a design idea.</p>
             </div>
             <div class="define-homes-image scale-in">
-                <img src="assets/images/about/7.webp" alt="Modern dining and living area with comfortable seating and natural light">
+                <img src="assets/images/about/7.webp" alt="Modern Interior Designers" title="Modern Interior Designers">
             </div>
         </div>
     </section>

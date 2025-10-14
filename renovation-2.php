@@ -14,7 +14,7 @@
     <meta property="og:title" content="Renovation Services available in Delhi NCR" />
     <meta property="og:description" content=" RENOVATION Technology has significantly impacted the renovation process, enhancing its importance and strength. Please let us know what you need so we can help." />
     <meta property="og:url" content="https://thethekedaar.in/renovation-2" />
-    <link rel="canonical" href="https://thethekedaar.in/renovation-2">
+    <?php include 'SEOhead.php'; ?>
     
 
     <!-- Favicon -->
@@ -54,11 +54,11 @@
 
 
  <section class="hero-section">
-  <img src="assets/images/renovation/Dining Area View 03.webp" alt="The Thekedaar Hero Image">
+  <img src="assets/images/renovation/Dining Area View 03.webp" alt="Modern Interior Designers" title="Modern Interior Designers">
 
   <div class="hero-content-container">
     <div class="hero-left">
-      <h1 class="h1-desktop h1-sm">Residential Designing</h1>
+      <h1 class="h1-desktop h1-sm">Renovation</h1>
       <p class="p1-desktop">
              We create homes that feel luxurious and personal, with every detail designed to reflect your unique style and comfort.
 
@@ -83,10 +83,10 @@
     
    <section class="founder-section">
     <div class="container founder-grid">
-        <h1 class="section-title founder-heading ">Renovation</h1>
+        <h2 class="section-title founder-heading ">Renovation</h2>
         
         <div class="founder-image">
-            <img src="assets/images/renovation/Master Bedroom View01_.webp" alt="Portrait of the company founder.">
+            <img src="assets/images/renovation/Master Bedroom View01_.webp" alt="Interior design services in Delhi" title="Interior design services in Delhi">
         </div>
         
         <div class="founder-details">
@@ -100,26 +100,18 @@ it’s a true labour of love.</p>
     
 </main>
 
-    <!-- ======================= Footer ======================= -->
-    <?php include 'templates/footer.php'; ?>
+           <!-- ======================== f&q ============================= -->
+
+          <?php include './templates/srvc_fq/renovation_fq.php'; ?>
+    
+          <!-- ======================= Footer ======================= -->
+           <?php include 'footer.php'; ?>
     
        </div>
   </div>
     <script src="assets/js/main.js"></script>
     
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollSmoother.min.js"></script>
-<script>
-  gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
-  ScrollSmoother.create({
-    wrapper: "#smooth-wrapper", // outer wrapper
-    content: "#smooth-content", // scrolling content
-    smooth: 1.2,                // speed (lower = faster response)
-    effects: true               // allow data-speed / parallax effects
-  });
-</script>
 
 
 </body>

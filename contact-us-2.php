@@ -15,7 +15,7 @@
     <meta name="keywords" content="Interior Designers contact, Luxury Interior Designers contact , contact Interior Designers in delhi">
     <meta property="og:url" content="https://thethekedaar.in/contact-us-2" />
 
-    <link rel="canonical" href="https://thethekedaar.in/" />
+    <?php include 'SEOhead.php'; ?>
     
    <link rel="stylesheet" href="https://use.typekit.net/cmr7pve.css">
 
@@ -100,7 +100,7 @@
         <!-- Hero Section -->
         
  <section class="hero-section">
-  <img src="assets/images/contact/hero.webp" alt="The Thekedaar Hero Image" class="hero-image" style="height: 686px;">
+  <img src="assets/images/contact/hero.webp" alt="Residential Designers in Delhi" title="Residential Designers in Delhi" class="hero-image" style="height: 686px;">
 
   <div class="hero-content-container">
     <div class="hero-left">
@@ -216,7 +216,7 @@
     </main>
 
     <!-- ======================= Footer ======================= -->
-    <?php include 'templates/footer.php'; ?>
+    <?php include 'footer.php'; ?>
        </div>
   </div>
     
@@ -325,19 +325,7 @@
             }
         });
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollSmoother.min.js"></script>
-<script>
-  gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
-  ScrollSmoother.create({
-    wrapper: "#smooth-wrapper", // outer wrapper
-    content: "#smooth-content", // scrolling content
-    smooth: 1.2,                // speed (lower = faster response)
-    effects: true               // allow data-speed / parallax effects
-  });
-</script>
 
 </body>
 </html>

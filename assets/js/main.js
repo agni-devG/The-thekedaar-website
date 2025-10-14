@@ -22,34 +22,34 @@ document.addEventListener("DOMContentLoaded", function () {
 // ... (keep the existing mobile menu code above this)
 
 document.addEventListener('DOMContentLoaded', function () {
-    const faqItems = document.querySelectorAll('.faq-item');
+    // const faqItems = document.querySelectorAll('.faq-item');
 
-    faqItems.forEach(item => {
-        const question = item.querySelector('.faq-question');
-        const answer = item.querySelector('.faq-answer');
-        const icon = item.querySelector('.faq-icon');
+    // faqItems.forEach(item => {
+    //     const question = item.querySelector('.faq-question');
+    //     const answer = item.querySelector('.faq-answer');
+    //     const icon = item.querySelector('.faq-icon');
 
-        question.addEventListener('click', () => {
-            const isActive = item.classList.contains('active');
+    //     question.addEventListener('click', () => {
+    //         const isActive = item.classList.contains('active');
 
-            // Close all others (accordion style)
-            faqItems.forEach(otherItem => {
-                otherItem.classList.remove('active');
-                otherItem.querySelector('.faq-answer').style.maxHeight = null;
-                otherItem.querySelector('.faq-icon').textContent = '+';
-            });
+    //         // Close all others (accordion style)
+    //         faqItems.forEach(otherItem => {
+    //             otherItem.classList.remove('active');
+    //             otherItem.querySelector('.faq-answer').style.maxHeight = null;
+    //             otherItem.querySelector('.faq-icon').textContent = '+';
+    //         });
 
-            if (!isActive) {
-                item.classList.add('active');
-                answer.style.maxHeight = answer.scrollHeight + "px";
-                icon.textContent = '−'; // change + to minus
-            } else {
-                item.classList.remove('active');
-                answer.style.maxHeight = null;
-                icon.textContent = '+';
-            }
-        });
-    });
+    //         if (!isActive) {
+    //             item.classList.add('active');
+    //             answer.style.maxHeight = answer.scrollHeight + "px";
+    //             icon.textContent = '−'; // change + to minus
+    //         } else {
+    //             item.classList.remove('active');
+    //             answer.style.maxHeight = null;
+    //             icon.textContent = '+';
+    //         }
+    //     });
+    // });
 
 
 

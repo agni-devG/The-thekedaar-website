@@ -267,7 +267,7 @@
 
     <!-- ======================= Copyright ======================= -->
     <div class="copyright-container">
-        <p class="copyright-text">All rights reserved © Thethekedaar 2025</p>
+        <p class="copyright-text">All rights reserved @ Thethekedaar 2025.<span><a href="/privacy_policy" class="min_link">Privacy Policy</a> </span> <span>  <a href="/terms_and_conditions" class="min_link">T & C</a></span></p>
     </div>
 
     <!-- Scripts -->
@@ -287,6 +287,7 @@ document.getElementById("toggle-locations").addEventListener("click", function()
 });
 </script>
 
+<?php include '../templates/call_whatsapp.php'; ?>
 
 </body>
 </html>

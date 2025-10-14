@@ -32,7 +32,7 @@
                     </div>
                 </div>
                 <div class="why-us-image">
-                    <img src="assets/images/commercial/1.webp" alt="Luxurious modern living room interior.">
+                    <img src="assets/images/commercial/1.webp" alt="Interior Designer in Delhi" title="Interior Designer in Delhi">
                 </div>
             </article>
 
@@ -46,7 +46,7 @@
                     </div>
                 </div>
                 <div class="why-us-image">
-                    <img src="assets/images/commercial/2.webp" alt="Elegant bedroom with a walk-in closet.">
+                    <img src="assets/images/commercial/2.webp" alt="Home Interior Designers" title="Home Interior Designers">
                 </div>
             </article>
 
@@ -60,7 +60,7 @@
                     </div>
                 </div>
                 <div class="why-us-image">
-                    <img src="assets/images/commercial/3.webp" alt="Stylish and modern restaurant interior.">
+                    <img src="assets/images/commercial/3.webp" alt="Residential Designers in Delhi" title="Residential Designers in Delhi">
                 </div>
             </article>
 
@@ -75,7 +75,7 @@
                     </div>
                 </div>
                 <div class="why-us-image">
-                    <img src="assets/images/commercial/4.webp" alt="Luxurious dining area with ornate details.">
+                    <img src="assets/images/commercial/4.webp" alt="Interior design services in Delhi" title="Interior design services in Delhi">
                 </div>
             </article>
 
@@ -90,7 +90,7 @@
                     </div>
                 </div>
                 <div class="why-us-image">
-                    <img src="assets/images/commercial/5.webp" alt="Luxurious dining area with ornate details.">
+                    <img src="assets/images/commercial/5.webp" alt="Residential interior designers" title="Residential interior designers">
                 </div>
             </article>
 
@@ -105,7 +105,7 @@
                     </div>
                 </div>
                 <div class="why-us-image">
-                    <img src="assets/images/commercial/6.webp" alt="Luxurious dining area with ornate details.">
+                    <img src="assets/images/commercial/6.webp" alt="Commercial interior designers in Delhi" title="Commercial interior designers in Delhi">
                 </div>
             </article>
             <article class="why-us-item">
@@ -118,7 +118,7 @@
                     </div>
                 </div>
                 <div class="why-us-image">
-                    <img src="assets/images/commercial/7.webp" alt="Luxurious dining area with ornate details.">
+                    <img src="assets/images/commercial/7.webp" alt="Residential interior designers in Delhi" title="Residential interior designers in Delhi">
                 </div>
             </article>
         </div>

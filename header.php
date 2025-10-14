@@ -65,7 +65,7 @@ ul{
         <!-- Logo -->
         <div class="logo">
             <a href="index">
-                <img src="assets/images/Logo.svg" alt="The Thekedaar Logo">
+                <img src="assets/images/Logo.svg" alt="Modern Interior Designers" title="Modern Interior Designers">
             </a>
         </div>
 
@@ -100,7 +100,7 @@ ul{
 <div class="mobile-nav" id="mobile-nav">
     <div class="mobile-nav-header" >
         <a href="index" class="logo-mobile">
-                <img src="assets/images/Logo-black.svg" alt="The Thekedaar Logo">
+                <img src="assets/images/Logo-black.svg" alt="Interior design services in Delhi" title="Interior design services in Delhi">
         </a>
         <button class="close-btn" id="close-btn">&times;</button>
     </div>

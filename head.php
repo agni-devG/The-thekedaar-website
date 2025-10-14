@@ -1,5 +1,5 @@
-    <link rel="icon" href="./images/logo/logo1.png">
-    <link rel="apple-touch-icon" href="./images/logo/logo1.png" />
+    <link rel="icon" href="assets\images\Logo.svg">
+    <link rel="apple-touch-icon" href="assets\images\Logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://use.typekit.net/cmr7pve.css">
 
@@ -151,8 +151,7 @@ fbq('init', '1221540746208324');
 fbq('track', 'PageView');
 </script>
 <noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1221540746208324&ev=PageView&noscript=1"
-/></noscript>
+src="https://www.facebook.com/tr?id=1221540746208324&ev=PageView&noscript=1" alt="Modern Interior Designers" title="Modern Interior Designers"/></noscript>
 <!-- End Meta Pixel Code -->
 
 <script src="https://cdn.popupsmart.com/bundle.js" data-id="17202" async defer></script>

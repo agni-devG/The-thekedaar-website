@@ -177,6 +177,7 @@ h3 { font-size: 32px; line-height: 110%; }
   height: 90vh;
   display: flex;
   flex-direction: column;
+  gap: 12px;
   /* transform: none; */
 }
 
@@ -215,6 +216,12 @@ h3 { font-size: 32px; line-height: 110%; }
 .left-column .nav-links a:hover {
   color: #000;
 }
+
+.left-column .nav-links li{
+  margin-bottom: 8  px;
+}
+
+
 
 /* Right Column */
 .right-column {
@@ -415,11 +422,12 @@ color: var(--black);
 
   .left-column .nav-links ul {
     flex-direction: column; /* Stack nav links vertically */
-    gap: 5px; /* Smaller gap between stacked nav links */
+    gap: 12px; /* Smaller gap between stacked nav links */
   }
 
   .left-column .nav-links a {
       font-size: 14px; /* Even smaller nav links */
+
   }
 
   .left-column .contact-btn {
@@ -465,14 +473,19 @@ color: var(--black);
       <nav class="nav-links">
          <span class="top-text">Services we provide</span>
 
-        <ul>
+         <ul>
           <li><a href="#section1">Residential Designing</a></li>
           <li><a href="#section2">Commercial Interior Design</a></li>
           <li><a href="#section3">Renovation</a></li>
           <li><a href="#section4">Modular Furniture</a></li>
+          <li><a href="#section5">2D 3D Design</a></li>
+          <li><a href="#section6">Architectural Designing</a></li>
+          <li><a href="#section7">GYM Interior Designers</a></li>
+          <li><a href="#section8">Hotel Interior Designers</a></li>
+          <li><a href="#section9">Villa Interior Designers</a></li>
         </ul>
       </nav>
-      <button class="contact-btn">Contact Us</button>
+      <button class="contact-btn" onclick="window.location.href='contact-us-2'">Contact Us</button>
     </div>
 
 
@@ -484,11 +497,11 @@ color: var(--black);
         <div class="carousel">
           <!-- Carousel Images -->
           <div class="carousel-track">
-            <img src="assets/images/services/Ala Restraunt_Corona Camera005.webp">
-  <img src="assets/images/residential/1_Post.webp">
-  <img src="assets/images/residential/fAMILY ROOM_Corona Camera007.webp">
-  <img src="assets/images/residential/FF_Seating area_Camera002.webp">
-  <img src="assets/images/residential/Father's Room View 01.webp">
+            <img src="assets/images/services/Ala Restraunt_Corona Camera005.webp" alt="Commercial interior designers" title="Commercial interior designers">
+            <img src="assets/images/residential/1_Post.webp" alt="Luxury interior designers in Delhi" title="Luxury interior designers in Delhi">
+            <img src="assets/images/residential/fAMILY ROOM_Corona Camera007.webp" alt="Luxury interior designers" title="Luxury interior designers">
+            <img src="assets/images/residential/FF_Seating area_Camera002.webp" alt="Luxury interior designers in Delhi" title="Luxury interior designers in Delhi">
+            <img src="assets/images/residential/Father's Room View 01.webp" alt="Residential interior designers in Delhi" title="Residential interior designers in Delhi">
           </div>
         </div>
         <div class="info-container">
@@ -514,11 +527,11 @@ color: var(--black);
         <h2>Designs that bring your team together.</h2>
         <div class="carousel">
           <div class="carousel-track">
-            <img src="assets/images/commercial/9.webp" alt="Elegant residential living room">
-                    <img src="assets/images/commercial/10.webp" alt="Modern residential bedroom">
-                    <img src="assets/images/commercial/8.webp" alt="Stylish residential kitchen">
-                    <img src="assets/images/commercial/4.webp" alt="Stylish residential kitchen">
-                    <img src="assets/images/commercial/d1.jpg" alt="Stylish residential kitchen">
+            <img src="assets/images/commercial/9.webp" alt="Interior designers in Delhi" title="Interior designers in Delhi">
+                    <img src="assets/images/commercial/10.webp" alt="Best interior designers in Delhi" title=" Best interior designers in Delhi">
+                    <img src="assets/images/commercial/8.webp" alt="Top interior designers in Delhi" title="Top interior designers in Delhi">
+                    <img src="assets/images/commercial/4.webp" alt="Interior Designer in Delhi" title="Interior Designer in Delhi">
+                    <img src="assets/images/commercial/d1.jpg" alt="Home Interior Designers" title="Home Interior Designers">
           </div>
         </div>
         <div class="info-container">
@@ -539,12 +552,12 @@ color: var(--black);
         <h2>New vibes, same address.</h2>
         <div class="carousel">
           <div class="carousel-track">
-            <img src="assets/images/renovation/Majlis_NEW-0224_Corona Camera004.webp" alt="Elegant residential living room">
-                  <img src="assets/images/renovation/Living Room Final Render_001 copy.webp" alt="Modern residential bedroom">
-                  <img src="assets/images/renovation/Kitchen View 02.webp" alt="Stylish residential kitchen">
-                  <img src="assets/images/renovation/MASTER BED ROOM Camera004.webp" alt="Stylish residential kitchen">
-                  <img src="assets/images/renovation/Living Room Final Render_001 copy.webp" alt="Stylish residential kitchen">
-                  <img src="assets/images/renovation/Master Bedroom View02_.webp" alt="Stylish residential kitchen">
+            <img src="assets/images/renovation/Majlis_NEW-0224_Corona Camera004.webp" alt="Residential Designers in Delhi" title="Residential Designers in Delhi">
+                  <img src="assets/images/renovation/Living Room Final Render_001 copy.webp" alt="Modern Interior Designers" title="Modern Interior Designers">
+                  <img src="assets/images/renovation/Kitchen View 02.webp" alt="Interior design services in Delhi" title="Interior design services in Delhi">
+                  <img src="assets/images/renovation/MASTER BED ROOM Camera004.webp" alt="Residential interior designers" title="Residential interior designers">
+                  <img src="assets/images/renovation/Living Room Final Render_001 copy.webp" alt="Commercial interior designers in Delhi" title="Commercial interior designers in Delhi">
+                  <img src="assets/images/renovation/Master Bedroom View02_.webp" alt="Residential interior designers in Delhi" title="Residential interior designers in Delhi">
 
           </div>
         </div>
@@ -571,12 +584,12 @@ color: var(--black);
         <h2>Fits your space. follows your style</h2>
         <div class="carousel">
           <div class="carousel-track">
-           <img src="assets/images/services/kitchen002_Corona Camera002.webp" alt="Elegant residential living room">
-                  <img src="assets/images/modular/chair.webp" alt="Modern residential bedroom">
-                  <img src="assets/images/modular/cloths.webp" alt="Stylish residential kitchen">
-                  <img src="assets/images/modular/homeInteriror.webp" alt="Stylish residential kitchen">
-                  <img src="assets/images/modular/greenchair.webp" alt="Stylish residential kitchen">
-                  <img src="assets/images/modular/living.webp" alt="Stylish residential kitchen">
+           <img src="assets/images/services/kitchen002_Corona Camera002.webp" alt="Commercial interior designers" title="Commercial interior designers">
+                  <img src="assets/images/modular/chair.webp" alt="Luxury interior designers in Delhi" title="Luxury interior designers in Delhi">
+                  <img src="assets/images/modular/cloths.webp" alt="Luxury interior designers" title="Luxury interior designers">
+                  <img src="assets/images/modular/homeInteriror.webp" alt="Interior designers in Delhi" title="Interior designers in Delhi">
+                  <img src="assets/images/modular/greenchair.webp" alt="Best interior designers in Delhi" title=" Best interior designers in Delhi">
+                  <img src="assets/images/modular/living.webp" alt="Top interior designers in Delhi"  title="Top interior designers in Delhi">
 
           </div>
         </div>
@@ -591,6 +604,87 @@ color: var(--black);
                            <a href="modular-furniture-2" class="learn-more-link">Learn More</a>
 
       </div>
+
+      <div class="section-container" id="section5">
+        <h2>2D 3D Design</h2>
+        <div class="carousel">
+          <!-- Carousel Images -->
+          <div class="carousel-track">
+            <img src="/assets/images/process/analyzing-architectural-designs-on-computer-monito-2025-03-06-15-12-47-ut2.webp" alt="Commercial interior designers" title="Commercial interior designers">
+            </div>
+        </div>
+        <div class="info-container">
+          <h3>Transform Your Space with Expert 2D & 3D Designs</h3>
+          <p>Present day technology is so advanced that it allows us to generate realistic 2D-3D interior images of your house</p>
+        </div>
+        
+                           <a href="/2d-3d-design-2" class="learn-more-link">Learn More</a>
+      </div>
+
+      <div class="section-container" id="section6">
+        <h2>Architectural Designing</h2>
+        <div class="carousel">
+          <!-- Carousel Images -->
+          <div class="carousel-track">
+            <img src="/images/about us.webp" alt="Commercial interior designers" title="Commercial interior designers">
+            </div>
+        </div>
+        <div class="info-container">
+          <h3>Building Timeless Structures with Innovative Architectural Design</h3>
+          <p>Present day technology is so advanced that it allows us to generate realistic 2D-3D interior images of your house. 2D layouts design is the creation of two-dimensional images for various applications like electrical, mechanical and different fittings of architecture in a residential or commercial space. It is basically the layout or diagram of property or space from above where 3D models are a potent tool for interior designers to effectively communicate designs to their clients via three-dimensional visualization, increasing project approval rates. 3D interior design shifts the control to the hands of clients by enabling them to alter or transform designs. By using 2D-3D conversions, it provides a high resolution and detailed view of the house or space and make it more appealing and alluring. With Thekedaars, it’s easy to create beautiful 3D house plans. We provide high-quality 2D and 3D Floor plans quickly and easily.</p>
+        </div>
+        
+                           <a href="/architectural-desigining-2" class="learn-more-link">Learn More</a>
+      </div>
+
+      <div class="section-container" id="section7">
+        <h2>GYM Interior Designers</h2>
+        <div class="carousel">
+          <!-- Carousel Images -->
+          <div class="carousel-track">
+            <img src="/assets/images/commercial/2.webp" alt="Commercial interior designers" title="Commercial interior designers">
+            </div>
+        </div>
+        <div class="info-container">
+          <h3>Designing Functional and Stylish Interiors for Modern Gyms</h3>
+          <p>If you have recently purchased space for your commercial fitness center and want to make it beautiful and functional, go nowhere and hire the best interior designs. But if you want to renovate your current Gym and enhance the training experience of your members, you may need a creative interior designer.</p>
+        </div>
+        
+                           <a href="/luxury-gym-interior-designers" class="learn-more-link">Learn More</a>
+      </div>
+
+      <div class="section-container" id="section8">
+        <h2>Hotel Interior Designers</h2>
+        <div class="carousel">
+          <!-- Carousel Images -->
+          <div class="carousel-track">
+            <img src="assets/images/services/Ala Restraunt_Corona Camera005.webp" alt="Commercial interior designers" title="Commercial interior designers">
+            </div>
+        </div>
+        <div class="info-container">
+          <h3>Creating Luxurious and Comfortable Interiors for Hotels</h3>
+          <p>Every area in hospitality interiors is now designed with a specific purpose in mind to meet the needs of all guests, whether they want to stay in their rooms or see hotels as a new place to conduct business, network, socialize, or unwind.</p>
+        </div>
+        
+                           <a href="/luxury-hotel-interior-designers" class="learn-more-link">Learn More</a>
+      </div>
+
+      <div class="section-container" id="section9">
+        <h2>Villa Interior Designers</h2>
+        <div class="carousel">
+          <!-- Carousel Images -->
+          <div class="carousel-track">
+            <img src="assets/images/about1.png" alt="Commercial interior designers" title="Commercial interior designers">
+            </div>
+        </div>
+        <div class="info-container">
+          <h3>Crafting Elegant and Personalized Interiors for Your Villa</h3>
+          <p>An interior designer is a licensed member of a world organization of design professionals that spreads joy and fulfills aspirations. Both the practice of interior decoration and a range of design courses are taught to them.</p>
+        </div>
+        
+                           <a href="/2d-3d-design-2" class="learn-more-link">Learn More</a>
+      </div>
+
     </div>
   </section>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>

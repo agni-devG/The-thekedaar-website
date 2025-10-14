@@ -16,7 +16,7 @@
           </div>
         </div>
         <div class="more-info-img-in">
-          <img src="assets/images/interior/3.webp" alt="Interior Design 1" loading="lazy">
+          <img src="assets/images/interior/3.webp" alt="Interior designers in Delhi" title="Interior designers in Delhi" loading="lazy">
         </div>
       </div>
     </div>
@@ -33,7 +33,7 @@
           </div>
         </div>
         <div class="more-info-img-in">
-          <img src="assets/images/interior/6.webp" alt="Interior Design 1" loading="lazy">
+          <img src="assets/images/interior/6.webp" alt="Best interior designers in Delhi" title="Best interior designers in Delhi" loading="lazy">
         </div>
       </div>
     </div>
@@ -52,7 +52,7 @@
           </div>
         </div>
         <div class="more-info-img-in">
-          <img src="assets/images/interior/9.webp" alt="Interior Design 2" loading="lazy">
+          <img src="assets/images/interior/9.webp" alt="Top interior designers in Delhi" title="Top interior designers in Delhi" loading="lazy">
         </div>
       </div>
     </div>
@@ -70,7 +70,7 @@
           </div>
         </div>
         <div class="more-info-img-in">
-          <img src="assets/images/interior/1.webp" alt="Interior Design 2" loading="lazy">
+          <img src="assets/images/interior/1.webp" alt="Interior Designer in Delhi" title="Interior Designer in Delhi" loading="lazy">
         </div>
       </div>
     </div>
@@ -91,7 +91,7 @@
           </div>
         </div>
         <div class="more-info-img-in">
-          <img src="assets/images/interior/7.webp" alt="Interior Design 2" loading="lazy">
+          <img src="assets/images/interior/7.webp" alt="Home Interior Designers" title="Home Interior Designers" loading="lazy">
         </div>
       </div>
     </div>
@@ -112,7 +112,7 @@
           </div>
         </div>
         <div class="more-info-img-in">
-          <img src="assets/images/interior/10.webp" alt="Interior Design 2" loading="lazy">
+          <img src="assets/images/interior/10.webp" alt="Residential Designers in Delhi" title="Residential Designers in Delhi" loading="lazy">
         </div>
       </div>
     </div>
@@ -126,7 +126,7 @@
           <div>
             <h3>Carpentry & Wardrobe </h3>
             <p>
-              In a fully furnished flat or own house if we don’t find any place to keep our precious things, we usually don’t love that place. What furniture would fit the interior of your home and office? Do you have extraordinary designs of furniture in your imagination? What kind of wood or carpentry work are you going to need at your location? Building wardrobes, wooden doors and windows, aluminum frames, sliding glass doors and windows, you’re going to get it from us whatever you think. The Thekedaar has the best services in Delhi for carpentry and customized furniture design.         
+              In a fully furnished flat or own house if we don’t find any place to keep our precious things, we usually don’t love that place. What furniture would fit the interior of your home and office? Do you have extraordinary designs of furniture in your imagination? What kind of wood or carpentry work are you going to need at your location? Building wardrobes, wooden doors and windows, aluminum frames, sliding glass doors and windows, you’re going to get it from us whatever you think. The Thekedaar has the best services in Delhi for carpentry and <a href="https://thethekedaar.in/modular-furniture-2" class="intrnl">customized furniture design.</a>         
             </p>
               <a href="contact-us-2" class="inline-contact-link">Contact Us</a>
 
@@ -134,7 +134,7 @@
             </div>
         </div>
         <div class="more-info-img-in">
-          <img src="assets/images/interior/11.webp" alt="Interior Design 2" loading="lazy">
+          <img src="assets/images/interior/11.webp" alt="Modern Interior Designers" title="Modern Interior Designers" loading="lazy">
         </div>
       </div>
     </div>
@@ -157,7 +157,7 @@
             </div>
         </div>
         <div class="more-info-img-in">
-          <img src="assets/images/interior/2.webp" alt="Interior Design 2" loading="lazy">
+          <img src="assets/images/interior/2.webp" alt="Interior design services in Delhi" title="Interior design services in Delhi" loading="lazy">
         </div>
       </div>
     </div>
@@ -177,7 +177,7 @@
             </div>
         </div>
         <div class="more-info-img-in">
-          <img src="assets/images/interior/2.webp" alt="Interior Design 2" loading="lazy">
+          <img src="assets/images/interior/2.webp" alt="Residential interior designers" title="Residential interior designers" loading="lazy">
         </div>
       </div>
     </div>
@@ -201,7 +201,7 @@
             </div>
         </div>
         <div class="more-info-img-in">
-          <img src="assets/images/interior/3.webp" alt="Interior Design 2" loading="lazy">
+          <img src="assets/images/interior/3.webp" alt="Commercial interior designers in Delhi" title="Commercial interior designers in Delhi" loading="lazy">
         </div>
       </div>
     </div>
@@ -228,7 +228,7 @@
             </div>
         </div>
         <div class="more-info-img-in">
-          <img src="assets/images/interior/8.webp" alt="Interior Design 2" loading="lazy">
+          <img src="assets/images/interior/8.webp" alt="Residential interior designers in Delhi" title="Residential interior designers in Delhi" loading="lazy">
         </div>
       </div>
     </div>

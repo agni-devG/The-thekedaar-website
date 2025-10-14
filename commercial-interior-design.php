@@ -16,7 +16,7 @@
     <meta property="og:url" content="https://thethekedaar.in/commercial-interior-design" />
     <link rel="stylesheet" href="https://use.typekit.net/cmr7pve.css">
 
-    <link rel="canonical" href="https://thethekedaar.in/" />
+    <?php include 'SEOhead.php'; ?>
 
     
       <!-- Favicon -->
@@ -96,11 +96,11 @@
           <main>
             <!-- Hero Section -->
             <section class="hero-section">
-          <img src="assets/images/commercial/hero.webp" alt="The Thekedaar Hero Image" class="hero-image">
-
+          <img src="assets/images/commercial/hero.webp" alt="Best interior designers in Delhi" title="Best interior designers in Delhi" class="hero-image">
+ 
           <div class="hero-content-container">
             <div class="hero-left">
-              <h1 class="h1-desktop h1-sm">The Thekedaar</h1>
+              <h1 class="h1-desktop h1-sm">Commercial Interior Design</h1>
               <p class="p1-desktop">
                 A Delhi interior design studio with a timeless, sophisticated signature approach 
                 to delivering classic and contemporary interiors.
@@ -135,7 +135,7 @@
                 <h2 class="section-title founder-heading ">Commercial Interior Design</h2>
                 
                 <div class="founder-image">
-                    <img src="assets/images/commercial/com.jpg" alt="Portrait of the company founder.">
+                    <img src="assets/images/commercial/com.jpg" alt="Best interior designers in Delhi" title="Best interior designers in Delhi">
                 </div>
                 
                 <div class="founder-details">
@@ -159,7 +159,7 @@
             <section class="enhance-section">
                 <div class="container">
                     <h2 class="section-title">Who Are We?</h2>
-                    <img src="assets/images/commercial/d1.jpg" alt="High-angle view of a modern living room with green accent chairs.">
+                    <img src="assets/images/commercial/d1.jpg" alt="Top interior designers in Delhi" title="Top interior designers in Delhi">
                     <div class="enhance-text">
                         <p>If you want to renovate your old house or give it a unique look, then you must prefer to consult a professional expert. We at Thethekedaar believe that everyone has the wish to live in their dream home. Therefore, hiring The Best Interior Designers in Delhi like us to design your home is necessary.</p>
                         <ul>
@@ -177,7 +177,7 @@
             <section class="enhance-section">
                 <div class="container">
                     <h2 class="section-title">Why it is important to have residential interior designing?</h2>
-                    <img src="assets/images/commercial/4.jpg" alt="High-angle view of a modern living room with green accent chairs.">
+                    <img src="assets/images/commercial/4.jpg" alt="Interior Designer in Delhi" title="Interior Designer in Delhi">
                     <div class="enhance-text">
                         <p>We know most of you might be wondering why it is so important to have interior designing of residential space.
         So, the answer has many layers to it. Let’s start peeling it one by one-</p>
@@ -195,7 +195,7 @@
             <section class="enhance-section">
                 <div class="container">
                     <h2 class="section-title">Why us over others?</h2>
-                    <img src="assets/images/commercial/d3.jpg" alt="High-angle view of a modern living room with green accent chairs.">
+                    <img src="assets/images/commercial/d3.jpg" alt="Home Interior Designers" title="Home Interior Designers">
                     <div class="enhance-text">
                         <p>Choosing us over others can give you an advantage over others. Because we are at Thethekedaar, not only limit ourselves to decorating the interior of the residential outlet but also make sure that there is no compromise with the building quality of the residential outlet in its final stage.</p>
                         <p>We are also one of the rarest firms, which precisely blend the artistic touch of interior designing with modern scientific procedures.</p>
@@ -214,8 +214,12 @@
             
         </main>
 
-        <!-- ======================= Footer ======================= -->
-        <?php include 'templates/footer.php'; ?>
+           <!-- ======================== f&q ============================= -->
+
+          <?php include './templates/srvc_fq/commercial_fq.php'; ?>
+    
+          <!-- ======================= Footer ======================= -->
+           <?php include 'footer.php'; ?>
     
        </div>
   </div>

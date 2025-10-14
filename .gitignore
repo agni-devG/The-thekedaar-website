@@ -20,3 +20,6 @@ uploads/
 *.sql
 
 *.zip
+
+
+fq_test.php

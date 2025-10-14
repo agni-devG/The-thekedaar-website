@@ -61,10 +61,10 @@
     <div class="footer-block">
         <h3 class="footer-heading">Socials</h3>
         <div class="social-icons">
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-pinterest-p"></i></a>
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/the._.thekedaar/"><i class="fab fa-instagram"></i></a>
+            <a href="https://in.pinterest.com/thethekedaar_delhi/"><i class="fab fa-pinterest-p"></i></a>
+            <a href="https://www.facebook.com/TheThekedaar/"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.linkedin.com/in/the-thekedaar-a95929208/"><i class="fab fa-linkedin-in"></i></a>
         </div>
     </div>
 </div>
@@ -266,8 +266,8 @@
     </footer>
 
     <!-- ======================= Copyright ======================= -->
-    <div class="copyright-container">
-        <p class="copyright-text">All rights reserved © Thethekedaar 2025</p>
+   <div class="copyright-container">
+        <p class="copyright-text">All rights reserved @ Thethekedaar 2025.<span><a href="/privacy_policy" class="min_link">Privacy Policy</a> </span> <span>  <a href="/terms_and_conditions" class="min_link">T & C</a></span></p>
     </div>
 
     <!-- Scripts -->
@@ -287,6 +287,7 @@ document.getElementById("toggle-locations").addEventListener("click", function()
 });
 </script>
 
+<?php include './templates/call_whatsapp.php'; ?>
 
 </body>
 </html>

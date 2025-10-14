@@ -13,8 +13,8 @@
     <meta name="description" content="Hire the Best interior designers in <?php echo $curPageName;?> to design your home & office. We offer Residential interior design, Commercial Design, and Retail interior design <?php echo $curPageName;?>.">
     <meta name="keywords" content="<?php echo $curPageName;?> Interior Designing Companies, Interior Designers in <?php echo $curPageName;?>, Interior Designer in <?php echo $curPageName;?>, interior design firm in <?php echo $curPageName;?>, Residential Projects in <?php echo $curPageName;?>, Interior Design in <?php echo $curPageName;?>">
     <link rel="canonical" href="<?php echo $url;?>" />
-    <link rel="icon" href="../images/logo/logo1.png">
-    <link rel="apple-touch-icon" href="../images/logo/logo1.png" />
+      <link rel="icon" href="assets\images\Logo.svg">
+    <link rel="apple-touch-icon" href="assets\images\Logo.svg" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="robots" content="index" />
     <meta content="FOLLOW, INDEX, ALL" name="robots" />

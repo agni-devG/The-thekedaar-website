@@ -60,7 +60,7 @@ width: 95px;
         <!-- Logo -->
         <div class="logo">
             <a href="index">
-                <img src="assets/images/Logo.svg" alt="The Thekedaar Logo">
+                <img src="assets/images/Logo.svg" alt="Interior designers in Delhi" title="Interior designers in Delhi">
             </a>
         </div>
 
@@ -95,7 +95,7 @@ width: 95px;
 <div class="mobile-nav" id="mobile-nav">
     <div class="mobile-nav-header" >
         <a href="index" class="logo-mobile">
-                <img src="assets/images/Logo-black.svg" alt="The Thekedaar Logo">
+                <img src="assets/images/Logo-black.svg" alt="Best interior designers in Delhi" title="Best interior designers in Delhi">
         </a>
         <button class="close-btn" id="close-btn">&times;</button>
     </div>
