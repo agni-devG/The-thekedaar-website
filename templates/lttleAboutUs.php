@@ -96,7 +96,7 @@
 }
 
 
-        <style>
+        
         /* Animation utility classes that won't conflict with existing CSS */
         .fade-in {
             opacity: 0;
