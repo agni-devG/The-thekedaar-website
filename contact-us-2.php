@@ -86,6 +86,84 @@
         .motion-element {
             will-change: transform, opacity;
         }
+
+        .message {
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.message.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.message.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+
+/* overlay */
+
+.dialog-overlay {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4); /* semi-transparent background */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.dialog-box {
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+.dialog-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #555;
+    cursor: pointer;
+}
+
+.dialog-close:hover {
+    color: #000;
+}
+
+#dialog-message {
+    font-size: 16px;
+    margin-top: 20px;
+    word-wrap: break-word;
+}
+
+@media screen and (max-width: 500px) {
+    .dialog-box {
+        padding: 20px;
+        font-size: 14px;
+    }
+}
+
+
+
+
     </style>
 </head>
 <body>
@@ -113,13 +191,13 @@
   </div>
 </section>
 
-
+        <div id="message" class="message"></div>
         <main class="contact-page">
             <!-- ======================= Contact Form Section ======================= -->
             <section class="contact-form-section">
                 <div class="container">
                     <!-- The form needs an ID to be targeted by JavaScript -->
-                    <form id="whatsapp-form" class="contact-form" action="send-mail.php" method="POST">
+                    <form id="whatsapp-form" class="contact-form"  method="POST" action="send-mail.php">
                         
                         <div class="form-grid">
                             <!-- Full Name -->
@@ -196,6 +274,15 @@
                             </div>
                         </div>
                     </form>
+
+                    <!-- Dialog Box -->
+                        <div id="form-dialog" class="dialog-overlay">
+                            <div class="dialog-box">
+                                <span id="dialog-close" class="dialog-close">&times;</span>
+                                <p id="dialog-message"></p>
+                            </div>
+                        </div>
+
                 </div>
             </section>
 
@@ -226,52 +313,92 @@
 
         <!-- ===================  Current form code  ======================= -->
 
-    <!-- <script>
-        document.getElementById('whatsapp-form').addEventListener('submit', function(e) {
-            e.preventDefault();
-            const formData = new FormData(this);
+<script>
+    // Get form elements
+const form = document.getElementById('whatsapp-form');
+const submitButton = form.querySelector('.submit-button');
+const dialog = document.getElementById('form-dialog');
+const dialogMessage = document.getElementById('dialog-message');
+const dialogClose = document.getElementById('dialog-close');
 
-            fetch('send-mail.php', {
-                method: 'POST',
-                body: formData
-            })
-            .then(res => res.text())
-            .then(result => {
-                if (result.trim() === "success") {
-                    alert("✅ Your message has been sent successfully!");
-                    this.reset();
-                } else {
-                    alert("❌ Failed to send: " + result);
-                }
-            })
-            .catch(() => alert("⚠️ Network error, please try again."));
+// Ensure dialog is hidden on page load
+dialog.style.display = 'none';
+
+// Close dialog when user clicks the close button
+dialogClose.addEventListener('click', () => {
+    dialog.style.display = 'none';
+});
+
+// Function to show the dialog with a message
+function showDialog(message, isSuccess = true) {
+    dialogMessage.textContent = message;
+    dialogMessage.style.color = isSuccess ? 'green' : 'red';
+    dialog.style.display = 'flex';
+}
+
+// Handle form submission
+form.addEventListener('submit', async function(e) {
+    e.preventDefault();
+
+    // Disable submit button immediately
+    submitButton.disabled = true;
+    submitButton.textContent = "Submitting...";
+
+    const formData = new FormData(form);
+
+    try {
+        const response = await fetch('send-mail.php', {
+            method: 'POST',
+            body: formData
         });
-    </script> -->
 
+        const result = await response.json();
 
+        // Show dialog with message
+        showDialog(result.message, result.status === 'success');
+
+        if(result.status === 'success'){
+            submitButton.textContent = "Submitted!";
+        } else {
+            // Re-enable button if error
+            submitButton.disabled = false;
+            submitButton.textContent = "Contact Us";
+        }
+
+    } catch (error) {
+        showDialog("Something went wrong. Please try again.", false);
+
+        // Re-enable button
+        submitButton.disabled = false;
+        submitButton.textContent = "Contact Us";
+    }
+});
+
+</script>
 
 
 
 
 
         <!-- ===================  Temp form code  ======================= -->
-    <script>
-            document.getElementById('whatsapp-form').addEventListener('submit', function(e) {
-                e.preventDefault();
-                const formData = new FormData(this);
+<!-- <script>
+document.getElementById('whatsapp-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const formData = new FormData(this);
 
-                fetch('send-mail.php', {
-                    method: 'POST',
-                    body: formData
-                })
-                .then(res => res.text())
-                .then(result => {
-                    console.log(result);   // <-- log full response
-                    alert(result);         // <-- see PHPMailer error
-                })
-                .catch(err => alert("Network error: " + err));
-            });
-    </script>
+    fetch('send-mail.php', {
+        method: 'POST',
+        body: formData
+    })
+    .then(res => res.text())
+    .then(result => {
+        console.log(result);
+        alert(result); // shows success or PHPMailer error
+    })
+    .catch(err => alert("Network error: " + err));
+});
+</script> -->
+
 
 
 </body>
