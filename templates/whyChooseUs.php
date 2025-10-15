@@ -2,7 +2,7 @@
 <section class="why-us-section">
     <div class="container">
         
-        <h1 class="section-title">Why chose Us? you ask</h1>
+        <h2 class="section-title">Why chose Us? you ask</h2>
         
         <div class="why-us-grid">
             <!-- Item 1 -->

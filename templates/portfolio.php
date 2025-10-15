@@ -1,5 +1,5 @@
 <div class="portfolio-header">
-  <h1 class="portfolio-title">We let our work speak for us</h1>
+  <h2 class="portfolio-title">We let our work speak for us</h2>
   <a href="portfolio" class="portfolio-btn">View Our Portfolio</a>
 </div>
 

@@ -545,7 +545,7 @@ color: var(--black);
             people move through the space. The result? A workplace that feels on-brand, works better, and leaves a
             lasting impression.</p>
         </div>
-                    <a href="renovation-2" class="learn-more-link">Learn More</a>
+                    <a href="commercial-interior-design" class="learn-more-link">Learn More</a>
       </div>
 
       <div class="section-container" id="section3">
@@ -576,7 +576,7 @@ color: var(--black);
             state or by honoring it by its original intention. With our company the soul of the old space will never be
             compromised. Its not work for us,</p>
         </div>
-                    <a href="commercial-interior-design" class="learn-more-link">Learn More</a>
+                    <a href="/renovation-2" class="learn-more-link">Learn More</a>
 
       </div>
 
@@ -682,7 +682,7 @@ color: var(--black);
           <p>An interior designer is a licensed member of a world organization of design professionals that spreads joy and fulfills aspirations. Both the practice of interior decoration and a range of design courses are taught to them.</p>
         </div>
         
-                           <a href="/2d-3d-design-2" class="learn-more-link">Learn More</a>
+                           <a href="/luxury-villa-interior-designers-in-delhi" class="learn-more-link">Learn More</a>
       </div>
 
     </div>

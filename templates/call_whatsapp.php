@@ -56,7 +56,7 @@
 
 .whatsapp-btn {
   /* background-color: #25D366; */
-  border-color: #25D366;
+  border-color: #f9f9f9;
 }
 
 /* Responsive Adjustments */

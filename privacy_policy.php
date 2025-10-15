@@ -7,13 +7,36 @@
       <meta property="og:description" content="Thethekedaar Privacy Policy" />
       <meta property="og:url" content="https://thethekedaar.in/privacy_policy" />
       <link rel="canonical" href="https://thethekedaar.in/privacy_policy">
+          <link rel="stylesheet" href="https://use.typekit.net/cmr7pve.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+
       <style>
          .content{
          padding:2%;
          }
+
+         .content h2{
+            font-size: 32px;
+            padding-top: 8px;
+         }
+
+         .content h1{
+            margin-bottom: 18px;
+         }
+
+         .content  a{
+            color: white;
+            text-decoration: none;
+            font-weight: 800;
+         }
+
+
       </style>
    </head>
    <body>
+
+   <?php include 'templates/header.php'; ?>
+
       <div class="content">
          <h1>
             <b>
@@ -68,5 +91,10 @@
          <p>Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.</p>
          <p>thethekedaar does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.</p>
       </div>
+
+      
+   <?php include 'footer.php'; ?>
+      
+
    </body>
 </html>

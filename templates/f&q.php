@@ -156,7 +156,7 @@
     <!-- ======================= FAQ Section ======================= -->
     <section class="faq-section">
     <div class="container">
-        <h1 class="h1-desktop">Frequently Asked Questions</h1>
+        <h2 class="h1-desktop">Frequently Asked Questions</h2>
         <div class="faq-container">
 
             <!-- FAQ Item 1 -->

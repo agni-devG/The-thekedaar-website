@@ -1,5 +1,5 @@
 <section class="about-info-section">
-            <h1 class="section-heading1">About Interior design</h1>
+            <h2 class="section-heading1">About Interior design</h2>
 
   <div class="carousel-wrapper-in">
 
@@ -23,7 +23,6 @@
     <div class="carousel-slide-in">
       <div class="more-info-block-in">
         <div class="more-info-text-in">
-          <!-- <h1 class="section-title">More Info on us</h1> -->
           <div>
             <h3>What’s the Difference Between an Interior Decorator and an Interior Designer?6</h3>
             <p>
@@ -42,7 +41,6 @@
     <div class="carousel-slide-in">
       <div class="more-info-block-in">
         <div class="more-info-text-in">
-          <!-- <h1 class="section-title">More Info on us</h1> -->
           <div>
             <h3>How Long Does it Take to Interior Design a House?</h3>
             <p>
@@ -61,7 +59,6 @@
     <div class="carousel-slide-in">
       <div class="more-info-block-in">
         <div class="more-info-text-in">
-          <!-- <h1 class="section-title">More Info on us</h1> -->
           <div>
             <h3>Designer False Ceiling Ideas for Your Home or Workplaces</h3>
             <p>
@@ -81,7 +78,6 @@
     <div class="carousel-slide-in">
       <div class="more-info-block-in">
         <div class="more-info-text-in">
-          <!-- <h1 class="section-title">More Info on us</h1> -->
           <div>
             <h3>Flooring Designing with Delhi Top Interior Designers</h3>
             <p>
@@ -102,7 +98,6 @@
       <div class="carousel-slide-in">
       <div class="more-info-block-in">
         <div class="more-info-text-in">
-          <!-- <h1 class="section-title">More Info on us</h1> -->
           <div>
             <h3>Design Your Kitchen in Modern Style with Us.</h3>
             <p>
@@ -122,7 +117,6 @@
       <div class="carousel-slide-in">
       <div class="more-info-block-in">
         <div class="more-info-text-in">
-          <!-- <h1 class="section-title">More Info on us</h1> -->
           <div>
             <h3>Carpentry & Wardrobe </h3>
             <p>
@@ -145,7 +139,6 @@
       <div class="carousel-slide-in">
       <div class="more-info-block-in">
         <div class="more-info-text-in">
-          <!-- <h1 class="section-title">More Info on us</h1> -->
           <div>
             <h3>Innovative Bathroom Designing Ideas for You </h3>
             <p>
@@ -165,7 +158,6 @@
       <div class="carousel-slide-in">
       <div class="more-info-block-in">
         <div class="more-info-text-in">
-          <!-- <h1 class="section-title">More Info on us</h1> -->
           <div>
             <h3>Modern Residential Interior Design in Delhi by Thethekedaar </h3>
             <p>
@@ -187,7 +179,6 @@
     <div class="carousel-slide-in">
       <div class="more-info-block-in">
         <div class="more-info-text-in">
-          <!-- <h1 class="section-title">More Info on us</h1> -->
           <div>
             <h3>Office Interior Design for Your Workspace with Famous Interior Designers in Delhi</h3>
             <p>
@@ -210,7 +201,6 @@
     <div class="carousel-slide-in">
       <div class="more-info-block-in">
         <div class="more-info-text-in">
-          <!-- <h1 class="section-title">More Info on us</h1> -->
           <div>
             <h3>Commercial Interiors Design with Thethekedaar</h3>
             <p >

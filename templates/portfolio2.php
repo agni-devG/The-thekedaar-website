@@ -1,5 +1,5 @@
 <div class="container cta-content">
-  <h1>Residential</h1>
+  <h2>Residential</h2>
 </div>
 
 <!-- Section 1 -->
@@ -55,7 +55,7 @@
     
 </section>
 <div class="container cta-content">
-  <h1>Commercial</h1>
+  <h2>Commercial</h2>
 </div>
 <!-- Section 2 -->
 <section class="portfolio-cta-section">
@@ -95,7 +95,7 @@
 
 
 <div class="container cta-content">
-  <h1>Renovation</h1>
+  <h2>Renovation</h2>
 </div>
 <!-- Section 3 -->
 <section class="portfolio-cta-section">
@@ -221,7 +221,7 @@
   position: relative;
 }
 
-.cta-content h1 {
+.cta-content h2 {
     margin-bottom: 30px;
     margin-top: 70px;
   /* font-size: 48px; */
@@ -314,7 +314,7 @@ margin-top: 154px;
   }
 
   /* H1 */
-  .cta-content h1 {
+  .cta-content h2 {
     order: 1;
     font-size: 36px;
     margin: 20px 0 10px 8px;

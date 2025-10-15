@@ -3,7 +3,7 @@
     
   
   <section class="define-homes-section">
-                                       <h1 class="h1-desktop11">A little about us</h1>
+                                       <h2 class="h1-desktop11">A little about us</h2>
 
         <div class="container define-homes-grid1">
             <div class="define-homes-text fade-in">

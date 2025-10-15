@@ -19,7 +19,7 @@
 <section class="why-us-section">
     <div class="container">
         
-        <h1 class="section-title" style="padding-left:0">What we can do for you</h1>
+        <h2 class="section-title" style="padding-left:0">What we can do for you</h2>
         
         <div class="why-us-grid">
             <!-- Item 1 -->

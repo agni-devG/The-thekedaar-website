@@ -8,6 +8,12 @@
       <meta property="og:description" content="Thethekedaar Term & Conditions" />
       <meta property="og:url" content="https://thethekedaar.in/terms_and_conditions" />
       <link rel="canonical" href="https://thethekedaar.in/terms_and_conditions">
+      <link rel="stylesheet" href="/assets/css/style.css">
+       <link rel="stylesheet" href="https://use.typekit.net/cmr7pve.css">
+
+
+
+      
       <style>
          .content{
          padding:2%;
@@ -15,6 +21,7 @@
       </style>
    </head>
    <body>
+      <?php include 'templates/header.php'; ?>
       <div class="content">
          <center>
             <h1><strong>Terms and Conditions</strong></h1>
@@ -98,4 +105,7 @@
          <p>As long as the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature.</p>
       </div>
    </body>
+
+      <?php include 'footer.php'; ?>
+
 </html>

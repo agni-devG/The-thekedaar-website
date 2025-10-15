@@ -1,6 +1,6 @@
 <section class="more-info-section">
 
-              <h1 class="section-heading1">More Info on us</h1>
+              <h2 class="section-heading1">More Info on us</h2>
 
 
   <div class="carousel-wrapper">

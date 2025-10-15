@@ -64,7 +64,7 @@ ul{
     <div class="containerh">
         <!-- Logo -->
         <div class="logo">
-            <a href="index.php">
+            <a href="https://thethekedaar.in/">
                 <img src="../assets/images/Logo.svg" alt="The Thekedaar Logo">
             </a>
         </div>

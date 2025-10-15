@@ -59,7 +59,7 @@ width: 95px;
     <div class="container">
         <!-- Logo -->
         <div class="logo">
-            <a href="index">
+            <a href="https://thethekedaar.in/">
                 <img src="assets/images/Logo.svg" alt="Interior designers in Delhi" title="Interior designers in Delhi">
             </a>
         </div>

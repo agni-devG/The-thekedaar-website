@@ -31,6 +31,11 @@
     color: var(--black);
 }
 
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
      </style>
     <footer class="main-footer">
         <div class="container-f">
@@ -43,8 +48,8 @@
                         <h3 class="footer-heading">Contact Us</h3>
                         <div class="contact-details">
                             <p><span class="label">Address</span> 87/1, 3rd Floor, Block 2, WHS Kirti Nagar, Delhi 110015</p>
-                            <p><span class="label">WhatsApp</span> +91 9777055555</p>
-                            <p><span class="label">Email</span> info@thethekedaar.in</p>
+                            <p><span class="label">WhatsApp</span><a href="https://api.whatsapp.com/send?phone=919777705555&text=Hello, I am looking for Interior Design Service. Can you help me?" target="_blank" aria-label="Chat on WhatsApp"> +91 9777055555</a></p>
+                            <p><span class="label">Email</span> <a href="mailto:info@thethekedaar.in?subject=Website%20Inquiry&">info@thethekedaar.in</a></p>
                         </div>
                     </div>
                     <!-- About Us -->

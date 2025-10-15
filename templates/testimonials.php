@@ -1,4 +1,4 @@
-<h1 class="testh2">Our clients love us.</h1>
+<h2 class="testh2">Our clients love us.</h2>
 
 <section class="testimonials-section">
   <div class="testimonial-slider-container">

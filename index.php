@@ -67,7 +67,7 @@
  <section class="about-homes">
     <div class="container about-homes-grid">
         <div class="about-homes-text">
-            <h1 class="about-homes-title">We are Commercial & Residential Interior Designers in Delhis</h1>
+            <h1 class="about-homes-title">We are Commercial & Residential Interior Designers in Delhi</h1>
             <p class="about-homes-desc">
                 When it comes to your home you want everything to be perfect. Home Interior plus is an exceptional choice for designing the interiors of your home. Your preference is our first priority. This is the choice of one of the Best Interior Designers in Delhi NCR who will enhance the beauty of your home.
             </p>
