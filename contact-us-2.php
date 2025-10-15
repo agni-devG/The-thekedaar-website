@@ -226,7 +226,7 @@
 
         <!-- ===================  Current form code  ======================= -->
 
-    <script>
+    <!-- <script>
         document.getElementById('whatsapp-form').addEventListener('submit', function(e) {
             e.preventDefault();
             const formData = new FormData(this);
@@ -246,116 +246,32 @@
             })
             .catch(() => alert("⚠️ Network error, please try again."));
         });
-    </script>
-
-
-
-
-        <!-- ===================  Previous form code  ======================= -->
-    <!-- <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            // Initialize Framer Motion animations
-            if (typeof motion !== 'undefined') {
-                // Hero section animation
-                const heroContent = document.querySelector('.hero-content-container');
-                if (heroContent) {
-                    motion(heroContent).initial({ opacity: 0, y: 20 })
-                                      .animate({ opacity: 1, y: 0 })
-                                      .transition({ duration: 0.8, ease: "easeOut" });
-                }
-
-                // Form section animation
-                const formSections = document.querySelectorAll('.form-group, .form-group-tags');
-                formSections.forEach((section, index) => {
-                    motion(section).initial({ opacity: 0, x: -20 })
-                                  .animate({ opacity: 1, x: 0 })
-                                  .transition({ duration: 0.5, delay: index * 0.1, ease: "easeOut" });
-                });
-
-                // Submit button animation
-                const submitButton = document.querySelector('.submit-button');
-                if (submitButton) {
-                    motion(submitButton).hover(
-                        { scale: 1.05 },
-                        { duration: 0.2 }
-                    ).tap(
-                        { scale: 0.95 }
-                    );
-                }
-
-                // Form radio buttons animation
-                const radioLabels = document.querySelectorAll('.tag-group label');
-                radioLabels.forEach(label => {
-                    motion(label).hover(
-                        { scale: 1.03 },
-                        { duration: 0.2 }
-                    );
-                });
-
-                // Map section animation
-                const mapSection = document.querySelector('.map-section');
-                if (mapSection) {
-                    motion(mapSection).initial({ opacity: 0 })
-                                     .animate({ opacity: 1 })
-                                     .transition({ duration: 1, delay: 0.5 });
-                }
-            }
-
-            // ======================= WhatsApp Form Submission =======================
-            const whatsappForm = document.getElementById('whatsapp-form');
-
-            // Only run this code if the form exists on the current page
-            if (whatsappForm) {
-                
-                whatsappForm.addEventListener('submit', function(e) {
-                    e.preventDefault(); // Prevent the default form submission
-
-                    // IMPORTANT: Replace this with your own WhatsApp number in international format
-                    // Do NOT include '+' or '00'. For example, if your number is +91 12345 67890, use 911234567890
-                    const phoneNumber = '8192812557'; 
-
-                    // Get form values
-                    const fullName = document.getElementById('full-name').value;
-                    const email = document.getElementById('email').value;
-                    
-                    // Get the value of the selected radio button for each group
-                    const service = document.querySelector('input[name="service"]:checked').value;
-                    const location = document.querySelector('input[name="location"]:checked').value;
-                    const budget = document.querySelector('input[name="budget"]:checked').value;
-
-                    // Construct the message
-                    const message = `Hello, I'd like to book an appointment.\n\n` +
-                                    `*Full Name:* ${fullName}\n` +
-                                    `*Email:* ${email}\n\n` +
-                                    `*Interested Service:* ${service}\n` +
-                                    `*Project Location:* ${location}\n` +
-                                    `*Estimated Budget:* ${budget}\n\n` +
-                                    `Looking forward to hearing from you.`;
-
-                    // Encode the message for the URL
-                    const encodedMessage = encodeURIComponent(message);
-
-                    // Create the WhatsApp URL
-                    const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
-
-                    // Add animation to the button before redirecting
-                    const submitBtn = document.querySelector('.submit-button');
-                    if (typeof motion !== 'undefined' && submitBtn) {
-                        motion(submitBtn).animate({ 
-                            scale: [1, 0.9, 1],
-                            backgroundColor: ["#yourColor", "#successColor"] 
-                        }).transition({ duration: 0.5 }).then(() => {
-                            // Redirect the user to WhatsApp after animation
-                            window.open(whatsappURL, '_blank');
-                        });
-                    } else {
-                        // Redirect immediately if motion is not available
-                        window.open(whatsappURL, '_blank');
-                    }
-                });
-            }
-        });
     </script> -->
+
+
+
+
+
+
+
+        <!-- ===================  Temp form code  ======================= -->
+    <script>
+            document.getElementById('whatsapp-form').addEventListener('submit', function(e) {
+                e.preventDefault();
+                const formData = new FormData(this);
+
+                fetch('send-mail.php', {
+                    method: 'POST',
+                    body: formData
+                })
+                .then(res => res.text())
+                .then(result => {
+                    console.log(result);   // <-- log full response
+                    alert(result);         // <-- see PHPMailer error
+                })
+                .catch(err => alert("Network error: " + err));
+            });
+    </script>
 
 
 </body>

@@ -53,11 +53,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     }
 } else {
     echo "Invalid request";
-}
+} 
 
-catch (Exception $e) {
-    echo "Mailer Error: {$mail->ErrorInfo}";
-}
+
 
 
 ?>
