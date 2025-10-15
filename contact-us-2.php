@@ -197,7 +197,7 @@
             <section class="contact-form-section">
                 <div class="container">
                     <!-- The form needs an ID to be targeted by JavaScript -->
-                    <form id="whatsapp-form" class="contact-form"  method="POST" action="send-mail.php">
+                    <form id="whatsapp-form" class="contact-form"  method="POST" action="send-mail">
                         
                         <div class="form-grid">
                             <!-- Full Name -->
