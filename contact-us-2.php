@@ -8,7 +8,7 @@
     <meta content="FOLLOW, INDEX, ALL" name="robots" />
 
     
-    <<title>CONTACT US - Thethekedaar</title>
+    <title>CONTACT US - Thethekedaar</title>
     <meta name="description" content="Send LET&#8217;S TALK Email us any questions and inquiries or call &#8230;&#8230; We would be happy to answer your questions and set up a meeting with you. Thekedaars at your service. BR OFFICE Black Street 12 Berlin, Germany +312345 654 [&hellip;]">
     <meta property="og:title" content="CONTACT US - Thethekedaar" />
     <meta property="og:description" content="Send LET&#8217;S TALK Email us any questions and inquiries or call &#8230;&#8230; We would be happy to answer your questions and set up a meeting with you. Thekedaars at your service. BR OFFICE Black Street 12 Berlin, Germany +312345 654 [&hellip;]" />
@@ -119,7 +119,7 @@
             <section class="contact-form-section">
                 <div class="container">
                     <!-- The form needs an ID to be targeted by JavaScript -->
-                    <form id="whatsapp-form" class="contact-form">
+                    <form id="whatsapp-form" class="contact-form" action="send-mail.php" method="POST">
                         
                         <div class="form-grid">
                             <!-- Full Name -->
@@ -221,7 +221,38 @@
   </div>
     
     <script src="assets/js/main.js"></script>
+
+
+
+        <!-- ===================  Current form code  ======================= -->
+
     <script>
+        document.getElementById('whatsapp-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const formData = new FormData(this);
+
+            fetch('send-mail.php', {
+                method: 'POST',
+                body: formData
+            })
+            .then(res => res.text())
+            .then(result => {
+                if (result.trim() === "success") {
+                    alert("✅ Your message has been sent successfully!");
+                    this.reset();
+                } else {
+                    alert("❌ Failed to send: " + result);
+                }
+            })
+            .catch(() => alert("⚠️ Network error, please try again."));
+        });
+    </script>
+
+
+
+
+        <!-- ===================  Previous form code  ======================= -->
+    <!-- <script>
         document.addEventListener('DOMContentLoaded', function () {
             // Initialize Framer Motion animations
             if (typeof motion !== 'undefined') {
@@ -324,7 +355,7 @@
                 });
             }
         });
-    </script>
+    </script> -->
 
 
 </body>
