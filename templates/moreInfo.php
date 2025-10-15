@@ -25,7 +25,6 @@
     <div class="carousel-slide">
       <div class="more-info-block">
         <div class="more-info-text">
-          <!-- <h1 class="section-title">More Info on us</h1> -->
           <div>
             <h3>Design your Home in Your Style</h3>
             <p>
@@ -43,7 +42,6 @@
     <div class="carousel-slide">
       <div class="more-info-block">
         <div class="more-info-text">
-          <!-- <h1 class="section-title">More Info on us</h1> -->
           <div>
             <h3>Good Planning</h3>
             <p>
@@ -62,7 +60,6 @@
     <div class="carousel-slide">
       <div class="more-info-block">
         <div class="more-info-text">
-          <!-- <h1 class="section-title">More Info on us</h1> -->
           <div>
             <h3>Works as Per Your Budget</h3>
             <p>
@@ -83,7 +80,6 @@
     <div class="carousel-slide">
       <div class="more-info-block">
         <div class="more-info-text">
-          <!-- <h1 class="section-title">More Info on us</h1> -->
           <div>
             <h3>Modern Tools</h3>
             <p>
@@ -101,7 +97,6 @@
     <div class="carousel-slide">
       <div class="more-info-block">
         <div class="more-info-text">
-          <!-- <h1 class="section-title">More Info on us</h1> -->
           <div>
             <h3>Creative Ideas</h3>
             <p>
