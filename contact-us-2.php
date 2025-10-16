@@ -130,8 +130,11 @@
     max-width: 400px;
     width: 90%;
     text-align: center;
-    font-family: Arial, sans-serif;
+    font-family: "Aloevera Display", sans-serif;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .dialog-close {
@@ -278,6 +281,7 @@
                     <!-- Dialog Box -->
                         <div id="form-dialog" class="dialog-overlay">
                             <div class="dialog-box">
+                                <img src="/assets/images/Logo-black.svg" alt="Residential Designers in Delhi" title="Residential Designers in Delhi" style="max-width: 80px;">
                                 <span id="dialog-close" class="dialog-close">&times;</span>
                                 <p id="dialog-message"></p>
                             </div>
