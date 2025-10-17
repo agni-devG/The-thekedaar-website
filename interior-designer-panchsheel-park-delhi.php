@@ -169,10 +169,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 }
 
 
-img{
-    width: 100%;
-    height: auto;
-}
+
 
       </style>
 <script>

@@ -270,7 +270,7 @@
                         </div>
 
                         <div class="form-footer">
-                            <button type="submit" class="submit-button">Contact Us</button>
+                            <button type="submit" class="submit-button">Submit Now</button>
                             <div class="help-text">
                                 <h3>Help us get this right</h3>
                                 <p>Tell us a little about your remote project. This helps us giving you a better experience through our conversations.</p>
