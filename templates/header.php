@@ -67,6 +67,7 @@ width: 95px;
         <!-- Desktop Navigation -->
         <nav class="nav-desktop">
             <ul>
+                <li><a href="index">Home</a></li>
                 <li><a href="aboutus">About us</a></li>
                 <!-- Services link with Dropdown -->
                 <li class="has-dropdown">
@@ -76,6 +77,11 @@ width: 95px;
                         <li><a href="commercial-interior-design">Commercial Interior Design</a></li>
                         <li><a href="renovation-2">Renovation</a></li>
                         <li><a href="modular-furniture-2">Modular Furniture</a></li>
+                        <li><a href="/2d-3d-design-2">2D 3D Design</a></li>
+                        <li><a href="/architectural-desigining-2">Architectural Designing</a></li>
+                        <li><a href="/luxury-gym-interior-designers">GYM Interior Designers</a></li>
+                        <li><a href="/luxury-hotel-interior-designers">Hotel Interior Designers</a></li>
+                        <li><a href="/luxury-villa-interior-designers-in-delhi">Villa Interior Designers</a></li>
                     </ul>
                 </li>
                 <li><a href="portfolio">Portfolio</a></li>

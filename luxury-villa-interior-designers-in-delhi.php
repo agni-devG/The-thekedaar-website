@@ -22,7 +22,91 @@
         <meta property="twitter:url" content="https://thethekedaar.in/luxury-villa-interior-designers-in-delhi">
         <meta name="twitter:title" content="Luxury Villa Interior Designers in Delhi In Your Budget and Style">
         <meta name="twitter:description" content="Looking for luxury villa interior designers in Delhi. TheThekedaar helps you find personalized designs that suit your taste and budget. ">
-    <?php include 'SEOhead.php'; ?>
+   
+        <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does villa interior design cost in Delhi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost usually starts from ₹2,000 per sq. ft. and depends on the size, materials, and design preferences."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does it take to complete a villa interior project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "On average, it takes 2 to 4 months, depending on the project’s size and complexity."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you provide 3D designs before starting work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We provide detailed 2D and 3D designs so you can see how your villa will look before execution."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you include custom furniture in villa interiors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. We create custom luxury furniture that fits perfectly with your villa’s space and theme."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What color schemes are best for villas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Soft neutrals, warm browns, and pastel tones are most popular for creating a cozy yet elegant feel."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What makes Thekedaar different from other designers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We focus on quality, creativity, and on-time delivery, all at competitive prices."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can The Thekedaar design luxury villa kitchens too?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We design modular kitchens with premium finishes, smart storage, and elegant layouts for a functional and stylish experience."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is your process for villa interior design?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our process includes consultation, design concept, 3D visualization, material selection, execution, and final handover."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is The Thekedaar known as one of the best villa interior designers in Delhi NCR?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We deliver premium designs, on-time execution, transparent pricing, and complete client satisfaction."
+      }
+    }
+  ]
+}
+</script>
+
+
+
+        <?php include 'SEOhead.php'; ?>
     
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/fav.png">

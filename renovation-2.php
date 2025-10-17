@@ -14,8 +14,102 @@
     <meta property="og:title" content="Renovation Services available in Delhi NCR" />
     <meta property="og:description" content=" RENOVATION Technology has significantly impacted the renovation process, enhancing its importance and strength. Please let us know what you need so we can help." />
     <meta property="og:url" content="https://thethekedaar.in/renovation-2" />
+    <link rel="canonical" href="https://thethekedaar.in/renovation-2">
+    
     <?php include 'SEOhead.php'; ?>
     
+    <!-- SCHEMA FAQs -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does home renovation cost in Delhi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Home renovation costs depend on the size and scope of work. Minor renovations cost ₹500–1,500 per sq. ft., while full home renovations range between ₹1,500–3,500 per sq. ft. Luxury or customized renovations may cost more."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does it cost to renovate a 2 BHK in Delhi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "On average, renovating a 2 BHK in Delhi costs ₹8–20 lakh, depending on materials, finishes, and design complexity."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does it cost to renovate a 3 BHK in Delhi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A 3 BHK renovation typically costs ₹15–35 lakh, based on materials, design complexity, and furniture requirements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the benefits of home renovation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Renovating your home improves functionality, enhances aesthetics, increases property value, and boosts energy efficiency through smart materials and lighting."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Thethekedaar handle full home renovation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! Thethekedaar manages complete home renovations including flooring, walls, ceilings, kitchens, bathrooms, furniture, lighting, and décor."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does a home renovation take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Typical renovation timelines: Minor (2–6 weeks), 2 BHK (6–10 weeks), 3 BHK (10–16 weeks), and large or luxury renovations (4–6 months)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Thethekedaar renovate old or heritage homes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! Thethekedaar specializes in renovating old or heritage homes while maintaining their structural integrity and traditional charm."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is included in a typical renovation project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A standard renovation project includes flooring and wall finishes, painting, kitchen and bathroom remodeling, electrical and lighting work, and furniture or décor upgrades."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does office renovation cost in Delhi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Office renovation costs vary by size and design. Small offices cost ₹1,200–₹2,500 per sq. ft., medium offices ₹2,500–₹4,000 per sq. ft., while premium designs cost more based on materials and furniture."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can renovation increase the resale value of my home?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! A well-planned and professionally executed renovation can significantly enhance your home’s market value and buyer appeal."
+      }
+    }
+  ]
+}
+</script>
+
+
+
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/fav.png">
@@ -60,7 +154,7 @@
     <div class="hero-left">
       <h1 class="h1-desktop h1-sm">Renovation</h1>
       <p class="p1-desktop">
-             We create homes that feel luxurious and personal, with every detail designed to reflect your unique style and comfort.
+             Breathe new life into your space with. From modern upgrades to complete transformations, we make your vision a reality.
 
       </p>
     </div>

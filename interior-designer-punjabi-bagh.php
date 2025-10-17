@@ -27,6 +27,11 @@
     max-width: 95%;
 }
 
+img{
+    width: 100%;
+    height: auto;
+}
+
 .fcf-form-group {
     margin-bottom: 1rem;
 }

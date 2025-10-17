@@ -360,7 +360,7 @@ max-width: 99.6%;
         <div class="row justify-content-between align-items-center">
         <div class="col-12 col-lg-6">
         <div class="about-thumb text-center">
-        <img src="/thethekedaar_images/rajori_garden/interior-designer-in-rajori-garden.jpg" alt="Thethekedaar"  style="border-radius: 5%;">
+        <img src="/thethekedaar_images/rajori_garden/interior-designer-in-rajori-garden.jpg" alt="Thethekedaar"  style="border-radius: 5%; width:100%; height:auto;">
         </div>
         </div>
         <div class="col-12 col-lg-6">

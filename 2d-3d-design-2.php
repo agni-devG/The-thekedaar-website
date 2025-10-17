@@ -17,6 +17,82 @@
     <link rel="canonical" href="https://thethekedaar.in/2d-3d-design-2">
     <?php include 'SEOhead.php'; ?>
     
+    <!-- FAQs Schema -->
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is 2D design in architecture and interiors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "2D design refers to flat drawings or plans that show the layout of your space, including floor plans, furniture placement, walls, doors, and windows."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is 3D design or 3D visualization?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "3D design transforms 2D plans into realistic visual models, allowing you to see exactly how your space will look with lighting, textures, colors, and furniture before construction begins."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is 3D design important?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "3D design helps you visualize your project before execution, minimizes errors, and ensures better communication and clarity between clients, designers, and contractors."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What’s the difference between 2D and 3D design?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "2D design provides flat technical drawings for planning and measurements, while 3D design offers realistic visualizations for presentation and aesthetics. Together, they ensure accuracy and creativity in your project."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much do 2D and 3D design services cost in Delhi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost depends on project size and complexity. 2D drawings usually cost ₹30–₹50 per sq. ft., while 3D renders range from ₹2,000–₹8,000 per view. Premium 3D walkthroughs or animations may cost more."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Thethekedaar provide both 2D and 3D designs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Thethekedaar offers complete 2D and 3D design solutions for residential, commercial, and architectural projects."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does it take to complete 3D renders?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "3D renderings typically take 3–7 days per space, depending on complexity, level of detail, and number of revisions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Thethekedaar design both interiors and exteriors in 3D?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We provide complete 3D visualization services for interiors, exteriors, landscaping, and architectural facades."
+      }
+    }
+  ]
+}
+</script>
+
+
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/fav.png">
     <link rel="icon" type="image/x-icon" href="/assets/images/fav.png">

@@ -25,6 +25,20 @@ $path = strtok($path, '?'); // removes any query parameters
 <!-- ✅ Canonical Tag -->
 <link rel="canonical" href="<?php echo htmlspecialchars($canonical_url, ENT_QUOTES, 'UTF-8'); ?>" />
 
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv = 'content-language' content = 'en'>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="index" />
+<meta content="FOLLOW, INDEX, ALL" name="robots" />
+<meta content="yes" name="ALLOW-SEARCH" />
+<meta content="all" name="AUDIENCE" />
+<meta content="index, follow" name="YahooSeeker" />
+<meta content="index, follow" name="msnbot" />
+<meta content="index, follow" name="googlebot" />
+<meta name="author" content="The Thakedaar">
+<meta property="article:modified_time" content="2022-09-24T17:54:59+00:00" />
+
 
 
 

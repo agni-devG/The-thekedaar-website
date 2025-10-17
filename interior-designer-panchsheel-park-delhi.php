@@ -167,6 +167,13 @@ label.fcf-label {
 input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
     width: 100%;
 }
+
+
+img{
+    width: 100%;
+    height: auto;
+}
+
       </style>
 <script>
 	function onlyNumberKey(evt) {

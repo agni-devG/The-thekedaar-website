@@ -17,6 +17,67 @@
     <link rel="canonical" href="https://thethekedaar.in/architectural-desigining-2">
     <?php include 'SEOhead.php'; ?>
     
+
+    <!-- FAQs Schema -->
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does architectural designing cost in Delhi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of architectural design in Delhi depends on project size and complexity. Residential projects usually cost ₹100–₹400 per sq. ft., while commercial projects range from ₹200–₹800 per sq. ft. Premium or luxury designs may cost more."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What services do architectural designers offer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Architectural designers offer a wide range of services including concept planning and design, 2D & 3D drawings, structural design and space planning, landscaping and elevation design, interior and exterior coordination, and project supervision or site consultation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between architecture and interior design?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Architecture focuses on the building’s structure, layout, and functionality, while interior design emphasizes aesthetics, furniture, and finishes inside the space."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Thethekedaar handle both design and construction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Thethekedaar provides complete architectural and construction services, managing everything from initial concept drawings to final project handover."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can architectural designs be customized as per my needs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Every architectural design by Thethekedaar is tailored to your lifestyle, site conditions, and budget—from layout planning to material selection."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does architectural design add value to my property?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Good architectural design enhances functionality, improves aesthetic appeal, and significantly increases your property’s resale value."
+      }
+    }
+  ]
+}
+</script>
+
+
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/fav.png">
     <link rel="icon" type="image/x-icon" href="/assets/images/fav.png">

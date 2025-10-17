@@ -25,7 +25,68 @@
       <meta name="twitter:title" content=" Luxury Hotel Interior Designers in Delhi | Hotel Room Interior 2022 ">
       <meta name="twitter:description" content=" TheThekedaar is luxury hotel interior designers in Delhi. Hotel room interior design within your budget. Call us today to get the best interior design services! ">
       <meta name="twitter:image" content="https://thethekedaar.in/images/logo/logo1.png">
-    <?php include 'SEOhead.php'; ?>
+    
+    
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does hotel interior design cost in Delhi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of hotel interior design in Delhi generally ranges between ₹1,500 and ₹3,500 per sq. ft., depending on materials, design complexity, and customization level."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the latest trends in hotel interiors in Delhi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The latest trends include sustainable materials, biophilic elements, modern luxury furniture, smart lighting, and locally inspired décor — all reflecting the modern hotel interior design style in Delhi."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you design both small and large hotels?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Thethekedaar designs boutique hotels, business hotels, and luxury resorts — each with a unique and customized design concept."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What kind of furniture is best for hotels?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Durable, stylish, and easy-to-maintain furniture that complements the hotel’s theme and enhances guest comfort is ideal for hotel interiors."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you make compact hotel rooms feel larger?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "By using smart layouts, light colors, mirrors, and minimalistic furniture, we create a spacious and airy feel even in smaller hotel rooms."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does a hotel interior design project take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most hotel interior design projects take between 3–8 months, depending on the hotel's size, customization level, and furnishing requirements."
+      }
+    }
+  ]
+}
+</script>
+
+    
+    
+      <?php include 'SEOhead.php'; ?>
     
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/fav.png">

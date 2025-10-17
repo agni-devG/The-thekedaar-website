@@ -6,16 +6,16 @@
     <h3 class="fcf-h3"><center>Talk to an Interior Designer</center></h3>
     <br><p>If you would like to get in contact with the Thethekedaar Interior, you have a number of options you can call or mail to below option, our team will support you as soon as possible.</p><br>
 <div class="blog-thumb">
-<!-- <a href="https://thethekedaar.in/thethekedaar_images/thethekedaar.pdf"><img src="https://thethekedaar.in/thethekedaar_images/thethekedaar-profile.png" alt="Thethekedaar Profile" height="250px" style="padding:2%"></a> -->
+<a href="https://thethekedaar.in/images/thethekedaar.pdf"><img src="https://thethekedaar.in/images/thethekedaar-profile.png" alt="Thethekedaar Profile" height="250px" style="padding:2%"></a>
 </div>
 </div>
-</div>
+</div>  
 </div>
 <div class="col-12 col-lg-6">
     <h3 class="fcf-h3"><center>Query Form</center></h3>
 <div class="fcf-body" style="background-color: #FAEFDF; ">
     <div id="fcf-form">
-    <form id="fcf-form-id" class="fcf-form-class" method="post" action="./php/location_form">
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="./php/location_form.php">
         <div class="fcf-form-group">
             <!--<label for="Name" class="fcf-label">Your name</label>-->
             <div class="fcf-input-group">

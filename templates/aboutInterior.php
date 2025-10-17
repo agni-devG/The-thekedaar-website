@@ -161,7 +161,7 @@
           <div>
             <h3>Modern Residential Interior Design in Delhi by Thethekedaar </h3>
             <p>
-                We deliver outstanding residential interior designers in Delhi. Our interior design business builds a home that complements the dynamic ways the environment adapts. From design to execution, We develop practical solutions for residential home interiors.
+                We deliver outstanding <a href="https://thethekedaar.in/residential-interior-desigining" class="intrnl">residential interior designers in Delhi</a>. Our interior design business builds a home that complements the dynamic ways the environment adapts. From design to execution, We develop practical solutions for residential home interiors.
             </p>
               <a href="contact-us-2" class="inline-contact-link">Contact Us</a>
 
@@ -184,7 +184,7 @@
             <p>
 
 
-            We an interior design consultancy, combine luxury residential styling with our client’s financial requirements. Our interior design company offers first-class service or various color variations, and textures for the office interior decorations venue. Our business provides interior design at an affordable price for offices.
+            We an <a href="https://thethekedaar.in/best-interior-designers-gurgaon" class="intrnl">interior design consultancy</a> , combine luxury residential styling with our client’s financial requirements. Our interior design company offers first-class service or various color variations, and textures for the office interior decorations venue. Our business provides interior design at an affordable price for offices.
             </p>
               <a href="contact-us-2" class="inline-contact-link">Contact Us</a>
 
@@ -204,7 +204,7 @@
           <div>
             <h3>Commercial Interiors Design with Thethekedaar</h3>
             <p >
-                As we are an interior design company in Delhi, we provide customers with the finest commercial interior designers in Delhi. 
+                As we are an interior design company in Delhi, we provide customers with the finest <a href="https://thethekedaar.in/commercial-interior-design" class="intrnl">commercial interior designers</a> in Delhi. 
                 The working atmosphere represents the culture and ideals that you create for society. We are offering you modernized designs and interior solutions for Luxury Hotels & Leisure areas.
 
                 We emphasize transparent relationships between our business and our customers. We are among the best and super fast interior designing companies in Delhi NCR. By giving our customers the best interior and exterior designs and our loyalty, we earned our credibility.

@@ -2,12 +2,13 @@
   <div class= "main1"> 
     
   
-  <section class="define-homes-section">
-                                       <h2 class="h1-desktop11">A little about us</h2>
-
+      <h2 class="h1-desktop11" style="margin-left: 12px;">A little about us</h2>
+  
+      <section class="define-homes-section">
+  
         <div class="container define-homes-grid1">
             <div class="define-homes-text fade-in">
-
+  
                 <p class="p1-desktop">The Thethekedaar.in Home is where emotion resides, memories are made, and laughter never ends. We make one for you because, in their home, people are typically happiest, and that's what our ultimate motto is, making our customers happy. There is far more to interior design than making the furniture perfect. It's about making individuals happy, whether functionally, aesthetically, or emotionally. And we aim to provide a range of exquisite, friendly yet practical solutions for our customers to best use the room in question. We aim to maximize our clients' experience by better utilizing the space available in the environment involved. We listen to your needs and, based on your requirements, focus on solutions that maximize their use.</p>
             </div>
             <div class="define-homes-image scale-in">
@@ -15,6 +16,20 @@
             </div>
         </div>
     </section>
+      <section class="define-homes-section">
+
+        <div class="container define-homes-grid1">
+            <div class="define-homes-text fade-in">
+
+                <p class="p1-desktop">At <a href="https://thethekedaar.in/" class="intrnl">Delhi interior design services</a>, we have an excellent but challenging job keeping current with both design trends and personalized consumer taste. Thus by deciding space requirements and choosing decorative objects, such as colors, lighting, and materials, we make our most significant efforts to make interior spaces usable, safe, and beautiful. They read blueprints and must be mindful of building codes and legislation for inspection, as well as essential requirements for accessibility.</p>
+            </div>
+            <div class="define-homes-image scale-in">
+                <img src="assets/images/about/1.webp" alt="Best interior designers in Delhi" title="Best interior designers in Delhi">
+            </div>
+        </div>
+    </section>
+
+
 
 
     <section class="define-homes-section">
@@ -101,7 +116,7 @@
         .fade-in {
             opacity: 0;
             transform: translateY(20px);
-            transition: opacity 0.8s ease, transform 0.8s ease;
+            transition: opacity 0.2s ease, transform 0.2s ease;
         }
         
         .fade-in.visible {

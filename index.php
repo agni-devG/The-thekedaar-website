@@ -1,16 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <meta name="robots" content="index" />
-    <meta content="FOLLOW, INDEX, ALL" name="robots" />
-
-
     <title>Luxury Interior Designers in Delhi 2025 - Thethekedaar | Call Now</title>
-      <meta name="description" content="Luxury Interior Designer in Delhi, Thethekedaar has Years of experience- Call Now at 9777705555. Get Affordable Home Interiors from us.">
-      <meta name="keywords" content="Interior Designers in Delhi, Luxury Interior Designers in Delhi, Luxury Interior Designers,Thethekedaar">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index" />
+    <meta content="FOLLOW, INDEX, ALL" name="robots" />
+    <meta name="description" content="Luxury Interior Designer in Delhi, Thethekedaar has Years of experience- Call Now at 9777705555. Get Affordable Home Interiors from us.">
+    <meta name="keywords" content="Interior Designers in Delhi, Luxury Interior Designers in Delhi, Luxury Interior Designers,Thethekedaar">
+      <!--LOGO SCHEMA-->
+      <script type="application/ld+json">
+         {
+           "@context": "https://schema.org",
+           "@type": "Organization",
+           "url": "https://thethekedaar.in/",
+           "logo": "https://thethekedaar.in/images/logo/logo1.png"
+         }
+      </script>
+      <!--Sitelinks-->
+      <script type="application/ld+json">
+         {
+           "@context": "https://schema.org",
+           "@type": "WebSite",
+           "url": "https://thethekedaar.in/",
+           "potentialAction": {
+             "@type": "SearchAction",
+             "target": {
+               "@type": "EntryPoint",
+               "urlTemplate": "https://query.thethekedaar.in/search?q={search_term_string}"
+             },
+             "query-input": "required name=search_term_string"
+           }
+         }
+      </script>
+      <!--Local Business-->
+      <script type='application/ld+json'>{
+         "@context": "https://www.schema.org",
+         "@type": "LocalBusiness",
+         "name": "The Thekedaar - Interior Designer in Delhi",
+         "url": "https://thethekedaar.in/",
+         "logo": "https://thethekedaar.in/images/logo/logo1.png",
+         "image": "https://thethekedaar.in/images/gallery/Interior_Designers_in_delhi.webp",
+         "priceRange" : "INR",
+         "description": "Thethekedaar Interior Designers in Delhi is fully equipped to serve our clients to fulfill their dreams and aspirations. The interior design Services hub. With an experience of transforming more than 1000+ residential and commercial interiors, our design experts creatively add a vibrant touch of elegance and functionality to your space, making it aesthetically appealing.",
+         "address": {
+         "@type": "PostalAddress",
+         "streetAddress": "  87/1, 3rd Floor Block 2, WHS Kirti Nagar,",
+         "addressLocality": "Kirti Nagar",
+         "addressRegion": "Delhi",
+         "postalCode": "110015",
+         "addressCountry": "India",
+         "telephone": "+919777705555",
+         "email": "info@thethekedaar.in"
+         }
+         }
+      </script>
+
+      <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+            "@type": "Question",
+            "name": "What is the cost of interior design in Delhi?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The cost of interior design in Delhi varies depending on the size of the project and the complexity of the design. Generally, it ranges from Rs. 15,000 to Rs. 2,00,000 or more. The cost depends on materials, number of professionals involved, and their experience."
+            }
+            },
+            {
+            "@type": "Question",
+            "name": "What are the latest trends in interior design in Delhi?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The latest interior design trends in Delhi include using natural elements like wood and stone, minimalistic layouts, and eco-friendly designs with energy-efficient lighting and sustainable materials."
+            }
+            },
+            {
+            "@type": "Question",
+            "name": "How much does it cost for interior design for 2 BHK in Delhi?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The cost of interior design for a 2 BHK in Delhi generally ranges from Rs. 10,000 to Rs. 30,000 depending on the materials, space size, and design complexity. Consulting a professional interior designer is recommended for an accurate quote."
+            }
+            },
+            {
+            "@type": "Question",
+            "name": "How much does it cost for the interior design of a 3BHK flat in Delhi?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The cost of interior design for a 3 BHK in Delhi usually ranges from Rs. 15,000 to Rs. 40,000 depending on space size, materials, and design complexity. It's best to consult a professional interior designer for precise estimates."
+            }
+            },
+            {
+            "@type": "Question",
+            "name": "How much does it cost to furnish a 3-bedroom house in Delhi?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Furnishing a 3-bedroom house in Delhi can cost between ₹10 Lacs and ₹50 Lacs, depending on furniture quality and style. Additional costs may include rugs, wall art, and décor items. Consulting a designer helps estimate the total project cost."
+            }
+            },
+            {
+            "@type": "Question",
+            "name": "What is the most essential piece of interior design advice you offer when creating a space?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The most essential advice is to design a functional and aesthetically pleasing layout that complements the purpose of the space. Choose furniture, lighting, and colors that create harmony and suit your lifestyle."
+            }
+            },
+            {
+            "@type": "Question",
+            "name": "Why should I go with Thethekedaar to design my home?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Thethekedaar offers personalized, budget-friendly, and trend-conscious interior design services in Delhi. Our expert designers use premium materials and work closely with you to create unique, elegant spaces."
+            }
+            },
+            {
+            "@type": "Question",
+            "name": "Why are you the most affordable interior designers in Delhi NCR?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Thethekedaar offers affordable interior design solutions without compromising on quality. Our experienced team optimizes materials and supplier costs to deliver premium designs at the best prices in Delhi NCR."
+            }
+            },
+            {
+            "@type": "Question",
+            "name": "Does Thethekedaar design a house that is already made?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, Thethekedaar redesigns existing homes as well as creates designs from scratch based on client needs and specifications."
+            }
+            },
+            {
+            "@type": "Question",
+            "name": "Whom should you contact for luxury interior designing in Delhi?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You can contact Thethekedaar for luxury interior design in Delhi. Our expert designers create elegant, modern interiors tailored to your preferences and lifestyle."
+            }
+            }
+        ]
+        }
+        </script>
+
+
+
       <?php include 'SEOhead.php'; ?>
 
       <!-- Favicon -->
@@ -69,6 +205,7 @@
         <div class="about-homes-text">
             <h1 class="about-homes-title">We are Commercial & Residential Interior Designers in Delhi</h1>
             <p class="about-homes-desc">
+                Professional Luxurious Interior Designers in Delhi & NCR Excellence - Quality - Commitment - Transparency<br>
                 When it comes to your home you want everything to be perfect. Home Interior plus is an exceptional choice for designing the interiors of your home. Your preference is our first priority. This is the choice of one of the Best Interior Designers in Delhi NCR who will enhance the beauty of your home.
             </p>
         </div>
@@ -207,6 +344,23 @@
 
     
     <?php include 'templates/moreInfo.php'; ?>
+    
+    <!-- ======================= Enhance Beauty Section 0 ======================= -->
+
+    <section class="enhance-section">
+        <div class="container">
+            <h2 class="section-title">Best Interior Designers in Delhi NCR</h2>
+            <img src="assets/images/about11.png" alt="Residential interior designers in Delhi"   title="Residential interior designers in Delhi">
+            <div class="enhance-text">
+                <p>When it concerns your home you want everything to be perfect. Therefore, your home interior plays an important role to change the appearance of your home. With an authentic experience for a very long period, Thethekedaar is one of the Best Interior Designers in Delhi NCR who will enhance the beauty of your home. The initial stage of the designing process begins with space planning and looking up the requirements of the customer and satisfying them. Afterward, we emphasize planning the most suitable strategy to accomplish your goal.</p>
+                <p>Interior designers in Delhi can help you create the perfect living space for your home or office. Whether you’re looking for a modern or traditional look, our experienced professionals are here to help you create the perfect atmosphere for your space. We offer a range of services, including space planning, furniture selection, color and material selection, lighting design, and more. Our professional team of designers will work with you to ensure that the end result is a space that you love and feel comfortable in. We will work with you to create a design that reflects your unique style and meets your functional needs. We strive to provide the highest quality service possible to ensure that your experience is enjoyable and stress-free. Contact us today to get started on creating your dream space.</p>
+                <p>We have a team who will take the charge to design your home. In this process, there is a detailed drawing including designs for <a href="https://thethekedaar.in/interior-designers-noida" class="intrnl">luxury home designs</a>, open terrace designs and wall designs, etc. We do quick, straightforward, and accurate site control throughout the process. The result is always authentic and usual, which shows the individuality and feelings of the customer about life. By implementing all the right strategies, we are doing work in the commercial and residential sectors. However, whatever the situation is our primary focus is to give our best by living up to our core values. It would be great to turn all the desires of our clients into reality.</p>
+            </div>
+        </div>
+    </section>
+
+
+    
     <!-- ======================= Enhance Beauty Section 1 ======================= -->
     <section class="enhance-section">
         <div class="container">
@@ -246,6 +400,62 @@
     <?php include 'templates/aboutInterior.php'; ?>
 
    
+    <section class="more-project-video-section">
+        <h2 class="section-title">Our Projects</h2>
+        <div class="more-project-video-container">
+            <div class="more-project-video">
+                <center><iframe width="auto" height="200" src="https://www.youtube.com/embed/mwqkeGqvjoo" title="Thethekedaar Projects Video1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+            </div>
+            <div class="more-project-video">
+                <center><iframe width="auto" height="200" src="https://www.youtube.com/embed/LbCvEqcbQ2s" title="Thethekedaar Projects Video2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center> 
+            </div>
+            <div class="more-project-video">
+                <center><iframe width="auto" height="200" src="https://www.youtube.com/embed/ET_hPDbQb1w" title="Thethekedaar Projects Video3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+            </div>
+            <div class="more-project-video">
+                <center><iframe width="auto" height="200" src="https://www.youtube.com/embed/gum4U0BVhPs" title="Thethekedaar Projects Video4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>  
+            </div>
+        </div>
+        
+        <div class="more-project-button">
+               <a href="./projects" class="btn btn-bordered mt-4">More Projects</a>
+        </div>
+    </section>
+
+<style>
+    /* more project section */
+    .more-project-video-section{
+        margin: 0  12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .more-project-video-container{
+        display: flex;
+        flex-direction: row;
+        gap: 9vw;
+    }
+
+    .more-project-button{
+        margin-top: 48px;
+        padding: 12px 16px;
+        background-color: white;
+        color: black;
+        border-radius: 200px;
+        transition: all 0.3s ease   ;
+        border: 1px solid transparent;
+        cursor: pointer;
+    }
+
+    .more-project-button:hover{
+        background-color: black;
+        color: white;
+        border-color: wheat;
+    }
+
+</style>
+
 </main>
 
     <!-- ======================= Footer ======================= -->
