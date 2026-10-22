@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Responsive css -->
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
       <!-- Bootstrap CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 

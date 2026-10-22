@@ -94,6 +94,7 @@ width: 95px;
         <div class="menu-toggle" id="menu-toggle">
             <span>Menu</span>
         </div>
+        <div class="nav-btm-line"></div>
     </div>
 </header>
 

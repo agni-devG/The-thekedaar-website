@@ -19,9 +19,8 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-// ... (keep the existing mobile menu code above this)
 
-document.addEventListener('DOMContentLoaded', function () {
+
     // const faqItems = document.querySelectorAll('.faq-item');
 
     // faqItems.forEach(item => {
@@ -67,4 +66,3 @@ document.addEventListener('DOMContentLoaded', function () {
 
    
 });
-

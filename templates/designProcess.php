@@ -14,7 +14,7 @@
 
             </div>
             <div class="process-image slide-in-right">
-                <img src="assets/images/process/architect-working-on-blueprint-discussing-new-proj-2024-12-04-13-48-03-utc copy.webp" alt="Residential interior designers in Delhi" title="Residential interior designers in Delhi">
+                <img src="assets/images/process/architect-working-on-blueprint-discussing-new-proj-2024-12-04-13-48-03-utc copy.webp" alt="Residential interior designers in Delhi" title="Residential interior designers in Delhi" loading="lazy">
             </div>
         </div>
         
@@ -28,7 +28,7 @@
 
             </div>
             <div class="process-image slide-in-right">
-                <img src="assets/images/process/designer-woman-choosing-details-of-new-kitchen-in-2024-11-27-15-48-02-utc.webp" alt="Commercial interior designers" title="Commercial interior designers">
+                <img src="assets/images/process/designer-woman-choosing-details-of-new-kitchen-in-2024-11-27-15-48-02-utc.webp" alt="Commercial interior designers" title="Commercial interior designers" loading="lazy">
             </div>
         </div>
 
@@ -41,7 +41,7 @@
 
             </div>
             <div class="process-image slide-in-right">
-                <img src="assets/images/process/analyzing-architectural-designs-on-computer-monito-2025-03-06-15-12-47-ut2.webp" alt="Luxury interior designers in Delhi" title="Luxury interior designers in Delhi">
+                <img src="assets/images/process/analyzing-architectural-designs-on-computer-monito-2025-03-06-15-12-47-ut2.webp" alt="Luxury interior designers in Delhi" title="Luxury interior designers in Delhi" loading="lazy">
             </div>
         </div>
 
@@ -55,7 +55,7 @@
 
             </div>
             <div class="process-image slide-in-right">
-                <img src="assets/images/process/view-of-construction-worker-in-construction-site-2025-03-09-11-09-27-utc copy.webp" alt="Luxury interior designers in Delhi" title="Luxury interior designers in Delhi">
+                <img src="assets/images/process/view-of-construction-worker-in-construction-site-2025-03-09-11-09-27-utc copy.webp" alt="Luxury interior designers in Delhi" title="Luxury interior designers in Delhi" loading="lazy">
             </div>
         </div>
     </div>

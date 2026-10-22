@@ -14,13 +14,13 @@
 /* ======================= Global Reset & Variables ======================= */
 html, body  {
   overflow-x: hidden;
-  background-color: #080808;
+  background-color: #202522;
   margin: 0;
   /* scroll-behavior: smooth; */
 }
 
 :root {
-  --black: #080808;
+  --black: #0D0D0D;
   --white: #E6E6E6;
   --accent: #FAEFDF;
   --grey: #292929;
@@ -203,6 +203,9 @@ h3 { font-size: 32px; line-height: 110%; }
   list-style: none;
   padding-top: 20px;
   width: 307px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 /* Nav Links */
@@ -296,6 +299,39 @@ font-size: 32px;
   flex-shrink: 0;
   object-fit: cover;
   scroll-snap-align: start;
+}
+
+.carousel.is-infinite {
+  cursor: grab;
+  touch-action: pan-y;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.carousel.is-infinite.is-dragging {
+  cursor: grabbing;
+}
+
+.carousel.is-infinite .carousel-track {
+  position: relative;
+  display: block;
+  height: 400px;
+  transition: none;
+}
+
+.carousel.is-infinite .carousel-track img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: 400px;
+  flex: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  pointer-events: none;
+  will-change: transform;
 }
 
 .top-text {
@@ -403,6 +439,11 @@ color: var(--black);
 
     height: 300px; /* Adjust carousel image height for tablets */
   }
+
+  .carousel.is-infinite .carousel-track,
+  .carousel.is-infinite .carousel-track img {
+    height: 300px;
+  }
 }
 
 /* --- Mobile (e.g., max-width: 576px) --- */
@@ -461,6 +502,11 @@ color: var(--black);
 
     height: 200px; /* Adjust carousel image height for mobiles */
   }
+
+  .carousel.is-infinite .carousel-track,
+  .carousel.is-infinite .carousel-track img {
+    height: 200px;
+  }
 }
 
   </style>
@@ -492,16 +538,23 @@ color: var(--black);
     <!-- Right Column -->
     <div class="right-column">
       <!-- Section Containers -->
+      <?php
+      $sectionOneCarouselImages = [
+        ["src" => "assets/images/services/Ala Restraunt_Corona Camera005.webp", "alt" => "Commercial interior designers"],
+        ["src" => "assets/images/residential/1_Post.webp", "alt" => "Luxury interior designers in Delhi"],
+        ["src" => "assets/images/residential/fAMILY ROOM_Corona Camera007.webp", "alt" => "Luxury interior designers"],
+        ["src" => "assets/images/residential/FF_Seating area_Camera002.webp", "alt" => "Luxury interior designers in Delhi"],
+        ["src" => "assets/images/residential/Father's Room View 01.webp", "alt" => "Residential interior designers in Delhi"],
+      ];
+      ?>
       <div class="section-container" id="section1">
         <h2>Home layouts tailored to your lifestyle.</h2>
         <div class="carousel">
           <!-- Carousel Images -->
           <div class="carousel-track">
-            <img src="assets/images/services/Ala Restraunt_Corona Camera005.webp" alt="Commercial interior designers" title="Commercial interior designers">
-            <img src="assets/images/residential/1_Post.webp" alt="Luxury interior designers in Delhi" title="Luxury interior designers in Delhi">
-            <img src="assets/images/residential/fAMILY ROOM_Corona Camera007.webp" alt="Luxury interior designers" title="Luxury interior designers">
-            <img src="assets/images/residential/FF_Seating area_Camera002.webp" alt="Luxury interior designers in Delhi" title="Luxury interior designers in Delhi">
-            <img src="assets/images/residential/Father's Room View 01.webp" alt="Residential interior designers in Delhi" title="Residential interior designers in Delhi">
+            <?php foreach ($sectionOneCarouselImages as $image): ?>
+              <img src="<?= htmlspecialchars($image['src'], ENT_QUOTES, 'UTF-8') ?>" alt="<?= htmlspecialchars($image['alt'], ENT_QUOTES, 'UTF-8') ?>" title="<?= htmlspecialchars($image['alt'], ENT_QUOTES, 'UTF-8') ?>" loading="lazy" draggable="false">
+            <?php endforeach; ?>
           </div>
         </div>
         <div class="info-container">
@@ -527,11 +580,11 @@ color: var(--black);
         <h2>Designs that bring your team together.</h2>
         <div class="carousel">
           <div class="carousel-track">
-            <img src="assets/images/commercial/9.webp" alt="Interior designers in Delhi" title="Interior designers in Delhi">
-                    <img src="assets/images/commercial/10.webp" alt="Best interior designers in Delhi" title=" Best interior designers in Delhi">
-                    <img src="assets/images/commercial/8.webp" alt="Top interior designers in Delhi" title="Top interior designers in Delhi">
-                    <img src="assets/images/commercial/4.webp" alt="Interior Designer in Delhi" title="Interior Designer in Delhi">
-                    <img src="assets/images/commercial/d1.jpg" alt="Home Interior Designers" title="Home Interior Designers">
+            <img src="assets/images/commercial/9.webp" alt="Interior designers in Delhi" title="Interior designers in Delhi" loading="lazy">
+                    <img src="assets/images/commercial/10.webp" alt="Best interior designers in Delhi" title=" Best interior designers in Delhi" loading="lazy">
+                    <img src="assets/images/commercial/8.webp" alt="Top interior designers in Delhi" title="Top interior designers in Delhi" loading="lazy">
+                    <img src="assets/images/commercial/4.webp" alt="Interior Designer in Delhi" title="Interior Designer in Delhi" loading="lazy">
+                    <img src="assets/images/commercial/d1.jpg" alt="Home Interior Designers" title="Home Interior Designers" loading="lazy">
           </div>
         </div>
         <div class="info-container">
@@ -552,12 +605,12 @@ color: var(--black);
         <h2>New vibes, same address.</h2>
         <div class="carousel">
           <div class="carousel-track">
-            <img src="assets/images/renovation/Majlis_NEW-0224_Corona Camera004.webp" alt="Residential Designers in Delhi" title="Residential Designers in Delhi">
-                  <img src="assets/images/renovation/Living Room Final Render_001 copy.webp" alt="Modern Interior Designers" title="Modern Interior Designers">
-                  <img src="assets/images/renovation/Kitchen View 02.webp" alt="Interior design services in Delhi" title="Interior design services in Delhi">
-                  <img src="assets/images/renovation/MASTER BED ROOM Camera004.webp" alt="Residential interior designers" title="Residential interior designers">
-                  <img src="assets/images/renovation/Living Room Final Render_001 copy.webp" alt="Commercial interior designers in Delhi" title="Commercial interior designers in Delhi">
-                  <img src="assets/images/renovation/Master Bedroom View02_.webp" alt="Residential interior designers in Delhi" title="Residential interior designers in Delhi">
+            <img src="assets/images/renovation/Majlis_NEW-0224_Corona Camera004.webp" alt="Residential Designers in Delhi" title="Residential Designers in Delhi" loading="lazy">
+                  <img src="assets/images/renovation/Living Room Final Render_001 copy.webp" alt="Modern Interior Designers" title="Modern Interior Designers" loading="lazy">
+                  <img src="assets/images/renovation/Kitchen View 02.webp" alt="Interior design services in Delhi" title="Interior design services in Delhi" loading="lazy">
+                  <img src="assets/images/renovation/MASTER BED ROOM Camera004.webp" alt="Residential interior designers" title="Residential interior designers" loading="lazy">
+                  <img src="assets/images/renovation/Living Room Final Render_001 copy.webp" alt="Commercial interior designers in Delhi" title="Commercial interior designers in Delhi" loading="lazy">
+                  <img src="assets/images/renovation/Master Bedroom View02_.webp" alt="Residential interior designers in Delhi" title="Residential interior designers in Delhi" loading="lazy">
 
           </div>
         </div>
@@ -584,12 +637,12 @@ color: var(--black);
         <h2>Fits your space. follows your style</h2>
         <div class="carousel">
           <div class="carousel-track">
-           <img src="assets/images/services/kitchen002_Corona Camera002.webp" alt="Commercial interior designers" title="Commercial interior designers">
-                  <img src="assets/images/modular/chair.webp" alt="Luxury interior designers in Delhi" title="Luxury interior designers in Delhi">
-                  <img src="assets/images/modular/cloths.webp" alt="Luxury interior designers" title="Luxury interior designers">
-                  <img src="assets/images/modular/homeInteriror.webp" alt="Interior designers in Delhi" title="Interior designers in Delhi">
-                  <img src="assets/images/modular/greenchair.webp" alt="Best interior designers in Delhi" title=" Best interior designers in Delhi">
-                  <img src="assets/images/modular/living.webp" alt="Top interior designers in Delhi"  title="Top interior designers in Delhi">
+           <img src="assets/images/services/kitchen002_Corona Camera002.webp" alt="Commercial interior designers" title="Commercial interior designers" loading="lazy">
+                  <img src="assets/images/modular/chair.webp" alt="Luxury interior designers in Delhi" title="Luxury interior designers in Delhi" loading="lazy">
+                  <img src="assets/images/modular/cloths.webp" alt="Luxury interior designers" title="Luxury interior designers" loading="lazy">
+                  <img src="assets/images/modular/homeInteriror.webp" alt="Interior designers in Delhi" title="Interior designers in Delhi" loading="lazy">
+                  <img src="assets/images/modular/greenchair.webp" alt="Best interior designers in Delhi" title=" Best interior designers in Delhi" loading="lazy">
+                  <img src="assets/images/modular/living.webp" alt="Top interior designers in Delhi"  title="Top interior designers in Delhi" loading="lazy">
 
           </div>
         </div>
@@ -610,7 +663,7 @@ color: var(--black);
         <div class="carousel">
           <!-- Carousel Images -->
           <div class="carousel-track">
-            <img src="/assets/images/process/analyzing-architectural-designs-on-computer-monito-2025-03-06-15-12-47-ut2.webp" alt="Commercial interior designers" title="Commercial interior designers">
+            <img src="/assets/images/process/analyzing-architectural-designs-on-computer-monito-2025-03-06-15-12-47-ut2.webp" alt="Commercial interior designers" title="Commercial interior designers" loading="lazy">
             </div>
         </div>
         <div class="info-container">
@@ -626,7 +679,7 @@ color: var(--black);
         <div class="carousel">
           <!-- Carousel Images -->
           <div class="carousel-track">
-            <img src="/images/about us.webp" alt="Commercial interior designers" title="Commercial interior designers">
+            <img src="/images/about us.webp" alt="Commercial interior designers" title="Commercial interior designers" loading="lazy">
             </div>
         </div>
         <div class="info-container">
@@ -642,7 +695,7 @@ color: var(--black);
         <div class="carousel">
           <!-- Carousel Images -->
           <div class="carousel-track">
-            <img src="/assets/images/commercial/2.webp" alt="Commercial interior designers" title="Commercial interior designers">
+            <img src="/assets/images/commercial/2.webp" alt="Commercial interior designers" title="Commercial interior designers" loading="lazy">
             </div>
         </div>
         <div class="info-container">
@@ -658,7 +711,7 @@ color: var(--black);
         <div class="carousel">
           <!-- Carousel Images -->
           <div class="carousel-track">
-            <img src="assets/images/services/Ala Restraunt_Corona Camera005.webp" alt="Commercial interior designers" title="Commercial interior designers">
+            <img src="assets/images/services/Ala Restraunt_Corona Camera005.webp" alt="Commercial interior designers" title="Commercial interior designers" loading="lazy">
             </div>
         </div>
         <div class="info-container">
@@ -674,7 +727,7 @@ color: var(--black);
         <div class="carousel">
           <!-- Carousel Images -->
           <div class="carousel-track">
-            <img src="assets/images/about1.png" alt="Commercial interior designers" title="Commercial interior designers">
+            <img src="assets/images/about1.png" alt="Commercial interior designers" title="Commercial interior designers" loading="lazy">
             </div>
         </div>
         <div class="info-container">
@@ -690,6 +743,7 @@ color: var(--black);
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/Draggable.min.js"></script>
 <script>
+/*
 document.querySelectorAll('.carousel').forEach(carousel => {
   const track = carousel.querySelector('.carousel-track');
   const slides = Array.from(track.children);
@@ -757,6 +811,104 @@ function dragStart(e) {
   startAutoPlay();
   window.addEventListener('resize', updateSlideWidth);
 });
+*/
+</script>
+
+<script>
+(() => {
+  if (typeof gsap === 'undefined' || typeof Draggable === 'undefined') return;
+  gsap.registerPlugin(Draggable);
+
+  document.querySelectorAll('.carousel').forEach(carousel => {
+    const track = carousel.querySelector('.carousel-track');
+    const slides = Array.from(track.querySelectorAll('img'));
+    if (slides.length < 2) return;
+
+    carousel.classList.add('is-infinite');
+
+    const proxy = document.createElement('div');
+    proxy.setAttribute('aria-hidden', 'true');
+    proxy.style.cssText = 'position:absolute;width:1px;height:1px;visibility:hidden;pointer-events:none;';
+    carousel.appendChild(proxy);
+
+    const offset = { x: 0 };
+    let slideWidth = carousel.clientWidth;
+    let dragStartX = 0;
+    let offsetAtPress = 0;
+    let lastSampleX = 0;
+    let lastSampleTime = 0;
+    let velocity = 0;
+    let momentumTween;
+
+    function positionSlides() {
+      if (!slideWidth) return;
+
+      const loopWidth = slideWidth * slides.length;
+      slides.forEach((slide, index) => {
+        const x = ((index * slideWidth + offset.x + slideWidth) % loopWidth + loopWidth) % loopWidth - slideWidth;
+        gsap.set(slide, { x });
+      });
+    }
+
+    function updateSlideWidth() {
+      slideWidth = carousel.clientWidth;
+      positionSlides();
+    }
+
+    carousel.addEventListener('dragstart', event => event.preventDefault());
+
+    Draggable.create(proxy, {
+      type: 'x',
+      trigger: carousel,
+      minimumMovement: 3,
+      allowNativeTouchScrolling: true,
+      onPress: function() {
+        if (momentumTween) momentumTween.kill();
+        carousel.classList.add('is-dragging');
+        dragStartX = this.x;
+        offsetAtPress = offset.x;
+        lastSampleX = offset.x;
+        lastSampleTime = performance.now();
+        velocity = 0;
+      },
+      onDrag: function() {
+        offset.x = offsetAtPress + this.x - dragStartX;
+
+        const now = performance.now();
+        const elapsed = now - lastSampleTime;
+        if (elapsed > 0) {
+          const measuredVelocity = ((offset.x - lastSampleX) / elapsed) * 1000;
+          velocity = velocity * 0.65 + measuredVelocity * 0.35;
+        }
+        lastSampleX = offset.x;
+        lastSampleTime = now;
+        positionSlides();
+      },
+      onRelease: function() {
+        carousel.classList.remove('is-dragging');
+
+        const momentumDistance = gsap.utils.clamp(-slideWidth * 2, slideWidth * 2, velocity * 0.3);
+        const targetOffset = Math.round((offset.x + momentumDistance) / slideWidth) * slideWidth;
+        if (Math.abs(targetOffset - offset.x) < 0.5) return;
+
+        momentumTween = gsap.to(offset, {
+          x: targetOffset,
+          duration: 0.85,
+          ease: 'power3.out',
+          onUpdate: positionSlides
+        });
+      }
+    });
+
+    updateSlideWidth();
+    if ('ResizeObserver' in window) {
+      const resizeObserver = new ResizeObserver(updateSlideWidth);
+      resizeObserver.observe(carousel);
+    } else {
+      window.addEventListener('resize', updateSlideWidth);
+    }
+  });
+})();
 </script>
 
 

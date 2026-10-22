@@ -5,7 +5,7 @@
 
     <!-- Background Image -->
     <div class="testimonials-bg">
-      <img src="assets/images/testimonial/text.webp" alt="Interior Designer in Delhi" title="Interior Designer in Delhi">
+      <img src="assets/images/testimonial/text.webp" alt="Interior Designer in Delhi" title="Interior Designer in Delhi" loading="lazy">
     </div>
 
     <!-- Track with Cards -->

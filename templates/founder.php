@@ -3,7 +3,7 @@
         <h2 class="section-title founder-heading ">Our Founder</h2>
         
         <div class="founder-image">
-            <img src="assets/images/Dc2.webp" alt="Luxury interior designers in Delhi" title="Luxury interior designers in Delhi">
+            <img src="assets/images/Dc2.webp" alt="Luxury interior designers in Delhi" title="Luxury interior designers in Delhi" loading="lazy">
         </div>
         
         <div class="founder-details">

@@ -23,6 +23,7 @@
 
 /* Buttons */
 .floating-btn {
+  visibility: hidden;
   /* background: #fff; */
 
   border-radius: 50%;
@@ -85,3 +86,50 @@
   }
 }
 </style>
+
+<script>
+(() => {
+  const container = document.querySelector(".floating-buttons");
+  if (!container || container.dataset.animationInitialized) return;
+
+  container.dataset.animationInitialized = "true";
+
+  const loadScript = (src) => new Promise((resolve, reject) => {
+    const script = document.createElement("script");
+    script.src = src;
+    script.onload = resolve;
+    script.onerror = () => reject(new Error(`Unable to load ${src}`));
+    document.head.appendChild(script);
+  });
+
+  const showButtonsOnScroll = async () => {
+    if (!window.gsap) {
+      await loadScript("https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js");
+    }
+    if (!window.ScrollTrigger) {
+      await loadScript("https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js");
+    }
+
+    window.gsap.registerPlugin(window.ScrollTrigger);
+    window.gsap.fromTo(
+      container.querySelectorAll(".floating-btn"),
+      { autoAlpha: 0,  },
+      {
+        autoAlpha: 1,
+        duration: 0.1,
+        stagger: 0.05,
+        ease: "power2.out",
+        scrollTrigger: {
+          trigger: document.documentElement,
+          start: 250,
+          toggleActions: "play none none reverse"
+        }
+      }
+    );
+  };
+
+  showButtonsOnScroll().catch((error) => {
+    console.error("Could not initialize the floating contact buttons.", error);
+  });
+})();
+</script>
