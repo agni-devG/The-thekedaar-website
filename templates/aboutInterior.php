@@ -184,7 +184,7 @@
             <p>
 
 
-            We an <a href="https://thethekedaar.in/best-interior-designers-gurgaon" class="intrnl">interior design consultancy</a> , combine luxury residential styling with our client’s financial requirements. Our interior design company offers first-class service or various color variations, and textures for the office interior decorations venue. Our business provides interior design at an affordable price for offices.
+            We are an <a href="https://thethekedaar.in/best-interior-designers-gurgaon" class="intrnl">interior design consultancy</a> specialising in luxury residential and commercial interiors. Our approach combines sophisticated design concepts with meticulous attention to detail, creating spaces that reflect each client's vision and identity. From curated colour palettes and exquisite textures to bespoke office furnishings and refined finishes, our team delivers first-class design services that transform workplaces into elegant, functional, and inspiring environments.
             </p>
               <a href="contact-us-2" class="inline-contact-link">Contact Us</a>
 
@@ -242,7 +242,7 @@
  /* --- Global Reset/Base Adjustments --- */
 body {
   margin: 0;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 

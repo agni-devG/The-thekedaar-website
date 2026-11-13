@@ -195,7 +195,7 @@
 
                 <div class="sm-head-para">
                <h3>Proper Planning and Budgeting</h3>
-               <p>With years of experience, interior designers can create a budget and strategy that will accurately reflect the needs of their clients. They know the most effective hotel designing and organizing techniques and ways to reduce costs. An interior designer will have excellent suggestions for maximizing your budget, or any expenditure, for that matter, and can boost the desirability of your hotel tenfold for a similar cost. By doing all of the most recent fashion and trend research, they save you time. Instead of wasting time researching new furnishings and decor items, hire an interior designer. Whether you are under budget, the luxury interior designer can give you a "5-star hotel design" or a "7-star hotel design" option at affordable costs.</p>
+               <p>With years of experience, our interior designers develop comprehensive design strategies tailored to the unique requirements and identity of each hotel. Their expertise in hospitality design, spatial planning, and functionality ensures every area delivers an exceptional guest experience. From thoughtfully organised layouts to carefully curated furnishings and décor, our designers bring together the latest design trends and timeless aesthetics. Through extensive research and a deep understanding of luxury hospitality, we create distinctive interiors that reflect the sophistication of five-star and seven-star hotels. Every element is thoughtfully selected, combining premium materials, refined finishes, and exceptional craftsmanship to create an atmosphere of unparalleled elegance.</p>
                 </div>
 
                 <div class="sm-head-para">

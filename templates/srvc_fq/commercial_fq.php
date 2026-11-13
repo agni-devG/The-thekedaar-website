@@ -227,7 +227,7 @@
                     <span class="faq-icon">+</span>
                 </button>
                 <div class="faq-answer">
-                    <p>Thethekedaar offers affordable, high-quality commercial designs tailored to your business needs. We combine creativity, functionality, and cost-effectiveness, making us one of the most trusted interior designers in Delhi NCR.</p>
+                    <p>The Thekedaar creates bespoke commercial interiors tailored to your business needs, combining distinctive aesthetics, thoughtful functionality, and exceptional craftsmanship. As one of the trusted interior design firms in Delhi NCR, we transform workspaces into sophisticated environments that reflect your brand's identity and vision.</p>
                 </div>
             </div>
 
@@ -239,7 +239,6 @@
                 </button>
                 <div class="faq-answer">
                    <ul>
-                    <li>Affordable pricing</li>
                     <li>Customized designs for every business</li>
                     <li>Expertise in modern & luxury interiors</li>
                     <li>Complete project management</li>
@@ -274,16 +273,7 @@
             </div>
 
             <!-- FAQ Item 10 -->
-            <div class="faq-item">
-                <button class="faq-question">
-                    <span>Can Thethekedaar provide budget-friendly commercial designs?</span>
-                    <span class="faq-icon">+</span>
-                </button>
-                <div class="faq-answer">
-                    <p>Yes! We offer cost-effective solutions without compromising on quality or aesthetics.</p>
-                </div>
-            </div>
-
+            
         </div>
     </div>
 </section>

@@ -79,7 +79,10 @@ a{
                         <h3 class="footer-heading">Join Our Newsletter</h3>
                         <form class="newsletter-form" action="newsletter_signup.php" method="post">
                             <input type="email" name="email" placeholder="">
-                            <button type="submit">Submit</button>
+                            <button type="submit" class="btn-default">
+                                Submit
+                                <span class="btn-underline" aria-hidden="true"></span>
+                            </button>
                         </form>
                     </div>
                 </div>
@@ -272,13 +275,17 @@ a{
 
     <!-- ======================= Copyright ======================= -->
    <div class="copyright-container">
-        <p class="copyright-text">All rights reserved @ Thethekedaar 2025.<span><a href="/privacy_policy" class="min_link">Privacy Policy</a> </span> <span>  <a href="/terms_and_conditions" class="min_link">T & C</a></span></p>
+        <p class="copyright-text">All rights reserved @ Thethekedaar <?= date('Y') ?>.<span><a href="/privacy_policy" class="min_link">Privacy Policy</a> </span> <span>  <a href="/terms_and_conditions" class="min_link">T & C</a></span></p>
     </div>
 
     <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/enhance-read-more.js"></script>
+    <script src="assets/js/scroll-parallax-images.js"></script>
+    <script src="assets/js/preload-images.js"></script>
+    <script src="assets/js/page-load-time.js"></script>
     <script>
 document.getElementById("toggle-locations").addEventListener("click", function() {
     const text = document.getElementById("locations-text");

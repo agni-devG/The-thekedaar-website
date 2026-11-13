@@ -220,7 +220,7 @@
                 </button>
                 <div class="faq-answer">
                     <ul>
-                        <li>Thethekedaar – Affordable and modern designs</li>
+                        <li>The Thekedaar – Luxury Interiors, Timeless Designs</li>
                         <li>Livspace – Contemporary and functional interiors</li>
                         <li>Design Café – Stylish and customizable home designs</li>
                         <li>Studio Lotus – Premium and sustainable solutions</li>
@@ -240,15 +240,7 @@
             </div>
 
             <!-- FAQ Item 8 -->
-            <div class="faq-item">
-                <button class="faq-question">
-                    <span>Can Thethekedaar design budget-friendly homes?</span>
-                    <span class="faq-icon">+</span>
-                </button>
-                <div class="faq-answer">
-                    <p>Yes! We offer affordable interior design solutions without compromising on style or functionality.</p>
-                </div>
-            </div>
+           
 
             <!-- FAQ Item 9 -->
             <div class="faq-item">

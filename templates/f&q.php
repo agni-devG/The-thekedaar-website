@@ -188,7 +188,7 @@
                     <span class="faq-icon">+</span>
                 </button>
                 <div class="faq-answer">
-                    <p>The cost of interior design for a 2 BHK in Delhi will vary depending on the complexity of the design and the materials used. Generally, the cost for interior design for a 2 BHK in Delhi can range from Rs. 10,000 to Rs. 30,000. Factors such as the size of the space, the type of materials used, and the complexity of the design can affect the total cost. It is recommended to consult with a professional interior decorator to get a better understanding of the cost and the design possibilities.</p>
+                    <p>The cost of interior design for a 2 BHK in Delhi will vary depending on the complexity of the design and the materials used. Factors such as the size of the space, the type of materials used, and the complexity of the design can affect the total cost. It is recommended to consult with a professional interior decorator to get a better understanding of the cost and the design possibilities.</p>
                 </div>
             </div>
 
@@ -199,7 +199,7 @@
                     <span class="faq-icon">+</span>
                 </button>
                 <div class="faq-answer">
-                    <p>The cost of interior design for a 3 BHK in Delhi will depend on the same factors as a 2 BHK, but may be slightly higher due to the larger size of the space. Generally, the cost for interior design for a 3 BHK in Delhi can range from Rs. 15,000 to Rs. 40,000. As before, it is recommended to consult with a professional interior designer to get a better understanding of the cost and the design possibilities.</p>
+                    <p>The cost of interior design for a 3 BHK in Delhi will depend on the same factors as a 2 BHK, but may be slightly higher due to the larger size of the space. As before, it is recommended to consult with a professional interior designer to get a better understanding of the cost and the design possibilities.</p>
                 </div>
             </div>
 
@@ -236,16 +236,6 @@
                 </div>
             </div>
 
-            <!-- FAQ Item 8 -->
-            <div class="faq-item">
-                <button class="faq-question">
-                    <span>Why we are the most affordable interior designers in Delhi NCR?</span>
-                    <span class="faq-icon">+</span>
-                </button>
-                <div class="faq-answer">
-                    <p>Thethekedaar is the most affordable interior designer in Delhi NCR because we have carefully crafted our services to meet the needs of customers without compromising on quality, service, and expertise. We have a team of experienced and knowledgeable professionals who are dedicated to providing our customers with the best possible services and products at the best possible prices. We also have a wide range of products to choose from, so that our customers can find the perfect solution for their interior design needs without having to break the bank.</p>
-                </div>
-            </div>
 
             <!-- FAQ Item 9 -->
             <div class="faq-item">

@@ -27,7 +27,7 @@
   /* background: #fff; */
 
   border-radius: 50%;
-    border: 2px solid;
+  /* border: 2px solid #FAEFDF; */
   width: 45px;
   height: 45px;
   display: flex;
@@ -52,12 +52,12 @@
 /* WhatsApp and Call theme colors (optional subtle tint) */
 .call-btn {
   /* background-color: #f9f9f9; */
-  border-color: #f9f9f9;
+  border-color: #FAEFDF;
 }
 
 .whatsapp-btn {
   /* background-color: #25D366; */
-  border-color: #f9f9f9;
+  border-color: #FAEFDF;
 }
 
 /* Responsive Adjustments */

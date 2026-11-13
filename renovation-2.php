@@ -184,9 +184,13 @@
         </div>
         
         <div class="founder-details">
-            <p>Technology has had a meaningful impact on the renovation process, increasing the importance and strength of the planning stage. The availability of free online design tools has improved visualization of the changes, at a fraction of the cost of hiring a professional interior designer. We renovate, renew, restore, refresh, and rejuvenate all mean to make like new. The thrill of a home renovation can quickly be diminished by unforeseen circumstances, stretched budgets, and other unexpected issues. The good news is that our company takes care of these problems with the best solutions ever possible. For us, it’s not just renovation, it’s a house makeover by restoring its original state or by honoring it by its original intention. With our company the soul of the old space will never be compromised. Its not work for us,
+            <p>Technology has transformed the renovation process, making thoughtful planning and visualisation more integral to creating exceptional spaces. Advanced design tools allow us to explore possibilities, refine concepts, and bring every detail into focus before execution begins.
 
-it’s a true labour of love.</p>
+            Renovation is more than renewing, restoring, or refreshing a space; it is about rediscovering its character and giving it a new identity. While a home transformation comes with its own complexities, our experienced team ensures every stage is approached with meticulous planning, attention to detail, and expert execution.
+
+            At The Thekedaar, renovation is not simply about transforming a property. It is about honouring its original character while introducing a fresh perspective through refined design and craftsmanship. We believe the soul of an existing space should never be compromised. Its history, personality, and architectural essence remain at the heart of every transformation.
+
+            For us, it is more than work. It is a true labour of love.</p>
         </div>
     </div>
 </section>

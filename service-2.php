@@ -228,7 +228,8 @@
             <h2 class="section-title">The Company History</h2>
             <img src="assets/images/about11.png" alt="Residential interior designers in Delhi"   title="Residential interior designers in Delhi">
             <div class="enhance-text">
-                <p>Our vision in starting the company was to offer products and services to ignite our client’s inspiration and give them a feeling of wholesomeness. Mission, Vision and Future: Develop interior design experiences that are exceptional, compelling and of superb quality and individuality at affordable prices. In the near future, we are poised toour product line with items by national and even international artists that meet our standards for nontoxic, natural ingredients and processes.</p>
+                <p>Our vision in establishing The Thekedaar was to create products and spaces that inspire, enrich everyday living, and evoke a sense of harmony and belonging.
+                **Mission, Vision and Future:** To create exceptional interior design experiences defined by individuality, compelling aesthetics, and uncompromising quality. Looking ahead, we aim to expand our collection with thoughtfully curated pieces by distinguished national and international artists, each reflecting our commitment to refined craftsmanship, natural materials, and responsible design processes.</p>
                 <p>THE KEY TO GREAT DESIGN IS CAPTURING THE SPIRIT OF THE CLIENT AND THE QUINTESSENCE OF THE SPACE.</p>
                 <div class="services-percent">
                     <ul>
