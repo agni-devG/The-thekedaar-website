@@ -142,6 +142,7 @@
 
  
 <?php include 'templates/founder.php'; ?>
+<?php include 'templates/our-team.php'; ?>
 
     <!-- ======================= More Info Section ======================= -->
     <?php include 'templates/lttleAboutUs.php'; ?>

@@ -180,16 +180,7 @@
             </div>
 
             <!-- FAQ Item 3 -->
-            <div class="faq-item">
-                <button class="faq-question">
-                    <span>Is modular furniture cost-effective?</span>
-                    <span class="faq-icon">+</span>
-                </button>
-                <div class="faq-answer">
-                    <p>Yes. Customizable and pre-fabricated designs reduce labor costs, installation time, and future renovation costs, making it economical.</p>
-                </div>
-            </div>
-
+            
             <!-- FAQ Item 4 -->
             <div class="faq-item">
                 <button class="faq-question">
@@ -255,7 +246,7 @@
                 <div class="faq-answer">
                     <ul>
                         <li>Customizable designs for every space</li>
-                        <li>Affordable, high-quality materials</li>
+                        <li>Premium Materials, Exceptional Quality</li>
                         <li>Professional installation and after-service support</li>
                         <li>Stylish, functional, and modern furniture solutions</li>
                     </ul>

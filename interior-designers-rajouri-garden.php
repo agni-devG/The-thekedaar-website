@@ -2,7 +2,7 @@
 <html class="no-js" lang="en">
    <head>
       <title>Hire Best Interior Designers in Rajouri Garden | Free Consultation</title>
-      <meta name="description" content="We are among the top interior designers in Rajouri Garden Delhi and We offer the best interior design services for your home or office at an affordable price.">
+      <meta name="description" content="The Thekedaar is among the leading interior designers in Rajouri Garden, Delhi, creating bespoke residential and commercial interiors defined by refined aesthetics, premium materials, and exceptional craftsmanship.">
       <meta name="keywords" content="Interior Designing Companies, Interior Designers in Rajouri Garden, Interior design firm in Rajouri Garden, Residential Projects in Rajouri Garden, Interior Design in Rajouri Garden">
       <link rel="canonical" href="https://thethekedaar.in/interior-designers-rajouri-garden" />
       <?php include("head.php");?>
@@ -353,7 +353,7 @@ max-width: 99.6%;
         <br><h2 style="font-size:30px;"><strong><center>The Best Interior Decorators in Rajouri Garden, Thethekedaar</center></strong></h2>
         <p>Thethekedaar will take the stress out of furnishing new or existing commercial and residential spaces. We are top interior decorator in Rajouri Garden. We strive to create beautiful and functional spaces. All operations are done in-house, so we can ensure that every detail is taken care of and our products are high quality. We believe in creativity, and we have a large portfolio of work to show it. We take many steps in our design process to make sure that the client is satisfied with every aspect before moving forward. Every project is a personal challenge for our team, who are passionate about design.</p>
         <br><p><strong>A Rich Experience</strong></p>
-        <p>Our mission is to offer a personal interior design service that is both cost-effective and personalized, based on years of experience in the field. To be the best Interior Designers in Rajouri Garden, we will ensure that all projects are completed on time and within budget.</p>
+        <p>Our mission is to deliver personalised interior design experiences shaped by years of industry expertise, creative vision, and an unwavering commitment to quality. As we strive to be among the leading interior designers in Rajouri Garden, we are dedicated to maintaining exceptional design standards, meticulous execution, and timely project completion. Every space we create reflects our passion for craftsmanship, individuality, and timeless elegance.</p>
         <br><p><strong>Complete Turnkey Solutions</strong></p>
         <p>Thethekedaar strives to establish strong relationships with its clients by providing exceptional interior design services. This includes creative space planning, designing, and project management for residential and elegant commercial projects. Our clients love our innovative and creative designs. We keep them connected by providing new ideas and inspiration. Our experts keep up to date with the latest material suppliers, their durability, maintainability, application techniques, and availability. This allows us to integrate the Client's Minute Brief into the design, regardless of how complex it may be.</p>
       <br>

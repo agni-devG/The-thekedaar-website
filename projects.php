@@ -85,9 +85,11 @@
         <center><iframe width="800" height="450" src="https://www.youtube.com/embed/gum4U0BVhPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
         <br>
         <h3><strong>Projects Details: -</strong></h3>
-        <p>The modern luxury interior design style is a highly raved interior style in Delhi, NCR because of how it makes one feel like royalty. However, when we talk about this design style, homeowners often fear that a makeover will cost them a fortune due to the word &ldquo;luxury&rdquo;.</p>
-        <p><br />Keeping in mind a decent interior taste and location we designed this property for Mr.Luthra in NRI City, Greater Noida. This is 275 Yards including 5 bedrooms, 7 bathrooms, Kitchen Drawing-Dinning Area, Foyer, Terrace, Home Bar, Home Theater Space, Backyard, Home Office, and Stilt Parking Zone. The overall colors used were greys, beige shades, and tints.</p>
-        <p><br />We share with you the elements included in the modern luxury interior design style, as well as how you can achieve it without breaking the bank; just because it sounds expensive does not mean that it has to be pricey.</p>
+        <p>Modern luxury interior design is one of the most sought-after styles in Delhi NCR, celebrated for its ability to create sophisticated spaces that evoke a sense of grandeur and exclusivity. Defined by refined aesthetics, premium materials, and impeccable detailing, this style transforms a residence into an expression of timeless elegance.
+
+        Keeping the architectural character and design aspirations of the property in mind, we designed this residence for Mr. Luthra in NRI City, Greater Noida. Spanning 275 square yards, the property features five bedrooms, seven bathrooms, a kitchen, drawing and dining areas, foyer, terrace, home bar, home theatre, backyard, home office, and stilt parking. The overall design embraces a sophisticated palette of greys, beige tones, and subtle shades, creating a harmonious and elegant atmosphere throughout.
+
+        In this project, we explore the defining elements of modern luxury interior design and how thoughtful material selection, sophisticated colour palettes, bespoke furnishings, and meticulous detailing come together to create truly exceptional living spaces.</p>
         <br>
     </div>
     <?php include("footer.php");?>     

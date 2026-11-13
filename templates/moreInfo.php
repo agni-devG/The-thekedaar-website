@@ -63,7 +63,7 @@
           <div>
             <h3>Works as Per Your Budget</h3>
             <p>
-                When you hire affordable interior designers then they work according to your budget. Further, they will purchase all the material that goes well with your budget. Most importantly, you can get a stylish home with exceptional designs, attractive colors, and<a href="https://thethekedaar.in/modular-furniture-2" class="intrnl"> modern furniture</a> with a limited investment.       
+                When you work with experienced interior designers, every element of your home is thoughtfully curated to complement your vision and lifestyle. From premium materials and sophisticated colour palettes to exceptional designs and <a href="https://thethekedaar.in/modular-furniture-2" class="intrnl">modern furniture</a>, each detail is carefully selected to create a harmonious living space. The result is a home that reflects your personality through refined aesthetics, timeless appeal, and uncompromising quality.       
                    </p>
             <a href="contact-us-2" class="inline-contact-link">Contact Us</a>
           </div>
@@ -129,7 +129,7 @@
   /* --- Global Reset/Base Adjustments (add these if not already present) --- */
   body {
     margin: 0; /* Remove default body margin to ensure full width sections */
-    overflow-x: hidden; /* Prevent horizontal scroll from vw units if not handled */
+    overflow-x: clip; /* Prevent horizontal scroll without creating a sticky scroll container */
   }
 
 
@@ -184,6 +184,10 @@
     margin: 0; 
     padding: 0; 
     overflow: hidden; 
+  }
+
+  .more-info-section h2{
+                font-weight: 400 !important;
   }
 
   /* --- Section Heading --- */
@@ -508,5 +512,4 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 </script>
-
 

@@ -67,7 +67,7 @@
       "name": "Why should I hire Thethekedaar for commercial interior design?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Thethekedaar offers affordable, high-quality commercial interior designs tailored to your business needs. We combine creativity, functionality, and cost-effectiveness, making us one of the most trusted interior designers in Delhi NCR."
+        "text": "Thethekedaar offers high-quality commercial interior designs tailored to your business needs. We combine creativity and functionality, making us one of the most trusted interior designers in Delhi NCR."
       }
     },
     {
@@ -75,7 +75,7 @@
       "name": "Why choose Thethekedaar over other interior designers in Delhi NCR?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Thethekedaar stands out due to affordable pricing, customized designs for every business, expertise in modern and luxury interiors, and complete project management from concept to completion."
+        "text": "Thethekedaar stands out due to customized designs for every business, expertise in modern and luxury interiors, and complete project management from concept to completion."
       }
     },
     {
@@ -86,15 +86,7 @@
         "text": "Timelines depend on project size: Small offices take 6–8 weeks, medium offices and retail spaces 10–14 weeks, and large or luxury projects 4–6 months."
       }
     },
-    {
-      "@type": "Question",
-      "name": "Can Thethekedaar provide budget-friendly commercial designs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes! Thethekedaar offers cost-effective commercial interior design solutions without compromising on quality, aesthetics, or functionality."
-      }
-    }
-  ]
+      ]
 }
 </script>
 
@@ -246,7 +238,7 @@
                     <h2 class="section-title">Who Are We?</h2>
                     <img src="assets/images/commercial/d1.jpg" alt="Top interior designers in Delhi" title="Top interior designers in Delhi">
                     <div class="enhance-text">
-                        <p>Thethekedaar is one of India’s best leading interior designing companies based in New Delhi. The company is committed to providing top-notch interior designing services to its clients at a reasonably affordable price. <br> <br>
+                        <p>Thethekedaar is one of India’s best leading interior designing companies based in New Delhi. The company is committed to providing top-notch interior designing services to its clients. <br> <br>
                         The company is best known for its vision to fully optimize the space available to create something utterly alluring and beautiful without compromising the craft quality. The company has also been numerous times ranked as one of the best interior designing firms in India. <br> <br>
                         With Thekedaar, you get a highly efficient and intelligent team of designers who make sure to understand the nuances and details of the demands of their clients and deliver it in the best possible manner and all that in client budget. <br> <br>
                         With us, one gets to avail top-notch interior designing service in   Commercial Space.  We are best known for our exclusive quality of blending professionalism with a personal touch. We firmly believe it is only possible to deliver extraordinary work when relations are more personal in nature blended with professional commitment.  <br> <br>
@@ -295,7 +287,7 @@
                         <p>Interior designing is scientific at its core because it requires the designer to understand the behavior of people to create functional space and our designers are best in this. <br><br>
 
 
-                        As <a href="https://thethekedaar.in/luxury-hotel-interior-designers" class="intrnl">hotel interior designers in Delhi</a> , Thethekedaar can give you a 5-star hotel design or a 7-star hotel design option at affordable costs.</p>
+                        As <a href="https://thethekedaar.in/luxury-hotel-interior-designers" class="intrnl">hotel interior designers in Delhi</a> , Thethekedaar can give you a 5-star hotel design or a 7-star hotel design option.</p>
                     </div>
                 </div>
             </section>

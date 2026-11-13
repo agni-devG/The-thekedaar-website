@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -13,14 +13,17 @@
 
 /* ======================= Global Reset & Variables ======================= */
 html, body  {
-  overflow-x: hidden;
-  background-color: #202522;
+  overflow-x: clip;
+  background-color: #0C0503;
   margin: 0;
-  /* scroll-behavior: smooth; */
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 :root {
-  --black: #0D0D0D;
+  --black: #0C0503;
   --white: #E6E6E6;
   --accent: #FAEFDF;
   --grey: #292929;
@@ -29,7 +32,7 @@ html, body  {
   --font-primary: "Aloevera Display", sans-serif; /* Paragraphs */
   --font-secondary: "the-seasons";                /* Headings */
   --font-monospace: "Fira Code", monospace;
-  --font-headings: var(--font-secondary);
+  --font-headings: var(--font-display);
 }
 
 * {
@@ -152,7 +155,7 @@ h3 { font-size: 32px; line-height: 110%; }
 .services-showcase {
   display: grid;
   grid-template-columns: 3fr 7fr; /* left and right columns */
-  padding: 16px;
+  padding: 40px;
   gap: 17%;
   min-height: 90vh;
   background-color: var(--accent);
@@ -164,14 +167,10 @@ h3 { font-size: 32px; line-height: 110%; }
   transform: none !important;
 }
 
-.learn-more-link {
-    font-size: 14px;
-  }
-
 /* Left Column */
 .left-column {
   padding: 16px;
-  /* position: sticky; */
+  position: sticky;
   top: 16px;
   align-self: start;
   height: 90vh;
@@ -205,7 +204,7 @@ h3 { font-size: 32px; line-height: 110%; }
   width: 307px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 4px;
 }
 
 /* Nav Links */
@@ -213,7 +212,7 @@ h3 { font-size: 32px; line-height: 110%; }
   text-decoration: none;
   color: #424242;
   transition: color 0.3s;
-  font-size:24px;
+  font-size:18px;
 }
 
 .left-column .nav-links a:hover {
@@ -240,18 +239,18 @@ h3 { font-size: 32px; line-height: 110%; }
 
   font-size: 48px;
   line-height: 100%;
-  font-weight: 400; 
+  font-weight: 300; 
   margin: 20px 0 26px 0;
 
 }
 
 .right-column h3 {
     color: var(--black);
-font-size: 32px;
+    font-size: 32px;
     line-height: 100%;
-    font-weight: 400;
-    margin-bottom: 18px;
-    margin-top: 12px;   
+    font-weight: 300;
+    margin-bottom: 32px;
+    margin-top: 12px;
 
 }
 
@@ -269,6 +268,19 @@ font-size: 32px;
 /* Section Container */
 .section-container {
   margin-bottom: 96px;
+}
+
+.section-container .carousel {
+  margin-bottom: 96px;
+}
+
+.section-container .info-container + .info-container {
+  margin-top: 64px;
+}
+
+.section-container > .btn-default {
+  margin-top: 36px;
+  color: var(--black);
 }
 
 /* ======================= Carousel ======================= */
@@ -423,7 +435,7 @@ color: var(--black);
       color: var(--black);
     font-size: 22px; /* Tablet sub-heading size */
     margin-top: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 32px;
   }
 
   .right-column p {
@@ -486,7 +498,7 @@ color: var(--black);
       color: var(--black);
     font-size: 18px; /* Mobile sub-heading size */
     margin-top: 20px;
-    margin-bottom: 8px;
+    margin-bottom: 32px;
   }
 
   .right-column p {
@@ -506,6 +518,17 @@ color: var(--black);
   .carousel.is-infinite .carousel-track,
   .carousel.is-infinite .carousel-track img {
     height: 200px;
+  }
+}
+
+@media (max-width: 785px) {
+  .services-showcase {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+
+  .services-showcase .nav-links {
+    display: none;
   }
 }
 
@@ -573,7 +596,7 @@ color: var(--black);
             a premium class of Residential interior designing services demanded but will also get a lifetime experience
             desired.</p>
         </div>
-                           <a href="residential-interior-desigining" class="learn-more-link">Learn More</a>
+        <?php $btnHref = 'residential-interior-desigining'; $btnText = 'Learn More'; include 'templates/btn-ofc.php'; ?>
       </div>
 
       <div class="section-container" id="section2">
@@ -598,7 +621,7 @@ color: var(--black);
             people move through the space. The result? A workplace that feels on-brand, works better, and leaves a
             lasting impression.</p>
         </div>
-                    <a href="commercial-interior-design" class="learn-more-link">Learn More</a>
+        <?php $btnHref = 'commercial-interior-design'; $btnText = 'Learn More'; include 'templates/btn-ofc.php'; ?>
       </div>
 
       <div class="section-container" id="section3">
@@ -623,13 +646,9 @@ color: var(--black);
         </div>
         <div class="info-container">
           <h3>We got a big bag filled with experience</h3>
-          <p>The thrill of a home renovation can quickly be diminished by unforeseen circumstances, stretched budgets,
-            and other unexpected issues. The good news is that our company takes care of these problems with the best
-            solutions ever possible. For us, it’s not just renovation, it’s a house makeover by restoring its original
-            state or by honoring it by its original intention. With our company the soul of the old space will never be
-            compromised. Its not work for us,</p>
+          <p>A home renovation is an opportunity to reimagine your space while preserving the character and essence that make it unique. At The Thekedaar, we approach every transformation with thoughtful planning, creative vision, and meticulous execution. For us, renovation goes beyond a makeover; it is about restoring a space's original charm while introducing a refined new perspective. We believe the soul of an existing space should never be compromised. Its history, architectural character, and individuality remain at the heart of every transformation. It's not just work for us;</p>
         </div>
-                    <a href="/renovation-2" class="learn-more-link">Learn More</a>
+        <?php $btnHref = '/renovation-2'; $btnText = 'Learn More'; include 'templates/btn-ofc.php'; ?>
 
       </div>
 
@@ -654,7 +673,7 @@ color: var(--black);
             creation.</p>
         </div>
 
-                           <a href="modular-furniture-2" class="learn-more-link">Learn More</a>
+        <?php $btnHref = 'modular-furniture-2'; $btnText = 'Learn More'; include 'templates/btn-ofc.php'; ?>
 
       </div>
 
@@ -663,7 +682,7 @@ color: var(--black);
         <div class="carousel">
           <!-- Carousel Images -->
           <div class="carousel-track">
-            <img src="/assets/images/process/analyzing-architectural-designs-on-computer-monito-2025-03-06-15-12-47-ut2.webp" alt="Commercial interior designers" title="Commercial interior designers" loading="lazy">
+            <img src="/assets/images/process/3d.webp" alt="Commercial interior designers" title="Commercial interior designers" loading="lazy">
             </div>
         </div>
         <div class="info-container">
@@ -671,7 +690,7 @@ color: var(--black);
           <p>Present day technology is so advanced that it allows us to generate realistic 2D-3D interior images of your house</p>
         </div>
         
-                           <a href="/2d-3d-design-2" class="learn-more-link">Learn More</a>
+        <?php $btnHref = '/2d-3d-design-2'; $btnText = 'Learn More'; include 'templates/btn-ofc.php'; ?>
       </div>
 
       <div class="section-container" id="section6">
@@ -687,7 +706,7 @@ color: var(--black);
           <p>Present day technology is so advanced that it allows us to generate realistic 2D-3D interior images of your house. 2D layouts design is the creation of two-dimensional images for various applications like electrical, mechanical and different fittings of architecture in a residential or commercial space. It is basically the layout or diagram of property or space from above where 3D models are a potent tool for interior designers to effectively communicate designs to their clients via three-dimensional visualization, increasing project approval rates. 3D interior design shifts the control to the hands of clients by enabling them to alter or transform designs. By using 2D-3D conversions, it provides a high resolution and detailed view of the house or space and make it more appealing and alluring. With Thekedaars, it’s easy to create beautiful 3D house plans. We provide high-quality 2D and 3D Floor plans quickly and easily.</p>
         </div>
         
-                           <a href="/architectural-desigining-2" class="learn-more-link">Learn More</a>
+        <?php $btnHref = '/architectural-desigining-2'; $btnText = 'Learn More'; include 'templates/btn-ofc.php'; ?>
       </div>
 
       <div class="section-container" id="section7">
@@ -703,7 +722,7 @@ color: var(--black);
           <p>If you have recently purchased space for your commercial fitness center and want to make it beautiful and functional, go nowhere and hire the best interior designs. But if you want to renovate your current Gym and enhance the training experience of your members, you may need a creative interior designer.</p>
         </div>
         
-                           <a href="/luxury-gym-interior-designers" class="learn-more-link">Learn More</a>
+        <?php $btnHref = '/luxury-gym-interior-designers'; $btnText = 'Learn More'; include 'templates/btn-ofc.php'; ?>
       </div>
 
       <div class="section-container" id="section8">
@@ -719,7 +738,7 @@ color: var(--black);
           <p>Every area in hospitality interiors is now designed with a specific purpose in mind to meet the needs of all guests, whether they want to stay in their rooms or see hotels as a new place to conduct business, network, socialize, or unwind.</p>
         </div>
         
-                           <a href="/luxury-hotel-interior-designers" class="learn-more-link">Learn More</a>
+        <?php $btnHref = '/luxury-hotel-interior-designers'; $btnText = 'Learn More'; include 'templates/btn-ofc.php'; ?>
       </div>
 
       <div class="section-container" id="section9">
@@ -735,7 +754,7 @@ color: var(--black);
           <p>An interior designer is a licensed member of a world organization of design professionals that spreads joy and fulfills aspirations. Both the practice of interior decoration and a range of design courses are taught to them.</p>
         </div>
         
-                           <a href="/luxury-villa-interior-designers-in-delhi" class="learn-more-link">Learn More</a>
+        <?php $btnHref = '/luxury-villa-interior-designers-in-delhi'; $btnText = 'Learn More'; include 'templates/btn-ofc.php'; ?>
       </div>
 
     </div>
@@ -915,41 +934,6 @@ function dragStart(e) {
 
 
 
-
-
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollSmoother.min.js"></script>
-
-<script>
-  // Register ScrollTrigger plugin
-  gsap.registerPlugin(ScrollTrigger);
-
-  // Get the elements
-  const leftColumn = document.querySelector('.left-column');
-  const servicesShowcase = document.querySelector('.services-showcase');
-
-  // Use matchMedia to apply ScrollTrigger only on desktop
-  ScrollTrigger.matchMedia({
-    // Desktop screens
-    "(min-width: 768px)": function() {
-      ScrollTrigger.create({
-        trigger: servicesShowcase,
-        start: "top top",
-        end: () => `bottom bottom`,
-        pin: leftColumn,
-        pinSpacing: false,
-      });
-    },
-    
-    // Mobile screens
-    "(max-width: 767px)": function() {
-      // Do nothing; left column scrolls normally
-    }
-  });
-</script>
 
 
 

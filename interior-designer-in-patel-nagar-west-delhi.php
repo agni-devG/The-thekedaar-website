@@ -2,7 +2,7 @@
 <html class="no-js" lang="en">
    <head>
       <title>Interior Designer in Patel Nagar, Delhi | Home Decor, Office Design</title>
-      <meta name="description" content="We offer interior design services in Patel Nagar at affordable prices. We Design your residential, and commercial space as you want. Get Free Consultation.">
+      <meta name="description" content="We offer interior design services in Patel Nagar. We Design your residential, and commercial space as you want. Get Free Consultation.">
       <meta name="keywords" content="Interior Designers in Patel Nagar, Interior Designer in Patel Nagar, Patel Nagar Interior Designer, Patel Nagar Interior Designers">
       <link rel="canonical" href="https://thethekedaar.in/interior-designer-in-patel-nagar-west-delhi" />
       <?php include("head.php");?>
@@ -377,7 +377,7 @@ max-width: 99.6%;
          <!---Content---->
          <p>The home should be a place of relaxation. To create the ideal residential interior design, you need to hire an interior design company with the necessary skills and experience.</p>
          <p>&nbsp;</p>
-         <p>Thethekedaar, a Delhi India-based residential decorator and designer, is a budget-friendly option. Its team of professionals keeps up to date on the latest trends in residential interior design. Designers are aware of how interior trends change and the themes that they should be using. Thethekedaar's designer team creates interior patterns for homes in new styles. They pay attention to every detail and keep up with current trends. We give your house a fresh facelift with our residential interior design services and turnkey project services.</p>
+         <p>Thethekedaar, a Delhi India-based residential decorator and designer, is a luxurious option. Its team of professionals keeps up to date on the latest trends in residential interior design. Designers are aware of how interior trends change and the themes that they should be using. Thethekedaar's designer team creates interior patterns for homes in new styles. They pay attention to every detail and keep up with current trends. We give your house a fresh facelift with our residential interior design services and turnkey project services.</p>
          <p>&nbsp;</p>
          <h2><strong>You can have your own customized residential interior design</strong></h2>
          <p>TheThekedaar's Home Interior Designer services create designs that suit individual tastes. They also come up with elegant and appropriate residential design patterns to fit your home. Individual preferences are different from one another. Our designers can help clients envision what they want in residential design. The designer creates a draft design that can be modified by the client if necessary.</p>

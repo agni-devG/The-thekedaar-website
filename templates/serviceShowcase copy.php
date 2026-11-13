@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -14,13 +14,13 @@
 /* ======================= Global Reset & Variables ======================= */
 html, body  {
   overflow-x: hidden;
-  background-color: #202522;
+  background-color: #0C0503;
   margin: 0;
   /* scroll-behavior: smooth; */
 }
 
 :root {
-  --black: #0D0D0D;
+  --black: #0C0503;
   --white: #E6E6E6;
   --accent: #FAEFDF;
   --grey: #292929;
@@ -29,7 +29,7 @@ html, body  {
   --font-primary: "Aloevera Display", sans-serif; /* Paragraphs */
   --font-secondary: "the-seasons";                /* Headings */
   --font-monospace: "Fira Code", monospace;
-  --font-headings: var(--font-secondary);
+  --font-headings: var(--font-display);
 }
 
 * {
@@ -623,11 +623,7 @@ color: var(--black);
         </div>
         <div class="info-container">
           <h3>We got a big bag filled with experience</h3>
-          <p>The thrill of a home renovation can quickly be diminished by unforeseen circumstances, stretched budgets,
-            and other unexpected issues. The good news is that our company takes care of these problems with the best
-            solutions ever possible. For us, it’s not just renovation, it’s a house makeover by restoring its original
-            state or by honoring it by its original intention. With our company the soul of the old space will never be
-            compromised. Its not work for us,</p>
+          <p>A home renovation is an opportunity to reimagine your space, preserve its character, and give it a renewed sense of identity. At The Thekedaar, we approach every transformation with thoughtful planning, creative vision, and meticulous execution. For us, renovation goes beyond a makeover; it is about honouring the original architecture and intention of a space while introducing a refined new perspective. We believe the soul of an existing space should never be compromised. Its history, character, and individuality remain at the heart of everything we create. It's not just work for us;</p>
         </div>
                     <a href="/renovation-2" class="learn-more-link">Learn More</a>
 
