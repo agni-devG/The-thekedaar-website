@@ -154,42 +154,39 @@
   
 </head> 
 
-<body>
+<body class="has-fixed-nav">
     <?php include 'preloader.php'; ?>
+    <?php include 'templates/nav-2.php'; ?>
         
     <main>
                    
-        <section class="hero-section">           
+        <section class="hero-section home-hero-section">
             <div class="hero-gradient"></div>
-                <div class="hero-content-container">
-                    <?php include 'templates/nav-2.php'; ?>
-                    <div class="hero-main">
-                        <div class="h1-desktop h1-sm hero-h1">
-                            <img src="/assets/images/hero.svg" alt="The Thekedaar" title="The Thekedaar" class="hero-logo" loading="lazy">
-                            <span class="hero-subtitle">Delivering interior designs that never age.</span>
-                        
-                        </div>
-                        <div class="hero-nav hidden">
-                            <ul>
-                                <li><a href="aboutus">About us</a></li>
-                                <!-- Services link with Dropdown -->
-                                <li class="has-dropdown">
-                                    <a href="service-2">Services</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="residentialservice-2">Residential Designing</a></li>
-                                        <li><a href="commercial-interior-design">Commercial Interior Design</a></li>
-                                        <li><a href="renovation-2">Renovation</a></li>
-                                        <li><a href="modular-furniture-2">Modular Furniture</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="portfolio">Portfolio</a></li>
-                                <li><a href="blogs/">Blogs</a></li>
-                                <li><a href="contact-us-2">Contact</a></li>
-                            </ul>
-                        </div>
-                        <div class="scroll-wrpr">
-                            <span class="scroll-txt">SCROLL</span>
-                        </div>
+            <div class="hero-content-container">
+                <div class="hero-main">
+                    <div class="h1-desktop h1-sm hero-h1">
+                        <img src="/assets/images/hero.svg" alt="The Thekedaar" title="The Thekedaar" class="hero-logo" loading="lazy">
+                        <span class="hero-subtitle">Delivering interior designs that never age.</span>
+                    </div>
+                    <div class="hero-nav hidden">
+                        <ul>
+                            <li><a href="aboutus">About us</a></li>
+                            <li class="has-dropdown">
+                                <a href="service-2">Services</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="residentialservice-2">Residential Designing</a></li>
+                                    <li><a href="commercial-interior-design">Commercial Interior Design</a></li>
+                                    <li><a href="renovation-2">Renovation</a></li>
+                                    <li><a href="modular-furniture-2">Modular Furniture</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="portfolio">Portfolio</a></li>
+                            <li><a href="blogs/">Blogs</a></li>
+                            <li><a href="contact-us-2">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="scroll-wrpr">
+                        <span class="scroll-txt">SCROLL</span>
                     </div>
                 </div>
             </div>
@@ -399,7 +396,6 @@
         })();
     </script>
     
-    <script src="https://cdn.jsdelivr.net/npm/lottie-web@5.12.2/build/player/lottie.min.js"></script>
 <script>
     
 //     // Register GSAP plugins
@@ -408,8 +404,6 @@
 // // Only initialize if ScrollSmoother is supported
 // if (ScrollSmoother.isSupported()) {
 //   ScrollSmoother.create({
-//     wrapper: "#smooth-wrapper",   // outer wrapper
-//     content: "#smooth-content",   // inner scroll content
 //     smooth: 1.2,                  // scroll smoothing (1 = default speed)
 //     effects: true                 // enable data-speed & data-lag effects
 //   });

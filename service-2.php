@@ -179,29 +179,21 @@
         }
     </style>
 </head>
-<body>
- <div id="smooth-wrapper">
-    <div id="smooth-content">
+<body class="page-shell">
     <!-- ======================= Header ======================= -->
     <?php include 'templates/header.php'; ?>
 
     <!-- ======================= Main Content ======================= -->
     <main>
 
-  <section class="hero-section">
-  <img src="assets/images/services/hero.jpg" alt="Luxury interior designers in Delhi" title="Luxury interior designers in Delhi" class="hero-image">
-
-  <div class="hero-content-container">
-    <div class="hero-left">
-                    <h1 class="h1-desktop h1-sm">What We Offer</h1>
-      <p class="p1-desktop">
-            Our services cover every aspect of luxury interiors—modular kitchens, bespoke furniture, elegant décor, and smart space planning—crafted to transform your space into a statement of style and comfort.
-
-      </p>
-    </div>
-    <a href="contact-us-2" class="cta-button hero-cta">Book An Appointment</a>
-  </div>
-</section>
+  <!-- Reusable alternate hero -->
+<?php
+$hero_image = '/assets/images/services/hero.jpg';
+$hero_heading = 'What We Offer';
+$hero_subtext = 'Our services cover every aspect of luxury interiors—modular kitchens, bespoke furniture, elegant décor, and smart space planning—crafted to transform your space into a statement of style and comfort.';
+$hero_image_alt = 'Luxury interior designers in Delhi';
+include __DIR__ . '/templates/hero-alt.php';
+?>
 
 
 
@@ -253,9 +245,6 @@
 
     <!-- ======================= Footer ======================= -->
     <?php include 'templates/footer.php'; ?>
-    
-       </div>
-  </div>
     <script src="assets/js/main.js"></script>
     
     <script>
@@ -318,8 +307,6 @@
   gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
   ScrollSmoother.create({
-    wrapper: "#smooth-wrapper", // outer wrapper
-    content: "#smooth-content", // scrolling content
     smooth: 1.2,                // speed (lower = faster response)
     effects: true               // allow data-speed / parallax effects
   });

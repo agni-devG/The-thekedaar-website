@@ -156,11 +156,9 @@
     </style>
     
 </head>
-<body>
+<body class="page-shell">
     
     
- <div id="smooth-wrapper">
-    <div id="smooth-content">
           <!-- ======================= Header ======================= -->
 
             <?php include 'templates/header.php'; ?>
@@ -169,23 +167,18 @@
           <!-- ======================= Main Content ======================= -->
           <main>
             <!-- Hero Section -->
-            <section class="hero-section">
-          <img src="assets/images/commercial/hero.webp" alt="Best interior designers in Delhi" title="Best interior designers in Delhi" class="hero-image">
- 
-          <div class="hero-content-container">
-            <div class="hero-left">
-              <h1 class="h1-desktop h1-sm">Commercial Interior Design</h1>
-              <p class="p1-desktop">
-                Your workspace deserves to inspire success, blending style with smart functionality to reflect your brand and leave a lasting impression.
-              </p>
-            </div>
-            <a href="contact-us-2" class="cta-button hero-cta">Book An Appointment</a>
-          </div>
-        </section>
+            <!-- Reusable alternate hero -->
+<?php
+$hero_image = '/assets/images/commercial/hero.webp';
+$hero_heading = 'Commercial Interior Design';
+$hero_subtext = 'Your workspace deserves to inspire success, blending style with smart functionality to reflect your brand and leave a lasting impression.';
+$hero_image_alt = 'Commercial interior design';
+include __DIR__ . '/templates/hero-alt.php';
+?>
             
 
         <!-- ======================= Our Designing Process Section ======================= -->
-        <?php include 'templates/designProcess.php'; ?>
+        <?php include 'templates/designProcess-2.php'; ?>
 
 
 
@@ -196,7 +189,7 @@
         <?php include 'templates/portfolio.php'; ?>
 
         <!-- ======================= Testimonials Section ======================= -->
-        <?php include 'templates/testimonials.php'; ?>
+        <?php include 'templates/testimonials-new.php'; ?>
 
 
           
@@ -205,25 +198,26 @@
 
         <section class="founder-section">
             <div class="container founder-grid">
-                <h2 class="section-title founder-heading ">Commercial Interior Design</h2>
                 
-                <div class="founder-image">
-                    <img src="assets/images/commercial/com.jpg" alt="Best interior designers in Delhi" title="Best interior designers in Delhi">
-                </div>
+               
                 
                 <div class="founder-details">
-                    <p>In today’s era, it is more of necessity rather than an elite wish to have a properly well-designed interior of the office space equipped with all the modern essential facilities. This not only helps in massively optimizing the reach of that commercial firm in the suburban locality but also helps in PR (Personal Marketing) of the firm, which plays a very crucial & significant role in the growth of any firm.<br><br>
+                  <h2 class="section-title founder-heading ">Commercial Interior Design</h2>
+
+                  <p>In today’s era, it is more of necessity rather than an elite wish to have a properly well-designed interior of the office space equipped with all the modern essential facilities. This not only helps in massively optimizing the reach of that commercial firm in the suburban locality but also helps in PR (Personal Marketing) of the firm, which plays a very crucial & significant role in the growth of any firm.<br><br>
 
                   But assigning the task of commercial interior designing is a big task in itself. It’s like searching for a needle in a grass field. As there are many companies in the market claiming to be best in their work. But we all know; reality is the opposite on the surface level.<br><br>
 
                   To make this work easier, here comes our role. With us at Thethekedaar, you not only get to avail yourself of premium class and luxurious quality interior designing service at your doorstep but also gets a commitment to enhancing your experience altogether.<br><br>
                   What We Cover? <br><br>
                   There can be many types of projects in commercial interior designing, because we know today in Delhi from Businessman, GYM, SPA, Hotel to a normal shopkeeper also wants that where he does his business he looks a beautiful and gorgeous and same problem. Our Experienced Interior Designers have the ability to give you an international level design according to your wishes by making a place like your office or shop.
-
-
-        </p>
+                  </p>
                 
 
+                </div>
+                
+                <div class="founder-image">
+                    <img src="assets/images/commercial/com.jpg" alt="Best interior designers in Delhi" title="Best interior designers in Delhi">
                 </div>
                 <!-- <a href="contact-us-2" class="inline-contact-link">Contact Us</a> -->
             </div>
@@ -317,9 +311,6 @@
     
           <!-- ======================= Footer ======================= -->
            <?php include 'footer.php'; ?>
-    
-       </div>
-  </div>
     <!-- <script src="assets/js/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
@@ -328,8 +319,6 @@
   gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
   ScrollSmoother.create({
-    wrapper: "#smooth-wrapper", // outer wrapper
-    content: "#smooth-content", // scrolling content
     smooth: 1.2,                // speed (lower = faster response)
     effects: true               // allow data-speed / parallax effects
   });

@@ -77,9 +77,7 @@
 }
     </style>
 </head>
-<body>
-     <div id="smooth-wrapper">
-    <div id="smooth-content">
+<body class="page-shell">
 
     <!-- ======================= Header ======================= -->
 
@@ -93,18 +91,14 @@
     
 
 
- <section class="hero-section">
-  <img src="assets/images/portfolio/tropical-style-resort-suite-living-re-2025-01-08-23-48-28-utc.webp" alt="Modern Interior Designers" title="Modern Interior Designers" class="hero-image">
-
-  <div class="hero-content-container">
-    <div class="hero-left">
-      <h1 class="h1-desktop h1-sm">Our Portfolio</h1>
-                      <p class="p1-desktop">Spaces reimagined with elegance and precision. Each project reflects timeless design, personalized details, and uncompromised quality.</p>
-
-    </div>
-    <a href="contact-us-2" class="cta-button hero-cta">Book An Appointment</a>
-  </div>
-</section>
+ <!-- Reusable alternate hero -->
+<?php
+$hero_image = '/assets/images/portfolio/tropical-style-resort-suite-living-re-2025-01-08-23-48-28-utc.webp';
+$hero_heading = 'Our Portfolio';
+$hero_subtext = 'Spaces reimagined with elegance and precision. Each project reflects timeless design, personalized details, and uncompromised quality.';
+$hero_image_alt = 'Interior design portfolio project';
+include __DIR__ . '/templates/hero-alt.php';
+?>
 
 <!-- ======================= Stats Section ======================= -->
 <section class="stats-section">
@@ -186,9 +180,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     <!-- ======================= Footer ======================= -->
     <?php include 'templates/footer.php'; ?>
-    
-       </div>
-  </div>
     <script src="assets/js/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
@@ -201,8 +192,6 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 // Only initialize if ScrollSmoother is supported
 if (ScrollSmoother.isSupported()) {
   ScrollSmoother.create({
-    wrapper: "#smooth-wrapper",   // outer wrapper
-    content: "#smooth-content",   // inner scroll content
     smooth: 1.2,                  // scroll smoothing (1 = default speed)
     effects: true                 // enable data-speed & data-lag effects
   });

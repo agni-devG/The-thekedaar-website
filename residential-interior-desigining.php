@@ -111,9 +111,7 @@
     <!-- Your Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
- <div id="smooth-wrapper">
-    <div id="smooth-content">
+<body class="page-shell">
     <!-- ======================= Header ======================= -->
 
        <?php include 'templates/header.php'; ?>
@@ -123,21 +121,16 @@
    <main>
     <!-- Hero Section -->
      <!-- <section class="hero-banner-section"></section> -->
-     <section class="hero-section">
-  <img src="assets/images/residential/hero.jpg" alt="Residential interior designers" title="Residential interior designers" class="hero-image">
-
-  <div class="hero-content-container">
-    <div class="hero-left">
-      <h1 class="h1-desktop h1-sm">Residential Interior Designing</h1>
-      <p class="p1-desktop">
-        We create homes that feel luxurious and personal, with every detail designed to reflect your unique style and comfort.
-      </p>
-    </div>
-    <a href="contact-us-2" class="cta-button hero-cta">Book An Appointment</a>
-  </div>
-</section>
+     <!-- Reusable alternate hero -->
+<?php
+$hero_image = '/assets/images/residential/hero.jpg';
+$hero_heading = 'Residential Interior Designing';
+$hero_subtext = 'We create homes that feel luxurious and personal, with every detail designed to reflect your unique style and comfort.';
+$hero_image_alt = 'Residential interior designers';
+include __DIR__ . '/templates/hero-alt.php';
+?>
 <!-- ======================= Our Designing Process Section ======================= -->
-<?php include 'templates/designProcess.php'; ?>
+<?php include 'templates/designProcess-2.php'; ?>
 
 
 
@@ -148,7 +141,7 @@
 <?php include 'templates/portfolio.php'; ?>
 
 <!-- ======================= Testimonials Section ======================= -->
-<?php include 'templates/testimonials.php'; ?>
+<?php include 'templates/testimonials-new.php'; ?>
 
 <!-- ======================= Enhance Beauty Section 0 ======================= -->
     <section class="enhance-section">
@@ -244,9 +237,6 @@ So, the answer has many layers to it. Let’s start peeling it one by one-</p>
     
           <!-- ======================= Footer ======================= -->
            <?php include 'footer.php'; ?>
-    
-       </div>
-  </div>
     <script src="assets/js/main.js"></script>
 
 

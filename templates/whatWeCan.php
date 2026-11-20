@@ -1,25 +1,8 @@
 <!-- ======================= Why Choose Us Section (Content Left / Image Right) ======================= -->
- <style>
-    .why-us-text h3 {
-    font-family: var(--font-headings);
-    /* font-size: 42px; same as section heading */
-    font-weight: 500;
-    /* line-height: 1.2; */
-    margin-bottom: 235px; /* reduced from 243px for better spacing */
-    color: var(--white);
-}
-
-@media (max-width: 992px) {
-.why-us-text h3 {
-    font-size:24px;
-    margin: 8px 0 ;
-}
-}
- </style>
-<section class="why-us-section" style="margin-top: 250px;">
+<section class="why-us-section">
     <div class="container">
         
-        <h2 class="section-title" style="padding-left:12px">What we can do for you</h2>
+        <h2 class="section-title">What we can do for you</h2>
         
         <div class="why-us-grid">
             <!-- Item 1 -->

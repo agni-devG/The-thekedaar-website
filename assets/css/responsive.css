@@ -63,6 +63,7 @@
     .res-margin {
         margin-bottom: 30px;
     }
+
 }
 
 @media (max-width: 575px) {
@@ -77,6 +78,30 @@
 
     .single-counter span {
         font-size: 3em;
+    }
+}
+
+/* Keep a consistent 16px page gutter on narrow phones. */
+@media (max-width: 435px) {
+    .container,
+    .container-fluid {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .hero-left {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .hero-cta {
+        margin-left: 0;
+    }
+
+    .map-section {
+        margin-left: 16px;
+        margin-right: 16px;
+        width: auto;
     }
 }
 

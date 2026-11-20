@@ -9,7 +9,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        color: #fff;
+        color: #000000;
         flex-direction: column;
         gap: 12px;
         overflow: hidden;
@@ -18,13 +18,17 @@
     
     
     .preloader p{
-        color: #ffffff;
+        color: #000000;
     }
 
     .preloader-image{
         width: 200px;
         height: auto;
         filter: blur(32px)
+    }
+
+    .preloader-image path{
+        fill: black;
     }
     .pl-panels{
         position: absolute;
@@ -35,7 +39,7 @@
     .pl-panels i{
         flex: 1;
         height: 100vh;
-        background: #8C1C13;
+        background: #FAEFDF;
         /* transform: translateY(100%); */
     }
 
@@ -45,9 +49,9 @@
         }
     }
 
-    .preloader-image path{
+    /* .preloader-image path{
         fill: white;
-    }
+    } */
 
     .preloader-image,
     .preloader p{

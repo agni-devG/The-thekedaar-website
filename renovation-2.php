@@ -131,10 +131,8 @@
     <!-- Your Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body class="page-shell">
     
-     <div id="smooth-wrapper">
-    <div id="smooth-content">
 
     <!-- ======================= Header ======================= -->
 
@@ -147,22 +145,16 @@
 
 
 
- <section class="hero-section">
-  <img src="assets/images/renovation/Dining Area View 03.webp" alt="Modern Interior Designers" title="Modern Interior Designers">
-
-  <div class="hero-content-container">
-    <div class="hero-left">
-      <h1 class="h1-desktop h1-sm">Renovation</h1>
-      <p class="p1-desktop">
-             Breathe new life into your space with. From modern upgrades to complete transformations, we make your vision a reality.
-
-      </p>
-    </div>
-    <a href="contact-us-2" class="cta-button hero-cta">Book An Appointment</a>
-  </div>
-</section>
+ <!-- Reusable alternate hero -->
+<?php
+$hero_image = '/assets/images/renovation/Dining Area View 03.webp';
+$hero_heading = 'Renovation';
+$hero_subtext = 'Breathe new life into your space. From modern upgrades to complete transformations, we make your vision a reality.';
+$hero_image_alt = 'Renovated interior dining area';
+include __DIR__ . '/templates/hero-alt.php';
+?>
 <!-- ======================= Our Designing Process Section ======================= -->
-<?php include 'templates/designProcess.php'; ?>
+<?php include 'templates/designProcess-2.php'; ?>
 
 
 
@@ -171,19 +163,15 @@
 <?php include 'templates/portfolio.php'; ?>
 
 <!-- ======================= Testimonials Section ======================= -->
-<?php include 'templates/testimonials.php'; ?>
+<?php include 'templates/testimonials-new.php'; ?>
 
     
     
    <section class="founder-section">
     <div class="container founder-grid">
-        <h2 class="section-title founder-heading ">Renovation</h2>
-        
-        <div class="founder-image">
-            <img src="assets/images/renovation/Master Bedroom View01_.webp" alt="Interior design services in Delhi" title="Interior design services in Delhi">
-        </div>
-        
         <div class="founder-details">
+          <h2 class="section-title founder-heading ">Renovation</h2>
+
             <p>Technology has transformed the renovation process, making thoughtful planning and visualisation more integral to creating exceptional spaces. Advanced design tools allow us to explore possibilities, refine concepts, and bring every detail into focus before execution begins.
 
             Renovation is more than renewing, restoring, or refreshing a space; it is about rediscovering its character and giving it a new identity. While a home transformation comes with its own complexities, our experienced team ensures every stage is approached with meticulous planning, attention to detail, and expert execution.
@@ -191,6 +179,9 @@
             At The Thekedaar, renovation is not simply about transforming a property. It is about honouring its original character while introducing a fresh perspective through refined design and craftsmanship. We believe the soul of an existing space should never be compromised. Its history, personality, and architectural essence remain at the heart of every transformation.
 
             For us, it is more than work. It is a true labour of love.</p>
+        </div>
+        <div class="founder-image">
+            <img src="assets/images/renovation/Master Bedroom View01_.webp" alt="Interior design services in Delhi" title="Interior design services in Delhi">
         </div>
     </div>
 </section>
@@ -204,9 +195,6 @@
     
           <!-- ======================= Footer ======================= -->
            <?php include 'footer.php'; ?>
-    
-       </div>
-  </div>
     <script src="assets/js/main.js"></script>
     
 

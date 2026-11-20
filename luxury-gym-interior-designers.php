@@ -122,9 +122,7 @@
     <!-- Your Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
- <div id="smooth-wrapper">
-    <div id="smooth-content">
+<body class="page-shell">
     <!-- ======================= Header ======================= -->
 
        <?php include 'templates/header.php'; ?>
@@ -134,21 +132,16 @@
    <main>
     <!-- Hero Section -->
      <!-- <section class="hero-banner-section"></section> -->
-     <section class="hero-section">
-  <img src="/assets/images/commercial/2.webp" alt="Residential interior designers" title="Residential interior designers" class="hero-image">
-
-  <div class="hero-content-container">
-    <div class="hero-left">
-      <h1 class="h1-desktop h1-sm">GYM Interior Designing</h1>
-      <p class="p1-desktop">
-        Design spaces that inspire strength. Our gym interiors combine functionality with bold aesthetics — motivating every workout with energy, light, and power.
-      </p>
-    </div>
-    <a href="contact-us-2" class="cta-button hero-cta">Book An Appointment</a>
-  </div>
-</section>
+     <!-- Reusable alternate hero -->
+<?php
+$hero_image = '/assets/images/commercial/2.webp';
+$hero_heading = 'GYM Interior Designing';
+$hero_subtext = 'Design spaces that inspire strength. Our gym interiors combine functionality with bold aesthetics—motivating every workout with energy, light, and power.';
+$hero_image_alt = 'Gym interior design';
+include __DIR__ . '/templates/hero-alt.php';
+?>
 <!-- ======================= Our Designing Process Section ======================= -->
-<?php include 'templates/designProcess.php'; ?>
+<?php include 'templates/designProcess-2.php'; ?>
 
 
 
@@ -156,10 +149,10 @@
 
 
 <!-- ======================= Portfolio CTA Section ======================= -->
-<?php include 'templates/portfolio.php'; ?>
+<?php include 'templates/portfolio-new.php'; ?>
 
 <!-- ======================= Testimonials Section ======================= -->
-<?php include 'templates/testimonials.php'; ?>
+<?php include 'templates/testimonials-new.php'; ?>
 
 
 
@@ -247,9 +240,6 @@ In the fitness and wellness sector, Commercial GYM Interior Design is crucial. A
     
           <!-- ======================= Footer ======================= -->
            <?php include 'footer.php'; ?>
-    
-       </div>
-  </div>
     <script src="assets/js/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>

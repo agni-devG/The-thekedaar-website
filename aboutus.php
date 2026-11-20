@@ -21,13 +21,13 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/fav.png">
     <link rel="icon" type="image/x-icon" href="/assets/images/fav.png">
     
-   <!-- Adobe Font (Headings) -->
-  <link rel="stylesheet" href="https://use.typekit.net/cmr7pve.css">
+    <!-- Adobe Font (Headings) -->
+    <link rel="stylesheet" href="https://use.typekit.net/cmr7pve.css">
 
   <!-- Google Font (Fira Code for monospace only) -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
 
     <!-- Font Awesome (for social icons) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -39,9 +39,6 @@
     <link rel="stylesheet" href="assets/css/style.css">
     
     <style>
-
-
-
 
         /* Animation utility classes that won't conflict with existing CSS */
         .fade-in {
@@ -97,66 +94,59 @@
         
     </style>
 </head>
-<body>
- <div id="smooth-wrapper">
-    <div id="smooth-content">
+<body class="page-shell">
     <!-- ======================= Header ======================= -->
     <?php include 'templates/header.php'; ?>
-
+    
     <!-- ======================= Main Content ======================= -->
    <main>
-    <!-- Hero Section -->
-     <section class="hero-section">
-  <img src="assets/images/about/hero.webp" alt="Interior designers in Delhi" title="Interior designers in Delhi" class="hero-image">
-
-  <div class="hero-content-container">
-    <div class="hero-left">
-      <h1 class="h1-desktop">About Us</h1>
-      <p class="p1-desktop">
-        A Delhi interior design studio with a timeless, sophisticated signature approach 
-        to delivering classic and contemporary interiors.
-      </p>
-    </div>
-    <a href="contact-us-2" class="cta-button hero-cta">Book An Appointment</a>
-  </div>
-</section>
+    <!-- Alternate Hero: set these three values to customize this page's hero. -->
+    <?php
+    $hero_image = '/assets/images/about/hero.webp';
+    $hero_heading = 'About Us';
+    $hero_subtext = 'A Delhi interior design studio with a timeless, sophisticated signature approach to delivering classic and contemporary interiors.';
+    $hero_image_alt = 'Interior designers in Delhi';
+    include __DIR__ . '/templates/hero-alt.php';
+    ?>
 
             <!-- <a href="contact-us-2" class="cta-button hero-cta fade-in" style="transition-delay: 0.3s;">Book An Appointment</a> -->
     
-    <!-- We Define Homes Section -->
+            <!-- We Define Homes Section -->
    
 
-    <section class="founder-section">
-    <div class="container founder-grid">
-        <h2 class="section-title founder-heading ">Company mission</h2>
-        
-        <div class="founder-image">
-            <img src="assets/images/about/11.webp" alt="Best interior designers in Delhi" title="Best interior designers in Delhi">
+    <section class="mission-section">
+        <div class="container mission-container narrow-container">
+            <div class="mission-content">
+                <h2 class="section-title mission-heading ">Company mission</h2>
+                <div class="mission-details">
+                    <p>Home is where love resides, memories are created and laughter never ends and we make one for you because people usually are happiest at their home and that's what our ultimate motto is, making our clients happy.</p>
+                </div>
+            </div>
+            
+            <div class="mission-image">
+                <img src="assets/images/about/11.webp" alt="Best interior designers in Delhi" title="Best interior designers in Delhi">
+            </div>
         </div>
-        
-        <div class="founder-details">
-            <p>Home is where love resides, memories are created and laughter never ends and we make one for you because people usually are happiest at their home and that's what our ultimate motto is, making our clients happy.</p>
-        </div>
-    </div>
-</section>
+            
+    </section>
 
  
 <?php include 'templates/founder.php'; ?>
-<?php include 'templates/our-team.php'; ?>
+<?php //include 'templates/our-team.php'; ?>
 
     <!-- ======================= More Info Section ======================= -->
-    <?php include 'templates/lttleAboutUs.php'; ?>
+    <?php include 'templates/lttleAboutUs-2.php'; ?>
    
     <!-- ======================= Our Designing Process Section ======================= -->
-    <?php include 'templates/designProcess.php'; ?>
+    <?php include 'templates/designProcess-2.php'; ?>
 
     <!-- ======================= Video Gallery Section ======================= -->
-   <?php include 'templates/video.php';?>
+   <?php //include 'templates/video.php';?>
     
     <!-- ======================= Service Section ======================= -->
     <?php include 'templates/serviceShowcase.php'; ?>
     <!-- ======================= Testimonials Section ======================= -->
-    <?php include 'templates/testimonials.php'; ?>
+    <?php include 'templates/testimonials-new.php'; ?>
 
 
   
@@ -166,9 +156,6 @@
 
     <!-- ======================= Footer ======================= -->
     <?php include 'templates/footer.php'; ?>
-    
-       </div>
-  </div>
     <script src="assets/js/main.js"></script>
     
     <script>

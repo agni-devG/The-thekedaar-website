@@ -125,9 +125,7 @@
 </style>
     
 </head>
-<body>
-     <div id="smooth-wrapper">
-    <div id="smooth-content">
+<body class="page-shell">
 
     <!-- ======================= Header ======================= -->
 
@@ -137,20 +135,14 @@
     <!-- ======================= Main Content ======================= -->
    <main>
     
- <section class="hero-section">
-  <img src="assets/images/modular/hero.webp" alt="Luxury interior designers in Delhi" title="Luxury interior designers in Delhi" class="hero-image" >
-
-  <div class="hero-content-container">
-    <div class="hero-left">
-      <h1 class="h1-desktop h1-sm">Modular Furniture</h1>
-      <p class="p1-desktop">
-            Transform your interiors with sleek, space-saving modular furniture. Designed for style, functionality, and flexibility to suit your lifestyle.
-
-      </p>
-    </div>
-    <a href="contact-us-2" class="cta-button hero-cta">Book An Appointment</a>
-  </div>
-</section>
+ <!-- Reusable alternate hero -->
+<?php
+$hero_image = '/assets/images/modular/hero.webp';
+$hero_heading = 'Modular Furniture';
+$hero_subtext = 'Transform your interiors with sleek, space-saving modular furniture. Designed for style, functionality, and flexibility to suit your lifestyle.';
+$hero_image_alt = 'Modular furniture design';
+include __DIR__ . '/templates/hero-alt.php';
+?>
 
     <!-- We Define Homes Section -->
     <section class="define-homes-section">
@@ -171,10 +163,10 @@
 
 
 <!-- ======================= Portfolio CTA Section ======================= -->
-<?php include 'templates/portfolio.php'; ?>
+<?php include 'templates/portfolio-new.php'; ?>
 
 <!-- ======================= Testimonials Section ======================= -->
-<?php include 'templates/testimonials.php'; ?>
+<?php include 'templates/testimonials-new.php'; ?>
 
 
     <!-- ======================= Enhance Beauty Section 1 ======================= -->
@@ -216,12 +208,9 @@
             <img src="assets/images/modular/living.webp" alt="Best interior designers in Delhi" title="Best interior designers in Delhi">
             <div class="enhance-text">
                 <p>
-
-“Furniture is like antique items of a prestigious old museum, without them there is no point of interior designing.” <br>
-For humans, having a beautiful living space is one of their deep-rooted desires. We, humans, love decorating our residential, office & commercial places. In many types of research, it is found that for humans, especially in these times, decorating and designing the interior of their place is closely associated with mental peace. And in designing any place, the Furniture of that place plays a significant role. They are the major complementary factor for decorating and designing the place. Without them, any residential complex is nothing more than a shelter. They make a place alive and vibrant. <br>
-Each piece of Furniture has its significance so has a traditional backdrop story embedded with it. For Example- Dining tables have huge cultural roots of the Victorian Era. Each type of Furniture serves its purpose and it is quite mandatory for them that along with serving their purposes they also be the reason for the beautification of the place. Thus, it is more of a compulsion to have Customized Furniture Services in Delhi when you are giving a thought of interior designing of the place.</p>
-                <!-- <p>But why should you look up to our services among the leading Interior Designers in Delhi? Here, we have marked down the fundamental reasons why you choose our services:</p> -->
-               
+                “Furniture is like antique items of a prestigious old museum, without them there is no point of interior designing.” <br>
+                For humans, having a beautiful living space is one of their deep-rooted desires. We, humans, love decorating our residential, office & commercial places. In many types of research, it is found that for humans, especially in these times, decorating and designing the interior of their place is closely associated with mental peace. And in designing any place, the Furniture of that place plays a significant role. They are the major complementary factor for decorating and designing the place. Without them, any residential complex is nothing more than a shelter. They make a place alive and vibrant. <br>
+                Each piece of Furniture has its significance so has a traditional backdrop story embedded with it. For Example- Dining tables have huge cultural roots of the Victorian Era. Each type of Furniture serves its purpose and it is quite mandatory for them that along with serving their purposes they also be the reason for the beautification of the place. Thus, it is more of a compulsion to have Customized Furniture Services in Delhi when you are giving a thought of interior designing of the place.</p>
             </div>
         </div>
     </section>
@@ -295,9 +284,6 @@ We at Thethekedaar Customize almost every type of Furniture. This includes house
     
           <!-- ======================= Footer ======================= -->
            <?php include 'footer.php'; ?>
-    
-       </div>
-  </div>
     <script src="assets/js/main.js"></script>
 
 

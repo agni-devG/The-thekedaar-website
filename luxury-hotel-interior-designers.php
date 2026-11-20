@@ -106,9 +106,7 @@
     <!-- Your Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
- <div id="smooth-wrapper">
-    <div id="smooth-content">
+<body class="page-shell">
     <!-- ======================= Header ======================= -->
 
        <?php include 'templates/header.php'; ?>
@@ -118,21 +116,16 @@
    <main>
     <!-- Hero Section -->
      <!-- <section class="hero-banner-section"></section> -->
-     <section class="hero-section">
-  <img src="assets/images/commercial/com.jpg" alt="Residential interior designers" title="Residential interior designers" class="hero-image" style="object-position: center">
-
-  <div class="hero-content-container">
-    <div class="hero-left">
-      <h1 class="h1-desktop h1-sm">Hotel Interior Designing</h1>
-      <p class="p1-desktop">
-        Designing immersive hotel spaces that captivate every guest — where elegance, comfort, and experience come together to create unforgettable stays.
-      </p>
-    </div>
-    <a href="contact-us-2" class="cta-button hero-cta">Book An Appointment</a>
-  </div>
-</section>
+     <!-- Reusable alternate hero -->
+<?php
+$hero_image = '/assets/images/commercial/com.jpg';
+$hero_heading = 'Hotel Interior Designing';
+$hero_subtext = 'Designing immersive hotel spaces that captivate every guest—where elegance, comfort, and experience come together to create unforgettable stays.';
+$hero_image_alt = 'Hotel interior design';
+include __DIR__ . '/templates/hero-alt.php';
+?>
 <!-- ======================= Our Designing Process Section ======================= -->
-<?php include 'templates/designProcess.php'; ?>
+<?php include 'templates/designProcess-2.php'; ?>
 
 
 
@@ -140,10 +133,10 @@
 
 
 <!-- ======================= Portfolio CTA Section ======================= -->
-<?php include 'templates/portfolio.php'; ?>
+<?php include 'templates/portfolio-new.php'; ?>
 
 <!-- ======================= Testimonials Section ======================= -->
-<?php include 'templates/testimonials.php'; ?>
+<?php include 'templates/testimonials-new.php'; ?>
 
 
 
@@ -250,9 +243,6 @@ Hiring an interior designer will help you save a ton of time and money while als
     
           <!-- ======================= Footer ======================= -->
            <?php include 'footer.php'; ?>
-    
-       </div>
-  </div>
     <script src="assets/js/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>

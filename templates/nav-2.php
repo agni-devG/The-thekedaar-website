@@ -1,8 +1,8 @@
 <div class="nav-2">
                     <?php
-                    $btnHref = 'contact-us-2';
+                    $btnHref = '/contact-us-2';
                     $btnText = 'Book an Appointment';
-                    include 'templates/btn-ofc.php';
+                    include __DIR__ . '/btn-ofc.php';
                     ?>
                     <div class="nav-logo-2">
                         <a href="/"><svg width="118" height="47" viewBox="0 0 118 47" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -37,52 +37,52 @@
                                 <div class="nav-brdr"></div>
                             </li>
                             <li>
-                                <a href="aboutus">
+                                <a href="/aboutus">
                                     <span class="s-no-nav">02</span>
                                     About Us
                                 </a>
                                 <div class="nav-brdr"></div>
                             </li>
                             <li>
-                                <a href="service-2">
+                                <a href="/service-2">
                                     <span class="s-no-nav">03</span>
                                     Services
                                 </a>
                                 <ul class="services-nav-2">
                                     <div class="services-col">
-                                        <li class="sub-link-nav-2"><a href="residential-interior-desigining">Residential Designing</a></li>
-                                        <li class="sub-link-nav-2"><a href="commercial-interior-design">Commercial Interior Design</a></li>
-                                        <li class="sub-link-nav-2"><a href="renovation-2">Renovation</a></li>
+                                        <li class="sub-link-nav-2"><a href="/residential-interior-desigining">Residential Designing</a></li>
+                                        <li class="sub-link-nav-2"><a href="/commercial-interior-design">Commercial Interior Design</a></li>
+                                        <li class="sub-link-nav-2"><a href="/renovation-2">Renovation</a></li>
                                     </div>
                                     <div class="services-col">
-                                        <li class="sub-link-nav-2"><a href="modular-furniture-2">Modular Furniture</a></li>
-                                        <li class="sub-link-nav-2"><a href="2d-3d-design-2">2D 3D Design</a></li>
-                                        <li class="sub-link-nav-2"><a href="architectural-desigining-2">Architectural Design</a></li>
+                                        <li class="sub-link-nav-2"><a href="/modular-furniture-2">Modular Furniture</a></li>
+                                        <li class="sub-link-nav-2"><a href="/2d-3d-design-2">2D 3D Design</a></li>
+                                        <li class="sub-link-nav-2"><a href="/architectural-desigining-2">Architectural Design</a></li>
                                     </div>
                                     <div class="services-col">
-                                        <li class="sub-link-nav-2"><a href="luxury-gym-interior-designers">GYM Interior Design</a></li>
-                                        <li class="sub-link-nav-2"><a href="luxury-hotel-interior-designers">Hotel Interior Design</a></li>
-                                        <li class="sub-link-nav-2"><a href="luxury-villa-interior-designers-in-delhi">Villa Interior Design</a></li>
+                                        <li class="sub-link-nav-2"><a href="/luxury-gym-interior-designers">GYM Interior Design</a></li>
+                                        <li class="sub-link-nav-2"><a href="/luxury-hotel-interior-designers">Hotel Interior Design</a></li>
+                                        <li class="sub-link-nav-2"><a href="/luxury-villa-interior-designers-in-delhi">Villa Interior Design</a></li>
                                     </div>
                                 </ul>
                                 <div class="nav-brdr"></div>
                             </li>
                             <li>
-                                <a href="portfolio">
+                                <a href="/portfolio">
                                     <span class="s-no-nav">04</span>
                                     Portfolio
                                 </a>
                                 <div class="nav-brdr"></div>
                             </li>
                             <li>
-                                <a href="blogs/">
+                                <a href="/blogs/">
                                     <span class="s-no-nav">05</span>
                                     Blogs
                                 </a>
                                 <div class="nav-brdr"></div>
                             </li>
                             <li>
-                                <a href="contact-us-2">
+                                <a href="/contact-us-2">
                                     <span class="s-no-nav">06</span>
                                     Contact
                                 </a>

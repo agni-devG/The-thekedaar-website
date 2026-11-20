@@ -60,3 +60,79 @@ Astra local fonts feature is based on Webfonts Loader by WordPress Themes Team (
 Licensed under MIT ( https://github.com/WPTT/webfont-loader/blob/master/LICENSE )
 
 /* Note: The CSS files are loaded from assets/css/ folder. */
+
+/* Alternate hero shared with the main site's PHP pages. */
+.hero-alt-section {
+	position: relative;
+	display: flex;
+	align-items: center;
+	width: 100vw;
+	min-height: min(680px, 82vh);
+	margin-left: calc(50% - 50vw);
+	overflow: hidden;
+	isolation: isolate;
+	background: #292521;
+	color: #fff;
+}
+
+.hero-alt-image,
+.hero-alt-overlay {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.hero-alt-image {
+	z-index: -2;
+	object-fit: cover;
+	object-position: center;
+}
+
+.hero-alt-overlay {
+	z-index: -1;
+	background: linear-gradient(180deg, #0C0503 0%, rgba(12, 5, 3, .72) 31%, rgba(12, 5, 3, 0) 65%, #0C0503 94%);
+}
+
+.hero-alt-content {
+	width: min(100% - 64px, 1200px);
+	margin: 0 auto;
+	padding: 150px 0 100px;
+}
+
+.hero-alt-heading {
+	max-width: 850px;
+	margin: 0 0 20px;
+	color: #fff;
+	font-size: clamp(42px, 6vw, 82px);
+	line-height: 1.04;
+	text-align: left;
+}
+
+.hero-alt-subtext {
+	max-width: 620px;
+	margin: 0;
+	color: #fff;
+	font-size: clamp(17px, 1.7vw, 22px);
+	line-height: 1.5;
+	text-align: left;
+}
+
+@media (max-width: 768px) {
+	.hero-alt-section {
+		min-height: min(620px, 78vh);
+	}
+
+	.hero-alt-overlay {
+		background: linear-gradient(180deg, #0C0503 0%, rgba(12, 5, 3, .72) 31%, rgba(12, 5, 3, 0) 65%, #0C0503 94%);
+	}
+
+	.hero-alt-content {
+		width: calc(100% - 40px);
+		padding: 130px 0 72px;
+	}
+
+	.hero-alt-heading {
+		margin-bottom: 14px;
+	}
+}

@@ -280,6 +280,24 @@ a{
     </div>
 
     <!-- Scripts -->
+    <script>
+        if ('scrollRestoration' in history) {
+            history.scrollRestoration = 'manual';
+        }
+
+        const resetPageScroll = () => {
+            document.documentElement.scrollTop = 0;
+            document.body.scrollTop = 0;
+            window.scrollTo(0, 0);
+        };
+
+        window.addEventListener('pageshow', resetPageScroll);
+        window.addEventListener('load', () => {
+            resetPageScroll();
+            requestAnimationFrame(resetPageScroll);
+            setTimeout(resetPageScroll, 50);
+        }, { once: true });
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
     
@@ -289,6 +307,7 @@ a{
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
     <!-- ScrollSmoother requires ScrollTrigger -->
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollSmoother.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lottie-web@5.12.2/build/player/lottie.min.js"></script>
 
     <script src="assets/js/main.js"></script>
     <script src="assets/js/enhance-read-more.js"></script>

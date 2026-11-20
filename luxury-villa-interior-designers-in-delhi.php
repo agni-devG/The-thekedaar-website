@@ -126,9 +126,7 @@
     <!-- Your Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
- <div id="smooth-wrapper">
-    <div id="smooth-content">
+<body class="page-shell">
     <!-- ======================= Header ======================= -->
 
        <?php include 'templates/header.php'; ?>
@@ -138,21 +136,16 @@
    <main>
     <!-- Hero Section -->
      <!-- <section class="hero-banner-section"></section> -->
-     <section class="hero-section">
-  <img src="assets/images/hero.webp" alt="Residential interior designers" title="Residential interior designers" class="hero-image" style="object-position: center">
-
-  <div class="hero-content-container">
-    <div class="hero-left">
-      <h1 class="h1-desktop h1-sm">Villa Interior Designing</h1>
-      <p class="p1-desktop">
-        Transform your villa into a masterpiece of luxury and comfort — where timeless design meets modern elegance in every corner.
-      </p>
-    </div>
-    <a href="contact-us-2" class="cta-button hero-cta">Book An Appointment</a>
-  </div>
-</section>
+     <!-- Reusable alternate hero -->
+<?php
+$hero_image = '/assets/images/hero.webp';
+$hero_heading = 'Villa Interior Designing';
+$hero_subtext = 'Transform your villa into a masterpiece of luxury and comfort—where timeless design meets modern elegance in every corner.';
+$hero_image_alt = 'Villa interior design';
+include __DIR__ . '/templates/hero-alt.php';
+?>
 <!-- ======================= Our Designing Process Section ======================= -->
-<?php include 'templates/designProcess.php'; ?>
+<?php include 'templates/designProcess-2.php'; ?>
 
 
 
@@ -160,10 +153,10 @@
 
 
 <!-- ======================= Portfolio CTA Section ======================= -->
-<?php include 'templates/portfolio.php'; ?>
+<?php include 'templates/portfolio-new.php'; ?>
 
 <!-- ======================= Testimonials Section ======================= -->
-<?php include 'templates/testimonials.php'; ?>
+<?php include 'templates/testimonials-new.php'; ?>
 
 
 
@@ -271,9 +264,6 @@
     
           <!-- ======================= Footer ======================= -->
            <?php include 'footer.php'; ?>
-    
-       </div>
-  </div>
 
 </body>
 </html>

@@ -61,7 +61,7 @@ $firstTestimonial = $testimonialsNewItems[0];
 
     <style>
         .testimonials {
-            padding: 275px 40px;
+            padding: 120px 40px;
             position: relative;
             z-index: 2;
         }
@@ -120,6 +120,10 @@ $firstTestimonial = $testimonialsNewItems[0];
         @media (max-width: 600px) {
             .testimonials {
                 padding: 80px 20px;
+            }
+
+            .testimonials-nav .section-title {
+                font-size: 28px;
             }
 
             .testimony-quote {

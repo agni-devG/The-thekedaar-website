@@ -155,8 +155,9 @@ h3 { font-size: 32px; line-height: 110%; }
 .services-showcase {
   display: grid;
   grid-template-columns: 3fr 7fr; /* left and right columns */
-  padding: 40px;
-  gap: 17%;
+  column-gap: 17%;
+  row-gap: 0;
+  padding: 0 40px 40px 40px;
   min-height: 90vh;
   background-color: var(--accent);
   margin: 0;
@@ -180,6 +181,12 @@ h3 { font-size: 32px; line-height: 110%; }
   /* transform: none; */
 }
 
+.left-column .nav-links{
+  /* margin-top: 48px; */
+}
+
+
+
 .left-column .contact-btn {
   margin-top: auto;
   font-size: 16px;
@@ -200,7 +207,7 @@ h3 { font-size: 32px; line-height: 110%; }
   font-weight: 400;
   font-size: 18px;
   list-style: none;
-  padding-top: 20px;
+  padding-top: 72px;
   width: 307px;
   display: flex;
   flex-direction: column;
@@ -347,17 +354,20 @@ h3 { font-size: 32px; line-height: 110%; }
 }
 
 .top-text {
+  grid-column: 1 / -1;
   display: block;
-  /* font-size: 16px; */
-  font-weight: 400;
-  margin: 0 0 55px 0;
-  /* text-transform: uppercase; */
+  font-weight: 300;
+  font-size: 56px;
+  /* text-align: center; */
+  padding: 32px 0 12px;
+  margin: 0;
   letter-spacing: 1.2px;
   color: var(--black);
-  font-family: 'Inter', sans-serif; /* fixed fallback */
-  font-style: italic;  
-  width: 180px;            /* added semicolon */
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+  background-color: #FAEFDF;
+  /* text-align: center; */
+  font-family: var(--font-headings); /* fixed fallback */
+  /* font-style: italic;   */
+    /* border-bottom: 1px solid rgba(0,0,0,0.1); */
 }
 
 .carousel:hover {
@@ -369,7 +379,12 @@ h3 { font-size: 32px; line-height: 110%; }
   .services-showcase {
     grid-template-columns: 1fr; /* Stack columns */
     padding: 16px; /* Consistent padding */
-    gap: 30px; /* Reduced gap when stacked */
+    column-gap: 0;
+    row-gap: 0;
+  }
+
+  .services-showcase.no-smooth .left-column {
+    display: none;
   }
 
   /* Left Column (now at the top) */
@@ -462,7 +477,8 @@ color: var(--black);
 @media (max-width: 576px) {
   .services-showcase {
     padding: 10px; /* Smaller padding */
-    gap: 20px; /* Smaller gap */
+    column-gap: 0;
+    row-gap: 0;
   }
 
   .left-column {
@@ -537,10 +553,10 @@ color: var(--black);
 
 <body>
   <section class="services-showcase no-smooth">
+    <h2 class="top-text">Services we provide</h2>
     <!-- Left Column -->
     <div class="left-column">
       <nav class="nav-links">
-         <span class="top-text">Services we provide</span>
 
          <ul>
           <li><a href="#section1">Residential Designing</a></li>

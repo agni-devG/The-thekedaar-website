@@ -164,6 +164,12 @@
         .frntr-wrapper {
             padding: 0 24px;
         }
+
+        .frntr-content h2 {
+            line-height: 0.9;
+            margin-bottom: 24px;
+            /* color: red; */
+        }
     }
 </style>
 

@@ -160,6 +160,12 @@
         font-weight: 300;
         margin-bottom: 8px;
     }
+
+    @media (max-width: 435px) {
+        .process-step p {
+            display: none;
+        }
+    }
     
     
 

@@ -18,6 +18,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 get_header(); ?>
+<?php
+$hero_image = '/assets/images/hero-2.webp';
+$hero_heading = 'The Thekedaar Blog';
+$hero_subtext = 'Ideas, inspiration, and practical guidance for creating thoughtful interiors.';
+$hero_image_alt = 'Interior design inspiration by The Thekedaar';
+include dirname( ABSPATH ) . '/templates/hero-alt.php';
+?>
 <?php if ( astra_page_layout() == 'left-sidebar' ) : ?>
 
 	<?php get_sidebar(); ?>

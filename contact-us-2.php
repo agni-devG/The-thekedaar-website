@@ -169,9 +169,7 @@
 
     </style>
 </head>
-<body>
-     <div id="smooth-wrapper">
-    <div id="smooth-content">
+<body class="page-shell">
 
     <!-- ======================= Header ======================= -->
     <?php include 'templates/header.php'; ?>
@@ -180,19 +178,14 @@
     <main>
         <!-- Hero Section -->
         
- <section class="hero-section">
-  <img src="assets/images/contact/hero.webp" alt="Residential Designers in Delhi" title="Residential Designers in Delhi" class="hero-image" style="height: 686px;">
-
-  <div class="hero-content-container">
-    <div class="hero-left">
-      <h1 class="h1-desktop h1-sm">Contact Us</h1>
-      <p class="p1-desktop">
-        Get in touch with us to bring your dream space to life. Our team is ready to answer your queries and start your design journey today.
-      </p>
-    </div>
-    <a href="contact-us-2" class="cta-button hero-cta">Book An Appointment</a>
-  </div>
-</section>
+ <!-- Reusable alternate hero -->
+<?php
+$hero_image = '/assets/images/contact/hero.webp';
+$hero_heading = 'Contact Us';
+$hero_subtext = 'Get in touch with us to bring your dream space to life. Our team is ready to answer your queries and start your design journey today.';
+$hero_image_alt = 'Interior designers in Delhi';
+include __DIR__ . '/templates/hero-alt.php';
+?>
 
         <div id="message" class="message"></div>
         <main class="contact-page">
@@ -308,8 +301,6 @@
 
     <!-- ======================= Footer ======================= -->
     <?php include 'footer.php'; ?>
-       </div>
-  </div>
     
     <script src="assets/js/main.js"></script>
 
