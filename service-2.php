@@ -205,10 +205,10 @@ include __DIR__ . '/templates/hero-alt.php';
          <?php include 'templates/video.php';?>
 
         <!-- ======================= Portfolio CTA Section ======================= -->
-        <?php include 'templates/portfolio.php'; ?>
+        <?php include 'templates/portfolio-new.php'; ?>
 
         <!-- ======================= Testimonials Section ======================= -->
-        <?php include 'templates/testimonials.php'; ?>
+        <?php include 'templates/testimonials-new.php'; ?>
 
         <!-- ======================= Why Choose Us Section ======================= -->
         <?php include 'templates/whyChooseUs.php'; ?>
