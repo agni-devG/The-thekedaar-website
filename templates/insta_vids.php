@@ -38,7 +38,7 @@
     .insta-vid-arrow svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
     .insta-vid-track { display: grid; grid-auto-columns: clamp(210px, 23vw, 276px); grid-auto-flow: column; gap: 18px; overflow-x: auto; padding: 2px 2px 14px; scroll-snap-type: x mandatory; scroll-behavior: smooth; scrollbar-width: none; -ms-overflow-style: none; touch-action: pan-x; }
     .insta-vid-track::-webkit-scrollbar { display: none; }
-    .insta-vid-card { min-width: 0; overflow: hidden; aspect-ratio: 9 / 16; border-radius: 12px; background: #211e1a; scroll-snap-align: start; box-shadow: 0 8px 24px rgb(33 30 26 / 12%); }
+    .insta-vid-card { min-width: 0; overflow: hidden; aspect-ratio: 9 / 16; border-radius: 12px; background: #211e1a; scroll-snap-align: start; }
     .insta-vid-card video { display: block; width: 100%; height: 100%; object-fit: cover; }
     @media (max-width: 600px) {
         .insta-vid-section { padding-inline: 16px; }
