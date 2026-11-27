@@ -16,11 +16,17 @@
         </div>
 
         <div class="insta-vid-track" tabindex="0" aria-label="Instagram video carousel">
-            <?php for ($video = 1; $video <= 5; $video++): ?>
+            <?php
+            $instagramVideos = glob(__DIR__ . '/../assets/videos/insta/*.mp4') ?: [];
+            natsort($instagramVideos);
+            foreach ($instagramVideos as $videoPath):
+                $videoFile = basename($videoPath);
+                $videoLabel = pathinfo($videoFile, PATHINFO_FILENAME);
+            ?>
                 <article class="insta-vid-card">
-                    <video src="assets/videos/insta/<?php echo $video; ?>.mp4" controls autoplay muted loop playsinline preload="metadata" aria-label="Thekedaar Instagram video <?php echo $video; ?>"></video>
+                    <video src="assets/videos/insta/<?php echo rawurlencode($videoFile); ?>" controls autoplay muted loop playsinline preload="metadata" aria-label="Thekedaar Instagram video <?php echo htmlspecialchars($videoLabel, ENT_QUOTES, 'UTF-8'); ?>"></video>
                 </article>
-            <?php endfor; ?>
+            <?php endforeach; ?>
         </div>
     </div>
 </section>
