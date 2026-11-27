@@ -309,8 +309,9 @@
     <!-- ======================= About Design Section ======================= -->
     <?php include 'templates/aboutInterior-new.php'; ?>
 
-   
-    <section class="more-project-video-section">
+    <?php include 'templates/insta_vids.php' ?>
+
+    <!-- <section class="more-project-video-section hidden">
         <h2 class="section-title">Our Projects</h2>
         <div class="more-project-video-container">
             <div class="more-project-video">
@@ -327,11 +328,11 @@
             </div>
         </div>
         
-               <?php
+               <//?php
             $btnHref = 'portfolio';
             $btnText = 'See Our Projects';
             include 'templates/btn-ofc.php';   ?>
-    </section>
+    </section> -->
 
 </main>
 
