@@ -168,6 +168,8 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 </script>
 
+  <?php include 'templates/portfolio-new.php'; ?>
+
 
 
     

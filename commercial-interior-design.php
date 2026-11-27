@@ -186,7 +186,7 @@ include __DIR__ . '/templates/hero-alt.php';
         <!-- ======================= what we can do Section ======================= -->
         <?php include 'templates/whatWeCan.php'; ?>
         <!-- ======================= Portfolio CTA Section ======================= -->
-        <?php include 'templates/portfolio.php'; ?>
+        <?php include 'templates/portfolio-new.php'; ?>
 
         <!-- ======================= Testimonials Section ======================= -->
         <?php include 'templates/testimonials-new.php'; ?>

@@ -115,7 +115,7 @@ $hero_image_alt = 'Architectural interior design';
 include __DIR__ . '/templates/hero-alt.php';
 ?>
 <!-- ======================= Our Designing Process Section ======================= -->
-<?php include 'templates/designProcess.php'; ?>
+<?php include 'templates/designProcess-2.php'; ?>
 
 
 
