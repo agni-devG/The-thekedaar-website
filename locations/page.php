@@ -570,18 +570,18 @@ img{
       <br>
       <div style="padding-left:25px;padding-top:0px;padding-right:25px;">
          <h2 class="mb-3" style="color:#f4b02b;">
-            <center>Best Interior Designers in <?php echo $curPageName;?> Will Provide Latest Interior Design within Your Budget</center>
+            <center>Find the Best Interior Designers in <?php echo $curPageName;?> for Designs That Suit Your Budget</center>
          </h2>
-        <p>Interior design and architecture are two of the most important tools for transforming a space into one that meets real human needs. Thethekedaar has the most talented team of&nbsp;<a href="<?php echo $url;?>"><strong>interior designers in <?php echo $curPageName;?></strong></a>&nbsp;that achieve the above-mentioned goals with a stunning combination of color and pattern, texture, light, and space.</p>
+        <p>Interior design and architecture can transform a space to better meet people's needs. The Thekedaar's team of&nbsp;<a href="<?php echo $url;?>"><strong>interior designers in <?php echo $curPageName;?></strong></a>&nbsp;combines colour, pattern, texture, light, and space to create thoughtful interiors.</p>
         <p>&nbsp;</p>
-        <p>Our interior designers and architects are experts in many architectural designs and layouts. We are the top&nbsp;<strong>interior design company in <?php echo $curPageName;?></strong>&nbsp;because we always put emphasis on innovation and unique design. Contact us today to transform your space into something special.</p>
+        <p>Our interior designers and architects work across a range of design styles and layouts. We emphasise innovation and distinctive design in every project. Contact us to discuss transforming your space.</p>
         <p>&nbsp;</p>
-        <p>It can be difficult to find the&nbsp;<strong>best interior designers in <?php echo $curPageName;?></strong>. We are here to help you navigate through the best options available. A professional interior designer will help you realize your goals and create the perfect setting for your life. No matter what your needs are, we will make it happen. And that's all in a flash!</p>
+        <p>Finding the right&nbsp;<strong>interior designers in <?php echo $curPageName;?></strong>&nbsp;can be difficult. A professional interior designer can help you realise your goals and create a space that suits your needs and lifestyle. Our team is here to guide you through the process.</p>
         <p>&nbsp;</p>
-        <p>The Thekedaar, a Delhi-based interior design firm, offers professional interior design and decoration services defined by sophistication, creativity, and exceptional craftsmanship. Our goal is to translate your preferences and aspirations into thoughtfully designed spaces that reflect your unique personality and lifestyle. Our team includes some of the <strong>best interior designers in <?php echo $curPageName;?></strong>, bringing extensive expertise and a refined design sensibility to every project. We place equal emphasis on functionality, aesthetics, and uncompromising quality. Our process begins with understanding your vision, followed by carefully translating it into a cohesive design through meticulous planning and execution.</p>
-        <p>After the meeting is over, our team will email you the initial blueprint. You can then customize the plan.</p>
+        <p>The Thekedaar is a Delhi-based interior design firm offering design and decoration services. We translate your preferences and aspirations into thoughtfully designed spaces that reflect your personality and lifestyle. Our team brings experience and a refined design sensibility to every project, with equal emphasis on functionality, aesthetics, and quality. We begin by understanding your vision, then develop a cohesive design through careful planning and execution.</p>
+        <p>After the meeting, our team will email you an initial plan, which you can then customise.</p>
         <p>&nbsp;</p>
-        <h2 style="font-size:30px;"><strong><center>Turnkey Interior Design Solutions in <?php echo $curPageName;?> for Residential&nbsp;</center></strong></h2>
+        <h2 style="font-size:30px;"><strong><center>Residential Turnkey Interior Design Solutions in <?php echo $curPageName;?></center></strong></h2>
         <p>The Thekedaar creates exceptional residential interiors for <?php echo $curPageName;?>, bringing together sophisticated aesthetics and thoughtful functionality. We understand that every home, regardless of its scale or style, deserves a distinctive design approach. Our team specialises in bespoke interior solutions, carefully tailored to complement your vision and lifestyle. With extensive experience in residential interiors, we bring together refined concepts, premium materials, and meticulous craftsmanship to create truly remarkable spaces. Three key elements come together to make your <a href="https://thethekedaar.in/residential-interior-desigining"><strong>residential interior design</strong></a> truly distinctive. We focus on the following domains:</p>
         <p>&nbsp;</p>
         

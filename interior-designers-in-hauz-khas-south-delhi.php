@@ -426,16 +426,16 @@ max-width: 99.6%;
                  <br>
          <div class="row">
             <div class="column1" >
-               <img src="./thethekedaar_images/hauzkhas/1.png" alt="Interior Designers in Hauz Khas" title="Thethakedaar">
+               <img src="./thethekedaar_images/hauzkhas/1.png" alt="Interior Designers in Hauz Khas" title="The Thekedaar">
             </div>
             <div class="column1">
-               <img src="./thethekedaar_images/hauzkhas/2.png" alt="Interior Designers in Hauz Khas"  title="Thethakedaar">
+               <img src="./thethekedaar_images/hauzkhas/2.png" alt="Interior Designers in Hauz Khas"  title="The Thekedaar">
             </div>
             <div class="column1">
-               <img src="./thethekedaar_images/hauzkhas/3.png" alt="Interior Designers in Hauz Khas"  title="Thethakedaar">
+               <img src="./thethekedaar_images/hauzkhas/3.png" alt="Interior Designers in Hauz Khas"  title="The Thekedaar">
             </div>
             <div class="column1">
-               <img src="./thethekedaar_images/hauzkhas/4.png" alt="Interior Designers in Hauz Khas"  title="Thethakedaar">
+               <img src="./thethekedaar_images/hauzkhas/4.png" alt="Interior Designers in Hauz Khas"  title="The Thekedaar">
             </div>
          </div>
          <br>
@@ -446,16 +446,16 @@ max-width: 99.6%;
                          <br>
          <div class="row">
             <div class="column1" >
-               <img src="./thethekedaar_images/hauzkhas/living-room-interior-designs.png" alt="Interior Designers in Hauz Khas" title="Thethakedaar">
+               <img src="./thethekedaar_images/hauzkhas/living-room-interior-designs.png" alt="Interior Designers in Hauz Khas" title="The Thekedaar">
             </div>
             <div class="column1">
-               <img src="./thethekedaar_images/hauzkhas/bedroom.png" alt="Interior Designers in Hauz Khas"  title="Thethakedaar">
+               <img src="./thethekedaar_images/hauzkhas/bedroom.png" alt="Interior Designers in Hauz Khas"  title="The Thekedaar">
             </div>
             <div class="column1">
-               <img src="./thethekedaar_images/hauzkhas/kitchens.png" alt="Interior Designers in Hauz Khas"  title="Thethakedaar">
+               <img src="./thethekedaar_images/hauzkhas/kitchens.png" alt="Interior Designers in Hauz Khas"  title="The Thekedaar">
             </div>
             <div class="column1">
-               <img src="./thethekedaar_images/hauzkhas/restaurant-decor-interior-services.png" alt="Interior Designers in Hauz Khas"  title="Thethakedaar">
+               <img src="./thethekedaar_images/hauzkhas/restaurant-decor-interior-services.png" alt="Interior Designers in Hauz Khas"  title="The Thekedaar">
             </div>
          </div>
          <br>

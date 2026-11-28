@@ -142,9 +142,9 @@ a{
         <a href="https://thethekedaar.in/locations/interior-designers-in-naraina" style="color:black; text-decoration: none;"> Naraina,&nbsp;&nbsp; </a>
         <a href="https://thethekedaar.in/locations/interior-designers-in-narela" style="color:black; text-decoration: none;"> Narela,&nbsp;&nbsp; </a>
         <a href="https://thethekedaar.in/locations/interior-designers-in-nehru-place" style="color:black; text-decoration: none;"> Nehru Place,&nbsp;&nbsp; </a>
-        <a href="https://thethekedaar.in/locations/interior-designers-in-nizammuddin" style="color:black; text-decoration: none;"> Nizammuddin,&nbsp;&nbsp; </a>
+        <a href="https://thethekedaar.in/locations/interior-designers-in-nizammuddin" style="color:black; text-decoration: none;"> Nizamuddin,&nbsp;&nbsp; </a>
         <a href="https://thethekedaar.in/locations/interior-designers-in-paharganj" style="color:black; text-decoration: none;"> Paharganj,&nbsp;&nbsp; </a>
-        <a href="https://thethekedaar.in/locations/interior-designers-in-panchshil-enclave" style="color:black; text-decoration: none;"> Panchshil Enclave,&nbsp;&nbsp; </a>
+        <a href="https://thethekedaar.in/locations/interior-designers-in-panchshil-enclave" style="color:black; text-decoration: none;"> Panchsheel Enclave,&nbsp;&nbsp; </a>
         <a href="https://thethekedaar.in/locations/interior-designers-in-paschim-vihar" style="color:black; text-decoration: none;"> Paschim Vihar,&nbsp;&nbsp; </a>
         <a href="https://thethekedaar.in/locations/interior-designers-in-pushpanjali-farms" style="color:black; text-decoration: none;"> Pushpanjali Farms,&nbsp;&nbsp; </a>
         <a href="https://thethekedaar.in/locations/interior-designers-in-qutab" style="color:black; text-decoration: none;"> Qutab,&nbsp;&nbsp; </a>
@@ -175,7 +175,7 @@ a{
         <a href="https://thethekedaar.in/locations/interior-designers-in-tis-hazari" style="color:black; text-decoration: none;"> Tis Hazari,&nbsp;&nbsp; </a>
         <a href="https://thethekedaar.in/locations/interior-designers-in-timarpur" style="color:black; text-decoration: none;"> Timarpur,&nbsp;&nbsp; </a>
         <a href="https://thethekedaar.in/locations/interior-designers-in-wazirabad" style="color:black; text-decoration: none;"> Wazirabad,&nbsp;&nbsp; </a>
-        <a href="https://thethekedaar.in/locations/interior-designers-in-gtb-nagar" style="color:black; text-decoration: none;"> Gtb Nagar,&nbsp;&nbsp; </a>
+        <a href="https://thethekedaar.in/locations/interior-designers-in-gtb-nagar" style="color:black; text-decoration: none;"> GTB Nagar,&nbsp;&nbsp; </a>
         <a href="https://thethekedaar.in/locations/interior-designers-in-mukherjee-nagar" style="color:black; text-decoration: none;"> Mukherjee Nagar,&nbsp;&nbsp; </a>
         <a href="https://thethekedaar.in/locations/interior-designers-in-north-east-delhi" style="color:black; text-decoration: none;"> North East Delhi,&nbsp;&nbsp; </a>
         <a href="https://thethekedaar.in/locations/interior-designers-in-dilshad-garden" style="color:black; text-decoration: none;"> Dilshad Garden,&nbsp;&nbsp; </a>
@@ -276,7 +276,7 @@ a{
 
     <!-- ======================= Copyright ======================= -->
     <div class="copyright-container">
-        <p class="copyright-text">All rights reserved @ Thethekedaar <?= date('Y') ?>.<span><a href="/privacy_policy" class="min_link">Privacy Policy</a> </span> <span>  <a href="/terms_and_conditions" class="min_link">T & C</a></span></p>
+        <p class="copyright-text">All rights reserved © The Thekedaar <?= date('Y') ?>.<span><a href="/privacy_policy" class="min_link">Privacy Policy</a> </span> <span>  <a href="/terms_and_conditions" class="min_link">Terms &amp; Conditions</a></span></p>
     </div>
 
     <!-- Scripts -->

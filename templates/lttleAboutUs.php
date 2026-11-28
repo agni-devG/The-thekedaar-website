@@ -8,7 +8,7 @@
   
         <div class="narrow-container define-homes-grid1">
             <div class="define-homes-text fade-in">
-                <p class="p1-desktop">The Thethekedaar.in Home is where emotion resides, memories are made, and laughter never ends. We make one for you because, in their home, people are typically happiest, and that's what our ultimate motto is, making our customers happy. There is far more to interior design than making the furniture perfect. It's about making individuals happy, whether functionally, aesthetically, or emotionally. And we aim to provide a range of exquisite, friendly yet practical solutions for our customers to best use the room in question. We aim to maximize our clients' experience by better utilizing the space available in the environment involved. We listen to your needs and, based on your requirements, focus on solutions that maximize their use.</p>
+                <p class="p1-desktop">At The Thekedaar, we believe home is where emotions, memories, and laughter come together. We help create homes where people feel their happiest. Interior design is about more than furniture; it is about creating spaces that support people functionally, aesthetically, and emotionally. We offer thoughtful, practical solutions that make the best use of each room. By listening to your needs, we create spaces that reflect your lifestyle and make the most of the space available.</p>
             </div>
             <div class="define-homes-image scale-in">
                 <img src="assets/images/about/1.webp" alt="Best interior designers in Delhi" title="Best interior designers in Delhi">
@@ -20,7 +20,7 @@
         <div class="narrow-container define-homes-grid1">
             <div class="define-homes-text fade-in">
 
-                <p class="p1-desktop">At <a href="https://thethekedaar.in/" class="intrnl">Delhi interior design services</a>, we have an excellent but challenging job keeping current with both design trends and personalized consumer taste. Thus by deciding space requirements and choosing decorative objects, such as colors, lighting, and materials, we make our most significant efforts to make interior spaces usable, safe, and beautiful. They read blueprints and must be mindful of building codes and legislation for inspection, as well as essential requirements for accessibility.</p>
+                <p class="p1-desktop">As a Delhi interior design firm, we balance current design trends with each client's personal taste. We plan spaces and select colours, lighting, and materials to make interiors functional, safe, and beautiful. Our team also reviews plans and considers building codes, inspection requirements, and accessibility standards.</p>
             </div>
             <div class="define-homes-image scale-in">
                 <img src="assets/images/about/1.webp" alt="Best interior designers in Delhi" title="Best interior designers in Delhi">
@@ -34,7 +34,7 @@
     <section class="define-homes-section">
         <div class="narrow-container define-homes-grid1">
             <div class="define-homes-text fade-in">
-                <p class="p1-desktop">We have a team of successful communicators with the capacity to convince a concept proposal to be conveyed. We believe your home should tell you the story of what you are and that it should be a compilation of what you love. We assume that the client should interact correctly with our development with the overall vision of their innermost emotion. <a href="https://thethekedaar.in/" class="intrnl"> <strong>Luxury Interior Designing </strong></a> is a professionally run business interested in the convergence of interior design, architecture, and operation.</p>
+                <p class="p1-desktop">Our team communicates clearly and presents design concepts in a way that is easy to understand. We believe your home should tell your story and bring together the things you love. We work closely with each client to understand their vision and create a design that reflects it. Our luxury interior design practice brings together interior design, architecture, and project execution.</p>
             </div>
             <div class="define-homes-image scale-in">
                 <img src="assets/images/about/2.webp" alt="Top interior designers in Delhi" title="Top interior designers in Delhi">
@@ -46,9 +46,7 @@
     <section class="define-homes-section">
         <div class="narrow-container define-homes-grid1">
             <div class="define-homes-text fade-in">
-                <p class="p1-desktop">We are one of Delhi’s leading firms in interior design & execution. We have a crew of expert interior designers, workers who are well versed in carrying out all sorts of work related to design management services. Using our experience and expertise, we thoroughly analyze each house, discuss the client’s preferred design ideas, and then start working
-                     on the interior. Our rates are very competitive; you can rest assured by our service par excellence that we are always 
-                     there for you once employed!</p>
+                <p class="p1-desktop">We are a Delhi-based firm offering interior design and execution services. Our experienced designers and project team manage every stage of the work. We assess each home, discuss the client's ideas, and develop a plan for the interior. We offer competitive rates and support our clients throughout the project.</p>
             </div>
             <div class="define-homes-image scale-in">
                 <img src="assets/images/about/3.webp" alt="Interior Designer in Delhi" title="Interior Designer in Delhi">
@@ -60,8 +58,7 @@
     <section class="define-homes-section">
         <div class="narrow-container define-homes-grid1">
             <div class="define-homes-text fade-in">
-                <p class="p1-desktop">The Luxury Interior Designing Consultancy provides excellent residential interior designers in Delhi. The<a href="https://thethekedaar.in/" class="intrnl"><strong> Luxury Interior Designing Consultancy in Delhi</strong></a> has interior designs that complement the diverse forms in which the world adapts. With a proper analysis of Delhi’s resident culture and lifestyle, we build every design in the framework. Owning a home is an ambition every human being desired in his or her lifetime. The Luxury Interior Designing Consultancy provides residential interior design as delegated by 
-                    developers and individual customers, including a specialist in transforming spaces into luxury homes with our unique home interior designer.</p>
+                <p class="p1-desktop">Our Delhi-based interior design team creates residential spaces shaped by each client's culture, lifestyle, and preferences. We work with both developers and individual homeowners, bringing thoughtful design and careful execution to projects of every scale. Our team specialises in transforming homes through tailored interior design.</p>
             </div>
             <div class="define-homes-image scale-in">
                 <img src="assets/images/about/4.webp" alt="Home Interior Designers" title="Home Interior Designers">
@@ -71,8 +68,7 @@
     <section class="define-homes-section">
         <div class="narrow-container define-homes-grid1">
             <div class="define-homes-text fade-in">
-                <p class="p1-desktop">We have the bestinterior designer.We provide commercial interior designers also. To exceed customer expectations,<a href="https://thethekedaar.in/" class="intrnl"><strong> Luxury Interior Designing Service </strong></a> is presented as the Interior Designing Business and offers appealing interior design solutions. Our Luxury Interior Designing Consultancy designers are well received in innovative interior design, which we believe certainly 
-                    improves the visual experience of your interior views.</p>
+                <p class="p1-desktop">Our team provides residential and commercial interior design services. We create considered, visually appealing spaces and work to exceed our clients' expectations through thoughtful planning and innovative design.</p>
             </div>
             <div class="define-homes-image scale-in">
                 <img src="assets/images/about/6.webp" alt="Residential Designers in Delhi" title="Residential Designers in Delhi">
@@ -82,13 +78,7 @@
     <section class="define-homes-section">
         <div class="narrow-container define-homes-grid1">
             <div class="define-homes-text fade-in">
-                <p class="p1-desktop">We as interior designers have a fantastic, but challenging task of 
-                    staying current with both design trends and customized client taste.So we make put our utmost efforts to 
-                    make interior spaces functional, safe, and beautiful by determining space requirements and selecting
-                     decorative items, such as colors, lighting, and materials. They read blueprints and must be aware of
-                      building codes and inspection regulations, as well as universal accessibility standards. We have a team of effective
-                       communicators 
-                    with the ability to persuade in communicating a design idea.</p>
+                <p class="p1-desktop">Interior designers must balance changing design trends with each client's preferences. We make spaces functional, safe, and beautiful by planning layouts and choosing colours, lighting, and materials with care. Our team also considers building codes, inspection regulations, accessibility standards, and clear communication at every stage.</p>
             </div>
             <div class="define-homes-image scale-in">
                 <img src="assets/images/about/7.webp" alt="Modern Interior Designers" title="Modern Interior Designers">

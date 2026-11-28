@@ -12,7 +12,7 @@
           <div>
             <h3>Time-saving Decision</h3>
             <p>
-              When it comes to designing every space of your house it proves to be exhausting. Besides this, it takes a lot of time, and in return you get nothing. Therefore, the best way to resolve this is to hire an interior designer who will change the appearance of your home.
+              Designing every space in your home can be exhausting and time-consuming. An interior designer can simplify the process and help transform your home.
             </p>
             <a href="contact-us-2" class="inline-contact-link">Contact Us</a>
           </div>
@@ -28,7 +28,7 @@
           <div>
             <h3>Design your Home in Your Style</h3>
             <p>
-                Interior decorators have better knowledge related to design. As a result of this, they will design your home according to your preferences as it matters the most.            </p>
+                Interior designers understand how to bring a design together. They can tailor your home to your preferences and the way you live.            </p>
             <a href="contact-us-2" class="inline-contact-link">Contact Us</a>
           </div>
         </div>
@@ -45,7 +45,7 @@
           <div>
             <h3>Good Planning</h3>
             <p>
-                The entire process of designing works on in-depth planning and assessment. Due to this reason, interior designers formulate a plan before designing so that they work according to it.
+                Good design begins with careful planning and assessment. Interior designers create a clear plan before work begins and use it to guide the project.
             </p>
             <a href="contact-us-2" class="inline-contact-link">Contact Us</a>
           </div>
@@ -83,7 +83,7 @@
           <div>
             <h3>Modern Tools</h3>
             <p>
-              Nowadays, interior designers use fine-quality tools for designing your home. Thereafter, they take support of modern software and tools concerning with planning of <a href="https://thethekedaar.in/renovation-2" class="intrnl"> home and office renovation.</a> While taking the support of these tools they will make the renovation work easier.    
+              Interior designers use quality tools and modern software to plan your home or office renovation. These tools help make the renovation process more efficient.
             </p>
         <a href="contact-us-2" class="inline-contact-link">Contact Us</a>
           </div>

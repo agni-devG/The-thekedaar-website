@@ -2,19 +2,19 @@
 $moreInfoSlides = [
     [
         'title' => 'Time-saving Decision',
-        'copy' => 'When it comes to designing every space of your house it proves to be exhausting. Besides this, it takes a lot of time, and in return you get nothing. Therefore, the best way to resolve this is to hire an interior designer who will change the appearance of your home.',
+        'copy' => 'Designing every space in your home can be exhausting and time-consuming. An interior designer can simplify the process and help transform your home.',
         'image' => 'assets/images/image-2.webp',
         'alt' => 'Modern interior design',
     ],
     [
         'title' => 'Design your Home in Your Style',
-        'copy' => 'Interior decorators have better knowledge related to design. As a result of this, they will design your home according to your preferences as it matters the most.',
+        'copy' => 'Interior designers understand how to bring a design together. They can tailor your home to your preferences and the way you live.',
         'image' => 'assets/images/moreInfo/6.webp',
         'alt' => 'Interior designed to match your style',
     ],
     [
         'title' => 'Good Planning',
-        'copy' => 'The entire process of designing works on in-depth planning and assessment. Due to this reason, interior designers formulate a plan before designing so that they work according to it.',
+        'copy' => 'Good design begins with careful planning and assessment. Interior designers create a clear plan before work begins and use it to guide the project.',
         'image' => 'assets/images/moreInfo/1.webp',
         'alt' => 'Interior design planning',
     ],

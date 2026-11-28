@@ -36,7 +36,7 @@ $path = strtok($path, '?'); // removes any query parameters
 <meta content="index, follow" name="YahooSeeker" />
 <meta content="index, follow" name="msnbot" />
 <meta content="index, follow" name="googlebot" />
-<meta name="author" content="The Thakedaar">
+<meta name="author" content="The Thekedaar">
 <meta property="article:modified_time" content="2022-09-24T17:54:59+00:00" />
 
 

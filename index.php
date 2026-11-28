@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Luxury Interior Designers in Delhi 2025 - Thethekedaar | Call Now</title>
+    <title>Luxury Interior Designers in Delhi - The Thekedaar | Call Now</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index" />
     <meta content="FOLLOW, INDEX, ALL" name="robots" />
-    <meta name="description" content="Luxury Interior Designer in Delhi, Thethekedaar has Years of experience- Call Now at 9777705555.">
-    <meta name="keywords" content="Interior Designers in Delhi, Luxury Interior Designers in Delhi, Luxury Interior Designers,Thethekedaar">
+    <meta name="description" content="The Thekedaar is a luxury interior design firm in Delhi. Call us at 9777705555 to discuss your project.">
+    <meta name="keywords" content="Interior Designers in Delhi, Luxury Interior Designers in Delhi, Luxury Interior Designers, The Thekedaar">
     <link rel="preload" as="image" href="/assets/images/hero-2.webp" fetchpriority="high">
       <!--LOGO SCHEMA-->
       <script type="application/ld+json">
@@ -43,7 +43,7 @@
          "logo": "https://thethekedaar.in/images/logo/logo1.png",
          "image": "https://thethekedaar.in/images/gallery/Interior_Designers_in_delhi.webp",
          "priceRange" : "INR",
-         "description": "Thethekedaar Interior Designers in Delhi is fully equipped to serve our clients to fulfill their dreams and aspirations. The interior design Services hub. With an experience of transforming more than 1000+ residential and commercial interiors, our design experts creatively add a vibrant touch of elegance and functionality to your space, making it aesthetically appealing.",
+         "description": "The Thekedaar helps clients bring their interior design ideas to life. Our design team has transformed more than 1,000 residential and commercial interiors, combining elegance with functionality.",
          "address": {
          "@type": "PostalAddress",
          "streetAddress": "  87/1, 3rd Floor Block 2, WHS Kirti Nagar,",
@@ -112,10 +112,10 @@
             },
             {
             "@type": "Question",
-            "name": "Does Thethekedaar design a house that is already made?",
+            "name": "Does The Thekedaar design an existing house?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes, Thethekedaar redesigns existing homes as well as creates designs from scratch based on client needs and specifications."
+                "text": "Yes. The Thekedaar redesigns existing homes and creates designs from scratch based on each client's needs and specifications."
             }
             },
             {
@@ -123,7 +123,7 @@
             "name": "Whom should you contact for luxury interior designing in Delhi?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "You can contact Thethekedaar for luxury interior design in Delhi. Our expert designers create elegant, modern interiors tailored to your preferences and lifestyle."
+                "text": "You can contact The Thekedaar for luxury interior design in Delhi. Our designers create elegant, modern interiors tailored to your preferences and lifestyle."
             }
             }
         ]
@@ -218,6 +218,7 @@
 
 <?//php include 'templates/video.php';?>
 
+<?php include 'templates/insta_vids.php' ?>
 
 
 <?php include 'templates/founder.php'; ?>
@@ -245,7 +246,7 @@
         </div>
         
         <div class="founder-details">
-            <p>Deepak Charnalia passion is the company's pillar. The emphasis on interior detailing and a naturally elegant approach to design forms a unique offering. If you are about to build and looking for a Dream Home Of Your Choice The Thekedaar As an Interior Designers In Delhi is much more than getting your decor right. It is about making people happy, either functionally, aesthetically, or emotionally. And we aim to provide our clients with a set of globally relevant and intelligent skills with which they can better the space in question. Our goal is to improve our client's experience by better managing the space available in the intervened environment. We listen to your needs and reflect on options that optimize their use, based on your requirements.</p>
+            <p>Deepak Chamola's passion is a pillar of the company. Our focus on interior detailing and a naturally elegant design approach sets our work apart. If you are planning a build and looking for your dream home, The Thekedaar offers more than decor. We create spaces that support you functionally, aesthetically, and emotionally. We listen to your needs, then develop thoughtful design solutions that make the best use of your space and reflect your requirements.</p>
         </div>
     </div>
 </section> -->
@@ -261,7 +262,7 @@
             
             <div class="enhance-text">
                 <h2 class="section-title">Best Interior Designers in Delhi NCR</h2>
-                <p>When it concerns your home you want everything to be perfect. Therefore, your home interior plays an important role to change the appearance of your home. With an authentic experience for a very long period, Thethekedaar is one of the Best Interior Designers in Delhi NCR who will enhance the beauty of your home. The initial stage of the designing process begins with space planning and looking up the requirements of the customer and satisfying them. Afterward, we emphasize planning the most suitable strategy to accomplish your goal.<br>
+                <p>When it comes to your home, you want every detail to feel right. Thoughtful interior design can transform the look and function of your space. The Thekedaar brings extensive experience to projects across Delhi NCR. We begin by understanding your needs and planning the space, then develop a design strategy tailored to your goals.<br>
             <br>Interior designers in Delhi can help you create the perfect living space for your home or office. Whether you’re looking for a modern or traditional look, our experienced professionals are here to help you create the perfect atmosphere for your space. We offer a range of services, including space planning, furniture selection, color and material selection, lighting design, and more. Our professional team of designers will work with you to ensure that the end result is a space that you love and feel comfortable in. We will work with you to create a design that reflects your unique style and meets your functional needs. We strive to provide the highest quality service possible to ensure that your experience is enjoyable and stress-free. Contact us today to get started on creating your dream space<br>
             <br>We have a team who will take the charge to design your home. In this process, there is a detailed drawing including designs for <a href="https://thethekedaar.in/interior-designers-noida" class="intrnl">luxury home designs</a>, open terrace designs and wall designs, etc. We do quick, straightforward, and accurate site control throughout the process. The result is always authentic and usual, which shows the individuality and feelings of the customer about life. By implementing all the right strategies, we are doing work in the commercial and residential sectors. However, whatever the situation is our primary focus is to give our best by living up to our core values. It would be great to turn all the desires of our clients into reality.</p>
             
@@ -278,8 +279,8 @@
             
             <img src="assets/images/FF_Seating area_Camera007.webp" alt="Residential interior designers in Delhi"   title="Residential interior designers in Delhi" loading="lazy">
             <div class="enhance-text">
-                <h2 class="section-title">Enhance the Beauty of Your Home With The Interior Designer Team of Thethekedaar</h2>
-                <p>If you want to renovate your old house or give it a unique look, then you must prefer to consult a professional expert. We at Thethekedaar believe that everyone has the wish to live in their dream home. Therefore, hiring <a href="https://thethekedaar.in/" class="intrnl"> Best Interior Designers in Delhi</a> like us to design your home is necessary.</p>
+                <h2 class="section-title">Enhance Your Home with The Thekedaar's Interior Design Team</h2>
+                <p>If you want to renovate your home or give it a distinctive look, consult an experienced interior designer. At The Thekedaar, we believe everyone deserves a home that feels like their own. Our <a href="https://thethekedaar.in/" class="intrnl">interior design team in Delhi</a> can help bring your ideas to life.</p>
                 <p>But why should you look up to our services among the leading Interior Designers in Delhi? Here, we have marked down the fundamental reasons why you choose our services:</p>
                 <ul>
                     <li>Quality Is Our First Priority: Our motive is to never compromise on quality and offer the best services from our end. Besides this, we present of the ideas concerning interior and lifestyle needs.</li>
@@ -309,7 +310,6 @@
     <!-- ======================= About Design Section ======================= -->
     <?php include 'templates/aboutInterior-new.php'; ?>
 
-    <?php include 'templates/insta_vids.php' ?>
 
     <!-- <section class="more-project-video-section hidden">
         <h2 class="section-title">Our Projects</h2>
